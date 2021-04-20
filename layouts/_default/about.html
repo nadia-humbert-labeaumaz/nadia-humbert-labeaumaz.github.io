@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <h2 class="mt-40">{{ .title | markdownify }}</h2>
+        <h2 class="mt-10">{{ .title | markdownify }}</h2>
         {{ .content | markdownify }}
         {{ if .button.enable }}
         {{ with .button }}
@@ -80,7 +80,6 @@
               <i class="ion-quote"></i>
               <p>"{{ .content | markdownify }}"</p>
               <div class="user">
-                <img src="{{ .image | relURL }}" alt="client">
                 <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
               </div>
             </div>

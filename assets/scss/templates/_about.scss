@@ -1,6 +1,6 @@
 .about{
 	.block{
-		
+
 		h2{
 			padding-top: 35px;
 			margin:0;
@@ -19,7 +19,7 @@
 			transform: scale3D(1.1,1.1,1);
 		}
 		img {
-			opacity: .6;
+			opacity: .8;
 			@include transition (all, 0.5s, ease-out);
 		}
 	}
