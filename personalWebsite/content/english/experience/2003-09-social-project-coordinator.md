@@ -11,7 +11,7 @@ information:
   - label : "Location"
     info : "Honduras"
   - label : "Started on"
-    info : "September 2013"
+    info : "September 2003"
   - label : "Duration"
     info : "9 months"
 ---

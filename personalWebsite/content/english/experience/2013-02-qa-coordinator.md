@@ -13,7 +13,7 @@ information:
   - label : "Location"
     info : "France"
   - label : "Started on"
-    info : "February 2014"
+    info : "February 2013"
   - label : "Duration"
     info : "1 year 2 months"
 ---
