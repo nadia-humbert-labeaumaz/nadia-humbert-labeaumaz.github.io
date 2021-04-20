@@ -42,12 +42,7 @@ about:
   # funfacts loop
   - icon : "ion-earth" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Countries visited"
-    count : "30"
-
-  # funfacts loop
-  - icon : "ion-ios-camera-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Cities explored"
-    count : "50"  
+    count : "30" 
 
   # funfacts loop
   - icon : "ion-ios-mic-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -56,8 +51,13 @@ about:
 
   # funfacts loop
   - icon : "ion-ios-book-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Citizenships"
-    count : "1.5"
+    name : "Articles written"
+    count : "30"
+
+  # funfacts loop
+  - icon : "ion-ios-videocam-outline" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Videos recorded"
+    count : "20"
 
 ################################ feature #####################################
 features:
