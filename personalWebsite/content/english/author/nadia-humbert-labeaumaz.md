@@ -1,6 +1,6 @@
 ---
 title: "Nadia Humbert-Labeaumaz"
-bg_image: "images/feature-bg.jpg"
+bg_image: "images/about.jpg"
 draft: false
 social:
   - icon : "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
