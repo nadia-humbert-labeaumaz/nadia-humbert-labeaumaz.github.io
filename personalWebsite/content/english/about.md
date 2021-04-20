@@ -42,7 +42,7 @@ about:
   # funfacts loop
   - icon : "ion-earth" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Countries visited"
-    count : "30" 
+    count : "30"
 
   # funfacts loop
   - icon : "ion-ios-mic-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -112,7 +112,7 @@ mission_vision:
   # tab item loop
   - name : "Approach"
     content : "
-    At work, I foster open and respectful communication as well as active listening. I strive to develop a holistic view of the organisation by considering all its components and talk to the stakeholders who have the knowledge to make informed decisions.
+    At work, I foster open and respectful communication as well as active and empathetic listening. I strive to develop a holistic view of the organisation by considering all its components and talk to the stakeholders who have the knowledge to make informed decisions.
 
 
     In the communities I belong to, I always try to share what I can learn along the way. It translates in many forms, from informal conversations to workshops, videos or blog articles.
