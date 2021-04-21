@@ -29,7 +29,9 @@
 .portfolio {
 	&-item {
 		position: relative;
-		padding: 0;
+		padding: 5px;
+		// margin: 2px;
+		filter: contrast(0.8);
 
 		img {
 			width: 100%;

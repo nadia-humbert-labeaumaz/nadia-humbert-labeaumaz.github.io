@@ -1,10 +1,10 @@
 ---
 title: "QA Coordinator"
 date: 2013-02-01
-description: "Led initiatives and teams for the French national electricity project Linky"
+description: "Led the QA team of a BioMérieux project"
 draft: false
-image : "images/portfolio/work6.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/experience/biomerieux.jpg"
+bg_image: "images/experience/biomerieux.jpg"
 category: "Consulting"
 information:
   - label : "Client Type"

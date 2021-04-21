@@ -3,8 +3,8 @@ title: "Creator"
 date: 2016-04-01
 description: "Created a channel to share insights into software engineering"
 draft: false
-image : "images/portfolio/work6.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/experience/video.jpg"
+bg_image: "images/experience/video.jpg"
 category: "Community"
 information:
   - label : "Industry"

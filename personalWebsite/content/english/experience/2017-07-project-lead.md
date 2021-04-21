@@ -3,8 +3,8 @@ title: "Project Lead"
 date: 2017-07-01
 description: "Helped a startup open new markets in Europe"
 draft: false
-image : "images/portfolio/work6.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/experience/project-lead.jpg"
+bg_image: "images/experience/project-lead.jpg"
 category: "Consulting"
 information:
   - label : "Client Type"

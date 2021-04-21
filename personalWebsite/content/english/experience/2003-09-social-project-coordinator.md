@@ -3,8 +3,8 @@ title: "Social Project Coordinator"
 date: 2003-09-01
 description: "Coordinated a social project (30+ people team) to renovate a school in Honduras"
 draft: false
-image : "images/portfolio/work6.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/experience/school.jpg"
+bg_image: "images/experience/school.jpg"
 category: "Community"
 information:
   - label : "Industry"

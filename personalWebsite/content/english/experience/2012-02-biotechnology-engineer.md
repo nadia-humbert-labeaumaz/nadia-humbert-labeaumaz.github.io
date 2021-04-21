@@ -3,8 +3,8 @@ title: "Biotechnology Engineer"
 date: 2012-02-01
 description: "Successfully optimised the measurement parameters of a highly strategic equipment for Sanofi Pasteur"
 draft: false
-image : "images/portfolio/work6.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/experience/biotechnology.jpg"
+bg_image: "images/experience/biotechnology.jpg"
 category: "Consulting"
 information:
   - label : "Client Type"

@@ -3,8 +3,8 @@ title: "International Expansion Coordinator"
 date: 2017-11-01
 description: "Helped a startup set up an outsourcing mechanism without comprising quality"
 draft: false
-image : "images/portfolio/work6.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/experience/international.jpg"
+bg_image: "images/experience/international.jpg"
 category: "Consulting"
 information:
   - label : "Client Type"

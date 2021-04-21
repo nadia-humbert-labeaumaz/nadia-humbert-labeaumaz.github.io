@@ -3,8 +3,8 @@ title: "Software Engineer & Project Lead"
 date: 2014-04-01
 description: "Led initiatives and teams for the French national electricity project Linky"
 draft: false
-image : "images/portfolio/work6.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/experience/linky.jpg"
+bg_image: "images/experience/linky.jpg"
 category: "Consulting"
 information:
   - label : "Client Type"

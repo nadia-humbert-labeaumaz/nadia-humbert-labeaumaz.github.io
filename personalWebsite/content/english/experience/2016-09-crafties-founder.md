@@ -3,8 +3,8 @@ title: "Founder & Managing Director"
 date: 2016-09-01
 description: "Created an IT consulting company"
 draft: false
-image : "images/portfolio/work4.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/experience/crafties.jpg"
+bg_image: "images/experience/crafties.jpg"
 category: "Entrepreneurship"
 information:
   - label : "Client"

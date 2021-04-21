@@ -3,8 +3,8 @@ title: "Entrepreneur & Software Engineer"
 date: 2015-07-01
 description: "Developed an online free platform to help Honduran entrepreneurs"
 draft: false
-image : "images/portfolio/work4.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/experience/nano.jpg"
+bg_image: "images/experience/nano.jpg"
 category: "Entrepreneurship"
 information:
   - label : "Client"

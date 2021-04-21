@@ -3,8 +3,8 @@ title: "Creator & Leader"
 date: 2016-06-01
 description: "Created to learn and share about the programming language Kotlin"
 draft: false
-image : "images/portfolio/work6.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/experience/meetup.jpg"
+bg_image: "images/experience/meetup.jpg"
 category: "Community"
 information:
   - label : "Industry"

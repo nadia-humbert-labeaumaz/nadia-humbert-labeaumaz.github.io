@@ -3,8 +3,8 @@ title: "Business Consultant"
 date: 2019-09-01
 description: "Turned regulatory pressure into opportunities for farmers and corporations"
 draft: false
-image : "images/portfolio/work3.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/experience/sheep.jpg"
+bg_image: "images/experience/sheep.jpg"
 category: "Consulting"
 information:
   - label : "Client Type"

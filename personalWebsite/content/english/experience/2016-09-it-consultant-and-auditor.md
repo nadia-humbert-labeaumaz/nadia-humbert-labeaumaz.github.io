@@ -1,10 +1,10 @@
 ---
 title: "IT Consultant & Auditor"
-date: 2016-09-01
+date: 2016-09-02
 description: "Provided consulting services to help companies and teams grow"
 draft: false
-image : "images/portfolio/work5.jpg"
-bg_image: "images/feature-bg.jpg"
+image : "images/experience/consulting.jpg"
+bg_image: "images/experience/consulting.jpg"
 category: "Consulting"
 information:
   - label : "Client"
