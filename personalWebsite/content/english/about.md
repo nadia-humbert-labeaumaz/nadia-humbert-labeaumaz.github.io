@@ -112,7 +112,10 @@ mission_vision:
   # tab item loop
   - name : "Approach"
     content : "
-    At work, I foster open and respectful communication as well as active and empathetic listening. I strive to develop a holistic view of the organisation by considering all its components and talk to the stakeholders who have the knowledge to make informed decisions.
+    At work, I foster open and respectful communication as well as active and empathetic listening.
+
+
+    I also strive to develop a holistic view of the organisation by considering all its components and talking to its different stakeholders, allowing me to make informed decisions.
 
 
     In the communities I belong to, I always try to share what I can learn along the way. It translates in many forms, from informal conversations to workshops, videos or blog articles.
