@@ -5,7 +5,7 @@ description: "Created to learn and share about the programming language Kotlin"
 draft: false
 image : "images/experience/meetup.jpg"
 bg_image: "images/experience/meetup.jpg"
-category: "Community"
+category: "Community Leadership"
 information:
   - label : "Industry"
     info : "Software"  

@@ -5,7 +5,7 @@ description: "Coordinated a social project (30+ people team) to renovate a schoo
 draft: false
 image : "images/experience/school.jpg"
 bg_image: "images/experience/school.jpg"
-category: "Community"
+category: "Community Leadership"
 information:
   - label : "Industry"
     info : "Education"  

@@ -5,7 +5,7 @@ description: "Created a channel to share insights into software engineering"
 draft: false
 image : "images/experience/video.jpg"
 bg_image: "images/experience/video.jpg"
-category: "Community"
+category: "Community Leadership"
 information:
   - label : "Industry"
     info : "Software"  
