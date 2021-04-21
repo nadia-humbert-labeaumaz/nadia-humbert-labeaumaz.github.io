@@ -1,5 +1,6 @@
 ---
 title: "Entrepreneur & Software Engineer"
+date: 2015-07-01
 description: "Developed an online free platform to help Honduran entrepreneurs"
 draft: false
 image : "images/portfolio/work4.jpg"

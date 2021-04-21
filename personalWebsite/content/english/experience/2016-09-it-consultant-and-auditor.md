@@ -1,5 +1,6 @@
 ---
 title: "IT Consultant & Auditor"
+date: 2016-09-01
 description: "Provided consulting services to help companies and teams grow"
 draft: false
 image : "images/portfolio/work5.jpg"

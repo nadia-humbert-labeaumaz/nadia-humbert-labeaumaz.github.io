@@ -1,5 +1,6 @@
 ---
 title: "Business Consultant"
+date: 2019-09-01
 description: "Turned regulatory pressure into opportunities for farmers and corporations"
 draft: false
 image : "images/portfolio/work3.jpg"

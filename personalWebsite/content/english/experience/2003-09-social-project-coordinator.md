@@ -1,5 +1,6 @@
 ---
 title: "Social Project Coordinator"
+date: 2003-09-01
 description: "Coordinated a social project (30+ people team) to renovate a school in Honduras"
 draft: false
 image : "images/portfolio/work6.jpg"

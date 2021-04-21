@@ -1,5 +1,6 @@
 ---
 title: "Business Consultant"
+date: 2020-02-01
 description: "Defined a marketing strategy and business plan"
 draft: false
 image : "images/portfolio/work2.jpg"

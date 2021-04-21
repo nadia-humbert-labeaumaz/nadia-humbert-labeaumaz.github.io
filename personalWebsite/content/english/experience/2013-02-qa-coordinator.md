@@ -1,5 +1,6 @@
 ---
 title: "QA Coordinator"
+date: 2013-02-01
 description: "Led initiatives and teams for the French national electricity project Linky"
 draft: false
 image : "images/portfolio/work6.jpg"

@@ -1,5 +1,6 @@
 ---
 title: "Creator"
+date: 2016-04-01
 description: "Created a channel to share insights into software engineering"
 draft: false
 image : "images/portfolio/work6.jpg"

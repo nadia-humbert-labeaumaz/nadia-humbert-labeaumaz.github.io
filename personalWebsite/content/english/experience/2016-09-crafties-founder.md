@@ -1,5 +1,6 @@
 ---
 title: "Founder & Managing Director"
+date: 2016-09-01
 description: "Created an IT consulting company"
 draft: false
 image : "images/portfolio/work4.jpg"

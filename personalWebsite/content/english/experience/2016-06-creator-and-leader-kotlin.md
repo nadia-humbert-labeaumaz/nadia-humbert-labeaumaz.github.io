@@ -1,5 +1,6 @@
 ---
 title: "Creator & Leader"
+date: 2016-06-01
 description: "Created to learn and share about the programming language Kotlin"
 draft: false
 image : "images/portfolio/work6.jpg"

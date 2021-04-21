@@ -1,5 +1,6 @@
 ---
 title: "Project Lead"
+date: 2017-07-01
 description: "Helped a startup open new markets in Europe"
 draft: false
 image : "images/portfolio/work6.jpg"
