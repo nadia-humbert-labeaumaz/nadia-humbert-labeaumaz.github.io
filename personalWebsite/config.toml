@@ -37,13 +37,11 @@ unsafe = true
 
 ################################# Default parameters ##########################
 [params]
-logo = "images/logo.png"
-logo_width = "150px"
 # OpenGraph / Twitter Card metadata
 title = "Nadia Humbert-Labeaumaz"
 description = "Entrepreneur, consultant, bio-sciences and software engineer."
 author = "Nadia Humbert-Labeaumaz"
-images = [ "images/logo.png" ] # First image here will be used as fallback if a page has no images of its own
+images = [ "" ] # First image here will be used as fallback if a page has no images of its own
 
 
 ################################# Sidebar widgets #############################
