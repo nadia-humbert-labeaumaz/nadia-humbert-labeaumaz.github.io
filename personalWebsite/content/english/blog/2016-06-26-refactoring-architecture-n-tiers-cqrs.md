@@ -24,7 +24,7 @@ L'objectif de cet article est de présenter ma compréhension et mon avis sur le
 
 Le passage d'une architecture N-Tiers à une architecture CQRS est relativement simple, comme montré ci-dessous.
 
-![CQRS](/images/blog/refactoring-cqrs/cqrs.png)
+![CQRS](/images/drafties/cqrs.png)
 
 Concrètement, je pense que cela consiste tout d'abord à identifier les requêtes associées à chacune des vues et à les regrouper dans des classes dédiées. Ces classes formeront la partie lecture de l'architecture.  
 Ensuite, les objets retournés par ces requêtes sont remplacés par des DTO qui ne contiennent plus que les informations nécessaires à la construction de la vue associée.  

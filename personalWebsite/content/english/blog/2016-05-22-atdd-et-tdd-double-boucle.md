@@ -69,7 +69,7 @@ Ce test sera rouge tant que la fonctionnalité ne sera pas implémentée entièr
 
 La classe `Account` sert de point d'entrée à la fonctionnalité. Cependant, elle ne sera pas suffisante pour l'implémenter complètement. Le TDD double boucle consiste à développer la classe `Account` ainsi que ses dépendances en TDD, formant ainsi une boucle de _feedback_ à l'intérieur de celle déjà formée par le test d'acceptation.
 
-![Double loop TDD](/images/blog/atdd/double_loop_tdd.png)
+![Double loop TDD](/images/drafties/double_loop_tdd.png)
 
 Dans l'exemple présenté ci-dessus, il est possible de déléguer l'impression d'un relevé à une classe `Statement` qui est une dépendance de `Account`. Lors de l'écriture du test de `Account`, cette classe sera mockée.
 
