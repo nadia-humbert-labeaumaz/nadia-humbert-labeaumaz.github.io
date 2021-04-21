@@ -1,4 +1,10 @@
 .about{
+
+	div.row {
+		display: flex;
+		align-items: center;
+	}
+
 	.block{
 
 		&.image {

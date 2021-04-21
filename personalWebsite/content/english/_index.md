@@ -16,13 +16,11 @@ about:
   enable: true
   title: "My Story"
   description: "I was born in a small country in Central America, worked towards going to France to have better opportunities in life and did it at 17 years old by myself. "
-  content: "Since then, I have travelled the world to live, study varied subjects and work.
+  content: "Since then, I have travelled the world to study varied subjects and work.
 
   During my journey, I have lived on 4 continents and learned from many cultures.
 
-  I have also developed knowledge and skills around entrepreneurship, science and software engineering.
-
-  My professional experience includes multiple projects as an entrepreneur, consultant, leader and engineer in companies of all sizes and industries.
+  I have also developed knowledge and skills in business, science and software engineering.
   "
   image: "images/home-nadia.png"
 
@@ -35,20 +33,20 @@ portfolio:
     - name: Entrepreneurship
       bg_image: "images/experience/social-impact-guild.jpg"
       content: "
-      I love entrepreneurship
+      I have founded multiple initiatives and managed my own business.
       "      
     - name: Consulting
       bg_image: "images/experience/project-lead.jpg"
       content: "
-      I love consulting
+      I have provided consulting services in multiple areas to help companies achieve strategic goals and scale up.
       "
-    - name: Community
+    - name: Community Leadership
       bg_image: "images/experience/meetup.jpg"
       content: "
-      I love communities
+      I have created and led social and software communities.
       "
   button:
-    enable: true
+    enable: false
     label: "View my Experience"
     link: "experience"
 
@@ -57,11 +55,11 @@ portfolio:
 cta:
   enable: true
   bg_image: "images/about.jpg"
-  title: "International and multifaceted experience"
-  content: "I have worked with a wide range of stakeholders in startups, medium-sized and large enterprises from various industries while occupying different roles both as an external consultant and employee worldwide."
+  title: "International and Multifaceted Profile"
+  content: "I have worked with a wide range of stakeholders in startups, medium-sized and large enterprises from various industries worldwide while occupying different roles both as an external consultant and employee."
   button:
     enable: true
-    label: "Learn more about me"
+    label: "Learn more about me!"
     link: "about"
 
 ############################# Funfacts ###############################
