@@ -2,7 +2,7 @@
 ############################### Banner ##############################
 banner:
   enable: true
-  bg_image: "images/slider-bg.jpg"
+  bg_image: "images/slider.jpg"
   bg_overlay: true
   title: "Nadia Humbert-Labeaumaz"
   content: "Hello! Here, you will find details about my professional experience as well as some of my thoughts and case studies."
@@ -24,7 +24,7 @@ about:
 
   My professional experience includes multiple projects as an entrepreneur, consultant, leader and engineer in companies of all sizes and industries.
   "
-  image: "images/wrapper-img.png"
+  image: "images/home-nadia.png"
 
 
 ######################### Portfolio ###############################

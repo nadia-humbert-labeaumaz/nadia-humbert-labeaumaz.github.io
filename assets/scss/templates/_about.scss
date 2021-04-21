@@ -1,6 +1,11 @@
 .about{
 	.block{
 
+		&.image {
+			display: flex;
+			justify-content: center;
+		}
+
 		h2{
 			padding-top: 35px;
 			margin:0;
@@ -8,9 +13,6 @@
 		p{
 			padding-top: 20px;
 			line-height:28px;
-		}
-		img{
-			width: 100%;
 		}
 	}
 	.about-img {
