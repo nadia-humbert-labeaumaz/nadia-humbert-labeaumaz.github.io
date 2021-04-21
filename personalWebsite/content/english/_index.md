@@ -56,7 +56,7 @@ portfolio:
 ############################ call to action ###########################
 cta:
   enable: true
-  bg_image: "images/call-to-action-bg.jpg"
+  bg_image: "images/about.jpg"
   title: "International and multifaceted experience"
   content: "I have worked with a wide range of stakeholders in startups, medium-sized and large enterprises from various industries while occupying different roles both as an external consultant and employee worldwide."
   button:
