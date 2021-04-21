@@ -132,6 +132,13 @@ mission_vision:
 
 ############################# call to action #################################
 cta:
-  enable : true
+  enable: true
+  bg_image: "images/call-to-action-bg.jpg"
+  title: "International and multifaceted experience 2"
+  content: "I have worked with a wide range of stakeholders in startups, medium-sized and large enterprises from various industries while occupying different roles both as an external consultant and employee worldwide."
+  button:
+    enable: true
+    label: "Learn more about me"
+    link: "experience"
   # call to action content comes from "_index.md"
 ---

@@ -1,4 +1,3 @@
-{{ with site.GetPage "/" }}
 {{ with .Params.cta }}
 <section class="call-to-action bg-1 section-sm overly" style="background-image: url('{{.bg_image | relURL }}');">
   <div class="container">
@@ -17,5 +16,4 @@
     </div>
   </div>
 </section>
-{{ end }}
 {{ end }}
