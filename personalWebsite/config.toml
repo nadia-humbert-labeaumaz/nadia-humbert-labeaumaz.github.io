@@ -74,8 +74,8 @@ success_image = "images/paper-plane.svg"
 [params.gmap]
 enable = true
 gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+map_latitude = "45.50257979180645"
+map_longitude = "-73.58769925309225"
 map_marker = "images/marker.png"
 
 
@@ -197,8 +197,18 @@ hasChildren = true
 
   [[languages.en.menu.main]]
   parent = "More"
-  name = "FAQ"
-  URL = "faq"
+  name = "Crafties"
+  URL = "crafties"
+
+  [[languages.en.menu.main]]
+  parent = "More"
+  name = "Drafties"
+  URL = "drafties"
+
+  [[languages.en.menu.main]]
+  parent = "More"
+  name = "Talks"
+  URL = "talks"
 
 [[languages.en.menu.main]]
 name = "Contact"
