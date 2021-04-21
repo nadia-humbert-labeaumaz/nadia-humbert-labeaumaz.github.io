@@ -54,30 +54,40 @@
 {{ with .Params.portfolio }}
 {{ if .enable }}
 <!-- portfolio -->
-<section class="feature bg-2" style="background-image: url('{{ .bg_image | relURL}}')">
+<section class="feature bg-2">
   <div class="container">
+    <h2 class="section-subtitle">{{ .title | markdownify }}</h2>
     <div class="row">
-      <div class="col-md-6 col-md-offset-6">
-        <h2 class="section-subtitle">{{ .title | markdownify }}</h2>
-        {{ .content | markdownify }}
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
+      <div class="col-md-12">
+        <div class="block">
+          <div class="row shuffle-wrapper">
+            {{ range .tabs }}
+            <div class="col-md-4 portfolio-item shuffle-item">
+              <img src="{{ .bg_image | relURL }}" alt="{{ .name }}">
+              <div class="portfolio-hover">
+                <div class="portfolio-content">
+                  <h3>{{ .name }}</h3>
+                  <p>{{ .content }}</p>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
       </div>
     </div>
+    {{ if .button.enable }}
+    {{ with .button }}
+    <div class="portfolio-cta">
+      <a class="btn btn-main btn-solid-border" href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
+    </div>
+    {{ end }}
+    {{ end }}
   </div>
 </section>
 <!-- /portfolio -->
 {{ end }}
 {{ end }}
-
-<!-- Service -->
-{{ if .Params.service.enable }}
-{{ partial "service.html" . }}
-{{ end }}
-<!-- /service -->
 
 <!-- Call to action -->
 {{ if .Params.cta.enable }}

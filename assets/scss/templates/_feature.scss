@@ -1,5 +1,4 @@
 .feature {
-	background: url("../img/feature-bg.jpg");
 	background-position: 50% 94px;
 	display: block;
 	position: relative;
@@ -11,6 +10,7 @@
 
 	h2 {
 		margin-bottom: 30px;
+		text-align: center;
 	}
 
 	p {
@@ -22,5 +22,39 @@
 		background: #655E7A;
 		color: #fff;
 		padding: 10px 20px;
+	}
+
+	.portfolio-item {
+		img {
+			filter: contrast(0.7);
+		}
+
+		p {
+			color: #fff;
+		}
+
+		h3 {
+			margin-top: 0;
+			font-size: 24px;
+			font-weight: 500;
+    	line-height: 1.1;
+		}
+	}
+
+	.portfolio-hover {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.portfolio-cta {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+
+		.btn {
+			background-color: #655e7a;
+		}
 	}
 }

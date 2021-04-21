@@ -30,26 +30,27 @@ about:
 ######################### Portfolio ###############################
 portfolio:
   enable: true
-  bg_image: "images/feature-bg.jpg"
-  title: "WE BELIEVE IN GREAT IDEAS"
-  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-  "
+  title: "I HAVE EXPERIENCE IN"
+  tabs:
+    - name: Entrepreneurship
+      bg_image: "images/experience/social-impact-guild.jpg"
+      content: "
+      I love entrepreneurship
+      "      
+    - name: Consulting
+      bg_image: "images/experience/project-lead.jpg"
+      content: "
+      I love consulting
+      "
+    - name: Community
+      bg_image: "images/experience/meetup.jpg"
+      content: "
+      I love communities
+      "
   button:
     enable: true
-    label: "View Works"
+    label: "View my Experience"
     link: "experience"
-
-
-############################# Service ############################
-service:
-  enable: true
-  # service content comes from "service.md" file
 
 
 ############################ call to action ###########################
@@ -65,7 +66,7 @@ cta:
 
 ############################# Funfacts ###############################
 funfacts:
-  enable: true
+  enable: false
   title: "Fun Facts About Me"
   description: "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
   funfact_item:
