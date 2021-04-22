@@ -1,6 +1,6 @@
 ---
 title: "Crafties"
-description: "Videos about software best practices"
+description: "Videos about software engineering"
 bg_image: "images/experience/crafties.jpg"
 layout: "crafties"
 draft: false
