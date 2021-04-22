@@ -22,6 +22,6 @@ information:
 Consulting services to help a social enterprise define a relevant marketing strategy and business plan. The goal was to let the company find its market and gain momentum.
 
 **Achievements**
-- • Identified a relevant target segment and the products' benefits to increase customer engagement via thorough market research.
+- • Identified a relevant target segment and the products' benefits to leverage to increase customer engagement via thorough market research.
 
 - • Enabled the firm to obtain a grant to implement the suggested recommendations and grow its operations.
