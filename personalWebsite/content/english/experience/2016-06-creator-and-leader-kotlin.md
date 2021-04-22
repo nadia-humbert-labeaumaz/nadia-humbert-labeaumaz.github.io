@@ -1,7 +1,7 @@
 ---
 title: "Creator & Leader"
 date: 2016-06-01
-description: "Created to learn and share about the programming language Kotlin"
+description: "Created a community to share about the programming language Kotlin"
 draft: false
 image : "images/experience/meetup.jpg"
 bg_image: "images/experience/meetup.jpg"
