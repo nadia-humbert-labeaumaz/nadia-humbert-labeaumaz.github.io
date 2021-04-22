@@ -4,6 +4,15 @@ description: "Concepts and principles of software development in a single drawin
 bg_image: "images/experience/crafties.jpg"
 layout: "drafties"
 draft: false
+cta:
+  enable: true
+  bg_image: "images/contact.jpg"
+  title: "Eager to Learning New Things and Meeting People"
+  content: "I am always open to learning and chatting with people!"
+  button:
+    enable: true
+    label: "Get in touch"
+    link: "contact"
 
 items:
   - title: "Command Query Responsibility Segregation (CQRS)"

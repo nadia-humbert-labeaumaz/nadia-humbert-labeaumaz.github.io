@@ -20,4 +20,10 @@
 </section>
 <!-- Gallery End -->
 
+<!-- Call to action -->
+{{ if .Params.cta.enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+<!-- /Call to action -->
+
 {{ end }}

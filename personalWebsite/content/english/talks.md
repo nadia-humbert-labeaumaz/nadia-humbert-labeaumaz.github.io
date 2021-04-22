@@ -4,6 +4,15 @@ description: "Some talks I gave"
 bg_image: "images/talk.jpg"
 layout: "talks"
 draft: false
+cta:
+  enable: true
+  bg_image: "images/contact.jpg"
+  title: "Eager to Learning New Things and Meeting People"
+  content: "I am always open to learning and chatting with people!"
+  button:
+    enable: true
+    label: "Get in touch"
+    link: "contact"
 
 items:
   - title: "[Coding Dojo] On Mars, With No Condition! (French)"
