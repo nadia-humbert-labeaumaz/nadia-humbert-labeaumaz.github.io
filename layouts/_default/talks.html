@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<!-- Gallery Start -->
+<section class="gallery">
+    {{ range .Params.items }}
+    <div class="gallery-item">
+      <img src="{{ .thumbnail | relURL }}" alt="{{ .title }}">
+      <a href="{{ .link }}" target="_blank">
+        <div class="gallery-hover">
+          <div class="gallery-content">
+            <h3>{{ .title }}</h3>
+            <p>{{ .date }}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    {{ end }}
+</section>
+<!-- Gallery End -->
+
+{{ end }}

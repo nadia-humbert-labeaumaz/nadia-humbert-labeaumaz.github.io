@@ -17,7 +17,7 @@
         {{ .content | markdownify }}
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | relURL }}" class="btn btn-small mt-20">{{ .label }}</a>
+        <a href="{{ .link | relURL }}" class="btn btn-small mt-20" target="_blank">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
