@@ -11,13 +11,13 @@ about:
   enable : true
   image : "images/nadia.jpg"
   title : "In a Nutshell"
-  content : "Hi, I am Nadia! I am an entrepreneur, consultant and engineer, and enjoy solving problems creatively and working on projects that concretely help people.
+  content : "Hi, I am Nadia! I am an entrepreneur, consultant and engineer, and enjoy solving problems creatively and working on initiatives that concretely help people.
 
 
-  I have been travelling around the world to work and study, learning varied topics.
+  My expertise lies in entrepreneurship, business strategy, change management, project coordination, operational excellence and marketing.
 
 
-  My expertise lies in entrepreneurship, business strategy, change management, project coordination, operational excellence and marketing. I hold an MBA, an M.Sc. in Biochemistry and Biotechnologies Engineering and an Advanced Master in Computer Science.
+  I hold an MBA, an M.Sc. in Biochemistry and Biotechnologies Engineering and an Advanced Master in Computer Science.
 
 
   During my experiences, I have had the chance to work with a wide range of stakeholders in startups, medium-sized and large enterprises from various industries while occupying different roles both as an external consultant and employee. I have also created and managed my own business."
@@ -118,7 +118,7 @@ mission_vision:
     I also strive to develop a holistic view of the organisation by considering all its components and talking to its different stakeholders, allowing me to make informed decisions.
 
 
-    In the communities I belong to, I always try to share what I can learn along the way. It translates in many forms, from informal conversations to workshops, videos or blog articles.
+    In the communities I belong to, I always try to share what I can learn along the way. It translates in many forms, from informal conversations to workshops, talks, videos or blog articles.
     "  
 
   # tab item loop
