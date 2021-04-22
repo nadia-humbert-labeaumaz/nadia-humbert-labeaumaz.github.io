@@ -5,7 +5,7 @@ bg_image: "images/experience/crafties.jpg"
 layout: "crafties"
 draft: false
 
-videos:
+items:
   - title: "Episode #10 - Functional Programming with Java 8"
     date: 2017-09-17
     thumbnail: "images/crafties/episode-10.png"

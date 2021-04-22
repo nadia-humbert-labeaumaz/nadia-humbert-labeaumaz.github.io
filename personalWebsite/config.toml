@@ -192,13 +192,18 @@ weight = 4
 
 [[languages.en.menu.main]]
 weight = 5
-name = "More"
+name = "Videos"
 hasChildren = true
 
   [[languages.en.menu.main]]
-  parent = "More"
+  parent = "Videos"
   name = "Crafties"
   URL = "crafties"
+
+[[languages.en.menu.main]]
+weight = 6
+name = "More"
+hasChildren = true
 
   [[languages.en.menu.main]]
   parent = "More"
@@ -213,7 +218,7 @@ hasChildren = true
 [[languages.en.menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 6
+weight = 7
 
 # Footer menu
 [[languages.en.menu.footer]]
