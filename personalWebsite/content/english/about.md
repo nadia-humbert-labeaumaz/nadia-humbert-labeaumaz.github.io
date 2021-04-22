@@ -24,8 +24,8 @@ about:
 
   button:
     enable : true
-    label : "Download My CV"
-    link : "#"
+    label : "See my LinkedIn Profile"
+    link : "https://www.linkedin.com/in/nadia-humbert-labeaumaz/"
 
   funfacts:
 
