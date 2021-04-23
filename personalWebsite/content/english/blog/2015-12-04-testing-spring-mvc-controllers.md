@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/testing-spring-controllers/header.jpg"
 bg_image: "images/blog/testing-spring-controllers/header.jpg"
 categories: ["Software"]
-tags: ["java", "software-testing"]
+tags: ["Java", "Software Testing"]
 draft: false
 comments: true
 ---

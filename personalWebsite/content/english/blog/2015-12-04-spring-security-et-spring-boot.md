@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/spring-security/header.jpg"
 bg_image: "images/blog/spring-security/header.jpg"
 categories: ["Software"]
-tags: ["java"]
+tags: ["Java"]
 draft: false
 comments: true
 ---

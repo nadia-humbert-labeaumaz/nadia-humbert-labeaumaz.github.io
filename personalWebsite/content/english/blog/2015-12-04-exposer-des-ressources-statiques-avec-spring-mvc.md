@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/exposing-static-resources/header.jpg"
 bg_image: "images/blog/exposing-static-resources/header.jpg"
 categories: ["Software"]
-tags: ["java"]
+tags: ["Java"]
 draft: false
 comments: true
 ---

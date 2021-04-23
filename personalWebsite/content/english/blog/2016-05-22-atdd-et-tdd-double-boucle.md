@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/atdd/header.jpg"
 bg_image: "images/blog/atdd/header.jpg"
 categories: ["Software"]
-tags: ["software-testing"]
+tags: ["Software Testing"]
 draft: false
 comments: true
 ---

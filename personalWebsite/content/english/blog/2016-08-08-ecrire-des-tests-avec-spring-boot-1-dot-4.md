@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/spring-boot-test/header.jpg"
 bg_image: "images/blog/spring-boot-test/header.jpg"
 categories: ["Software"]
-tags: ["java", "software-testing"]
+tags: ["Java", "Software Testing"]
 draft: false
 comments: true
 ---

@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/circuit-breaker/header.jpg"
 bg_image: "images/blog/circuit-breaker/header.jpg"
 categories: ["Software"]
-tags: ["java", "software-design"]
+tags: ["Java", "Software Design"]
 draft: false
 comments: true
 ---

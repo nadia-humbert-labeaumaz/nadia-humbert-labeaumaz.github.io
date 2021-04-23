@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/what-is-a-social-entrepreneur/header.jpg"
 bg_image: "images/blog/what-is-a-social-entrepreneur/header.jpg"
 categories: ["Business"]
-tags: ["social-entrepreneurship"]
+tags: ["Social Entrepreneurship"]
 draft: false
 comments: true
 ---

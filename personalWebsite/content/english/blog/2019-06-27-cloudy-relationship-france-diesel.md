@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/diesel/header.jpg"
 bg_image: "images/blog/diesel/header.jpg"
 categories: ["Business"]
-tags: ["case-studies"]
+tags: ["Case Studies"]
 draft: false
 comments: true
 ---

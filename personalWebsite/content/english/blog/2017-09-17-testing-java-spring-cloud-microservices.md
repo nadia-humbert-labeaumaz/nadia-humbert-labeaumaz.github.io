@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/testing-microservices/header.jpg"
 bg_image: "images/blog/testing-microservices/header.jpg"
 categories: ["Software"]
-tags: ["software-testing", "software-design", "java"]
+tags: ["Software Testing", "Software Design", "Java"]
 draft: false
 comments: true
 ---

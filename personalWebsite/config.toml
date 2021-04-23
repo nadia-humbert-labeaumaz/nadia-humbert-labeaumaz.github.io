@@ -191,7 +191,12 @@ URL = "blog"
 weight = 4
 
 [[languages.en.menu.main]]
+name = "Case Studies"
+URL = "tags/case-studies"
 weight = 5
+
+[[languages.en.menu.main]]
+weight = 6
 name = "Videos"
 hasChildren = true
 
@@ -201,7 +206,7 @@ hasChildren = true
   URL = "crafties"
 
 [[languages.en.menu.main]]
-weight = 6
+weight = 7
 name = "More"
 hasChildren = true
 
@@ -218,7 +223,7 @@ hasChildren = true
 [[languages.en.menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 7
+weight = 8
 
 # Footer menu
 [[languages.en.menu.footer]]
@@ -242,6 +247,11 @@ URL = "blog"
 weight = 4
 
 [[languages.en.menu.footer]]
+name = "Case Studies"
+URL = "tags/case-studies"
+weight = 5
+
+[[languages.en.menu.footer]]
 name = "Contact"
 URL = "contact"
-weight = 5
+weight = 6
