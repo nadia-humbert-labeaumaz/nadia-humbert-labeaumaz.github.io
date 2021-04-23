@@ -7,7 +7,6 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/kotlin/header.png"
 bg_image: "images/blog/kotlin/header.png"
 categories: ["Software"]
-tags: ["Kotlin"]
 draft: false
 comments: true
 ---

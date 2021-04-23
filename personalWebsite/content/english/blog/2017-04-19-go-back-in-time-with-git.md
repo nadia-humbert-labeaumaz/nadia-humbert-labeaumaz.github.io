@@ -7,7 +7,6 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/back-in-time-git/header.jpg"
 bg_image: "images/blog/back-in-time-git/header.jpg"
 categories: ["Software"]
-tags: ["Git"]
 draft: false
 comments: true
 ---

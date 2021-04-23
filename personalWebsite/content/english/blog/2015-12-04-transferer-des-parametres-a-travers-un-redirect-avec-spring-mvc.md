@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/transfer-redirect-parameters/header.jpg"
 bg_image: "images/blog/transfer-redirect-parameters/header.jpg"
 categories: ["Software"]
-tags: ["Spring Framework"]
+tags: ["Java"]
 draft: false
 comments: true
 ---

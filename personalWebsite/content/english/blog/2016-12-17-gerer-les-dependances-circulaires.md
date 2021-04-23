@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/circular-dependencies/header.jpg"
 bg_image: "images/blog/circular-dependencies/header.jpg"
 categories: ["Software"]
-tags: ["Design", "Java"]
+tags: ["Software Design", "Java"]
 draft: false
 comments: true
 ---

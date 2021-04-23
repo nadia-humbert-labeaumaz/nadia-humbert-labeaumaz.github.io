@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/inheritance-duplication/header.jpg"
 bg_image: "images/blog/inheritance-duplication/header.jpg"
 categories: ["Software"]
-tags: ["Java", "Design"]
+tags: ["Java", "Software Design"]
 draft: false
 comments: true
 ---

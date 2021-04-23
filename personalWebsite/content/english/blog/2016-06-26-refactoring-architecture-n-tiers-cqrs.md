@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/refactoring-cqrs/header.jpg"
 bg_image: "images/blog/refactoring-cqrs/header.jpg"
 categories: ["Software"]
-tags: ["Refactoring", "Architecture"]
+tags: ["Refactoring", "Software Design"]
 draft: false
 comments: true
 ---

@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/circuit-breaker/header.jpg"
 bg_image: "images/blog/circuit-breaker/header.jpg"
 categories: ["Software"]
-tags: ["Spring Framework", "Architecture"]
+tags: ["Java", "Software Design"]
 draft: false
 comments: true
 ---

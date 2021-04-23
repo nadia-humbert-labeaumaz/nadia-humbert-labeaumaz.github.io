@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/testing-private-method/header.jpg"
 bg_image: "images/blog/testing-private-method/header.jpg"
 categories: ["Software"]
-tags: ["Test", "Design"]
+tags: ["Software Testing", "Software Design"]
 draft: false
 comments: true
 ---

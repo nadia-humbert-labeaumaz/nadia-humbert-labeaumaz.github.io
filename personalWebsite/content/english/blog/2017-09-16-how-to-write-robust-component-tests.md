@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/robust-component-tests/header.jpg"
 bg_image: "images/blog/robust-component-tests/header.jpg"
 categories: ["Software"]
-tags: ["Test", "Architecture"]
+tags: ["Software Testing", "Software Design"]
 draft: false
 comments: true
 ---
