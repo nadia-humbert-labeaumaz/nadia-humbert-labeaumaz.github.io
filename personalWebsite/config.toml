@@ -59,9 +59,9 @@ location = """
 # Whether to display text descriptors (like "E-mail: ", "Phone: ") before the address block elements
 address_descriptors = false
 [params.contact.form]
-enable = true
+enable = false
 # Whether to use [Netlify Forms](https://docs.netlify.com/forms/setup/)
-use_netlify = true
+use_netlify = false
 # Form action
 ## Fill in your Form ID URL for Formspree.io, e.g. `https://formspree.io/f/{form_id}`
 ## Ignored if `use_netlify = true` (custom [success page](https://docs.netlify.com/forms/setup/#success-messages) is already included)

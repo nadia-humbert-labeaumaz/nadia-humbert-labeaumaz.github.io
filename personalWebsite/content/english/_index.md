@@ -7,7 +7,7 @@ banner:
   title: "Nadia Humbert-Labeaumaz"
   content: "Hello! Here, you will find details about my professional experience as well as some of my thoughts and case studies."
   button:
-    enable: true
+    enable: false
     label: "Get in touch"
     link: "contact"
 
