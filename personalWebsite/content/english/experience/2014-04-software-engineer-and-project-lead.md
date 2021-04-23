@@ -16,12 +16,12 @@ information:
   - label : "Started on"
     info : "April 2014"
   - label : "Duration"
-    info : "1.25 years"
+    info : "1 year 3 months"
 ---
 
 ## Description
 
-Led initiatives and teams for the French national electricity project Linky (~100 people) aiming to replace the standard electricity meters by ones interrogated and operated remotely. It was a strategic project for ERDF.
+Led initiatives for the French national electricity project Linky (~100 people). This countrywide project aimed to replace all the standard electricity meters with remotely operated ones.
 
 **Achievements**
 - • Analysed and implemented new features in various areas of the product.

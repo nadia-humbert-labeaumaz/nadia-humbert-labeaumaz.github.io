@@ -21,11 +21,12 @@ information:
 
 ## Description
 
-Helped a French start-up extend its IT team abroad by setting up a mechanism to outsource some developments to an Offshore Development Center (ODC). The objective was to keep high-quality standards and develop a meaningful collaboration between the two parties.
+Scaled up the IT team of a French startup abroad. The goal was to keep high-quality standards and develop a meaningful collaboration between the distributed teams.
 
 **Achievements**
 - • Defined a shared vision, aligned with the company's objectives, that resonated with both teams.
 
 - • Successfully ensured the continuous delivery of value in this context of distributed teams through support, coordination, constraint management and risk mitigation.
-- • Designed fit-for-purpose indicators to collect feedback from the teams and monitor performance, quality, and profitability: their strong performance and invariability confirmed the mechanism's efficiency.
+- • Designed fit-for-purpose indicators to monitor wellbeing, performance, quality, and profitability.
+- • Led steering committee meetings and ensured the implementation of the resulting actions.
 - • Increased the overall IT department's production capacity by 30%, while increasing the costs by 10% only.

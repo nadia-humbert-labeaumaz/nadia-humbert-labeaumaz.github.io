@@ -21,9 +21,9 @@ information:
 
 ## Description
 
-Consulting services to help a kiwi organisation support its clients navigate NZ regulations regarding GHG emissions (NZETS). The objective was to turn regulatory pressure into opportunities for farmers and corporations.
+Helped an SME turn regulatory pressure regarding GHG emissions (NZETS) into opportunities for its clients (farmers and corporations).
 
 **Achievements**
-- • Developed a strategic plan featuring an innovative solution to build relationships between the firm's clients as well as develop projects offsetting GHG emissions and generating holistic positive impacts for the communities.
+- • Developed a strategic plan featuring an innovative solution leveraging farmer-corporation relationships to offset GHG emissions and benefit local communities.
 
-- • Awarded the Ronald J. Moore Memorial Prize from the University of Otago (panel including the firm executives, entrepreneurs, lecturers and staff members).
+- • Awarded the Ronald J. Moore Memorial Prize from the University of Otago (panel including the firm's executives, entrepreneurs, lecturers and staff members).
