@@ -30,18 +30,18 @@ jobs:
         with:
           extended: true
 
-#       - name: Build
-#         # remove --minify tag if you do not need it
-#         # docs: https://gohugo.io/hugo-pipes/minification/
-#         run: hugo --minify
+      - name: Build
+        # remove --minify tag if you do not need it
+        # docs: https://gohugo.io/hugo-pipes/minification/
+        run: hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.TOKEN }}
-          external_repository: nadia-humbert-labeaumaz/nadia-humbert-labeaumaz.github.io
-          publish_dir: ./public
-          #   keep_files: true
-          user_name: nphumbert
-          user_email: np.humbert@gmail.com
-          publish_branch: gh-pages
+#       - name: Deploy
+#         uses: peaceiris/actions-gh-pages@v3
+#         with:
+#           personal_token: ${{ secrets.TOKEN }}
+#           external_repository: nadia-humbert-labeaumaz/nadia-humbert-labeaumaz.github.io
+#           publish_dir: ./public
+#           #   keep_files: true
+#           user_name: nphumbert
+#           user_email: np.humbert@gmail.com
+#           publish_branch: gh-pages
