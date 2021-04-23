@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/dependency-injection/header.jpg"
 bg_image: "images/blog/dependency-injection/header.jpg"
 categories: ["Software"]
-tags: ["Java"]
+tags: ["java"]
 draft: false
 comments: true
 ---

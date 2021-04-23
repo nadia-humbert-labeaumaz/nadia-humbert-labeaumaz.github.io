@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/refactoring-sleeping/header.jpg"
 bg_image: "images/blog/refactoring-sleeping/header.jpg"
 categories: ["Software"]
-tags: ["Refactoring"]
+tags: ["refactoring"]
 draft: false
 comments: true
 ---

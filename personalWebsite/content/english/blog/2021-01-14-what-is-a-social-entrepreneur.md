@@ -6,8 +6,8 @@ description: "My definition of social entrepreneurship and some insights regardi
 author: Nadia Humbert-Labeaumaz
 image : "images/blog/what-is-a-social-entrepreneur/header.jpg"
 bg_image: "images/blog/what-is-a-social-entrepreneur/header.jpg"
-categories: ["Entrepreneurship"]
-tags: ["Social Entrepreneurship"]
+categories: ["Business"]
+tags: ["social-entrepreneurship"]
 draft: false
 comments: true
 ---

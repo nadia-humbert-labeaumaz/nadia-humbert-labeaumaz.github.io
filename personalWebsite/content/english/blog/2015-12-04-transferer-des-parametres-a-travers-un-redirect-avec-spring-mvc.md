@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/transfer-redirect-parameters/header.jpg"
 bg_image: "images/blog/transfer-redirect-parameters/header.jpg"
 categories: ["Software"]
-tags: ["Java"]
+tags: ["java"]
 draft: false
 comments: true
 ---

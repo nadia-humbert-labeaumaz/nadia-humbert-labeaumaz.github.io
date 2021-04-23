@@ -7,7 +7,7 @@ author: Nadia Humbert-Labeaumaz
 image : "images/blog/refactoring-conditional/header.jpg"
 bg_image: "images/blog/refactoring-conditional/header.jpg"
 categories: ["Software"]
-tags: ["Software Design", "Refactoring", "Java"]
+tags: ["software-design", "refactoring", "java"]
 draft: false
 comments: true
 ---
