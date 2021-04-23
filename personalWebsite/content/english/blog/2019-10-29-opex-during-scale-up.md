@@ -6,8 +6,8 @@ description: "A case study on how to apply operational excellence to keep delive
 author: Nadia Humbert-Labeaumaz
 image : "images/blog/opex-scale-up/header.jpg"
 bg_image: "images/blog/opex-scale-up/header.jpg"
-categories: ["Business"]
-tags: ["Case Studies"]
+categories: ["Business", "Case Studies"]
+tags: ["Operational Excellence"]
 draft: false
 comments: true
 ---

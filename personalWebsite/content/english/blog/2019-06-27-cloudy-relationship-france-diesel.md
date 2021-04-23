@@ -6,8 +6,8 @@ description: "My analysis of incentives' role in the diesel situation in France"
 author: Nadia Humbert-Labeaumaz
 image : "images/blog/diesel/header.jpg"
 bg_image: "images/blog/diesel/header.jpg"
-categories: ["Business"]
-tags: ["Case Studies"]
+categories: ["Business", "Case Studies"]
+tags: ["Economics"]
 draft: false
 comments: true
 ---

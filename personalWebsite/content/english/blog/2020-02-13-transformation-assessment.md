@@ -6,8 +6,8 @@ description: "A case study of change management in a tech startup"
 author: Nadia Humbert-Labeaumaz
 image : "images/blog/transformation-assessment/header.jpg"
 bg_image: "images/blog/transformation-assessment/header.jpg"
-categories: ["Business"]
-tags: ["Case Studies"]
+categories: ["Business", "Case Studies"]
+tags: ["Change Management"]
 draft: false
 comments: true
 ---

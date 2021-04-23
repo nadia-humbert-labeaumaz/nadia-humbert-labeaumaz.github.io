@@ -192,7 +192,7 @@ weight = 4
 
 [[languages.en.menu.main]]
 name = "Case Studies"
-URL = "tags/case-studies"
+URL = "categories/case-studies"
 weight = 5
 
 [[languages.en.menu.main]]
@@ -248,7 +248,7 @@ weight = 4
 
 [[languages.en.menu.footer]]
 name = "Case Studies"
-URL = "tags/case-studies"
+URL = "categories/case-studies"
 weight = 5
 
 [[languages.en.menu.footer]]
