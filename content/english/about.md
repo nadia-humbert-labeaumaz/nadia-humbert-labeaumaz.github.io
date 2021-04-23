@@ -17,7 +17,7 @@ about:
   My expertise lies in entrepreneurship, business strategy, change management, project coordination, operational excellence and marketing.
 
 
-  I hold an MBA, an M.Sc. in Biochemistry and Biotechnologies Engineering and an Advanced Master in Computer Science.
+  I hold a Master of Business Administration, a Master of Science in Biochemistry and Biotechnology Engineering and an Advanced Master in Computer Science.
 
 
   During my experiences, I have had the chance to work with a wide range of stakeholders in startups, medium-sized and large enterprises from various industries while occupying different roles both as an external consultant and employee. I have also created and managed my own business."
@@ -104,7 +104,7 @@ mission_vision:
   tabs:
   # tab item loop
   - name : "Purpose"
-    content : "I want to effect positive social outcomes through my work and other endeavours.
+    content : "I want to effect positive impact through my work and other endeavours.
 
 
     My dream is to combine my passions and knowledge in science, business and software to achieve this purpose."
