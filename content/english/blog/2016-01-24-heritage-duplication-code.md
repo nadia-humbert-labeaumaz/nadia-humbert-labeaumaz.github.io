@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Pourquoi ne pas utiliser l'héritage pour éviter la duplication de code ?"
+slug: "heritage-duplication-code"
 date: 2016-01-24 11:38:41 +0100
 description: ""
 author: Nadia Humbert-Labeaumaz

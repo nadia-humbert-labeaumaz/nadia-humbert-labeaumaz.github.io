@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Refactoring d'une application N-Tiers en utilisant le CQRS"
+slug: "refactoring-architecture-n-tiers-cqrs"
 date: 2016-06-26 18:14:40 +0200
 description: ""
 author: Nadia Humbert-Labeaumaz

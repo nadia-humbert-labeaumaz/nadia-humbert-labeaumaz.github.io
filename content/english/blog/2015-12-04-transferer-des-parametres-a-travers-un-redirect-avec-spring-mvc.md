@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Transférer des paramètres à travers un redirect avec Spring MVC"
+slug: "transferer-des-parametres-a-travers-un-redirect-avec-spring-mvc"
 date: 2015-07-25 12:06:04 +0200
 description: ""
 author: Nadia Humbert-Labeaumaz

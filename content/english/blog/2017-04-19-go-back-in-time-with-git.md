@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Go Back in Time with Git"
+slug: "go-back-in-time-with-git"
 date: 2017-04-19 20:22:15 +0100
 description: ""
 author: Nadia Humbert-Labeaumaz

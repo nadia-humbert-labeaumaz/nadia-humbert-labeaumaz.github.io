@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Polymorphisme avec le kata parrot refactoring"
+slug: "polymorphisme-avec-le-kata-parrot-refactoring"
 date: 2016-04-20 16:26:03 +0200
 description: ""
 author: Nadia Humbert-Labeaumaz

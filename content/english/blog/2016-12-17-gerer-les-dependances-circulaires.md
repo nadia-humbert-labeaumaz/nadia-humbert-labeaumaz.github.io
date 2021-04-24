@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Gérer les dépendances circulaires"
+slug: "gerer-les-dependances-circulaires"
 date: 2016-12-17 18:31:18 +0100
 description: ""
 author: Nadia Humbert-Labeaumaz

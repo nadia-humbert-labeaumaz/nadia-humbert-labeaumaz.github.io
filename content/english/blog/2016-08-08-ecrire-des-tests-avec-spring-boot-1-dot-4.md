@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Ecrire des tests avec Spring Boot 1.4"
+slug: "ecrire-des-tests-avec-spring-boot-1-dot-4"
 date: 2016-08-08 07:11:29 +0200
 description: ""
 author: Nadia Humbert-Labeaumaz

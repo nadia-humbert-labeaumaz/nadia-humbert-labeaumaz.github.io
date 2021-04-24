@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Que faire lorsqu'une méthode privée veut être testée ?"
+slug: "que-faire-lorsqu-une-methode-privee-veut-etre-testee"
 date: 2016-02-21 11:09:38 +0100
 description: ""
 author: Nadia Humbert-Labeaumaz

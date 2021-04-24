@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Testing Spring MVC Controllers"
+slug: "testing-spring-mvc-controllers"
 description: ""
 date: 2015-10-31 12:54:08 +0100
 author: Nadia Humbert-Labeaumaz

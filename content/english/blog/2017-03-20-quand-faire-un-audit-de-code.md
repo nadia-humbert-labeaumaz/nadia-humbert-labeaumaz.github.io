@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Quand faire un audit de code ?"
+slug: "quand-faire-un-audit-de-code"
 date: 2017-03-20 07:52:15 +0100
 description: ""
 author: Nadia Humbert-Labeaumaz

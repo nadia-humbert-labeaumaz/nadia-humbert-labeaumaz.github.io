@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "The Cloudy Relationship Between France and Diesel"
+slug: "cloudy-relationship-france-diesel"
 date: 2019-06-27 19:03:24 +0200
 description: "My analysis of incentives' role in the diesel situation in France"
 author: Nadia Humbert-Labeaumaz

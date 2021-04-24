@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Refactoring Conditional Structures with Map"
+slug: "refactoring-conditional-with-map"
 date: 2017-07-20 15:32:15 +0100
 description: ""
 author: Nadia Humbert-Labeaumaz

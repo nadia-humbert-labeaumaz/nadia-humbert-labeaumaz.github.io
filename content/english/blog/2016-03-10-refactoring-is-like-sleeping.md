@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Refactoring Is Like Sleeping"
+slug: "refactoring-is-like-sleeping"
 date: 2016-03-10 15:12:42 +0100
 description: ""
 author: Nadia Humbert-Labeaumaz

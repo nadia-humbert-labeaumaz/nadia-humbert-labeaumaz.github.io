@@ -21,7 +21,7 @@ googleAnalytics = ""
 [outputs]
 home = [ "HTML" ]
 [permalinks]
-blog = "/blog/:year/:month/:day/:title"
+blog = "/blog/:year/:month/:day/:slug"
 
 
 ################################# Markup ######################################

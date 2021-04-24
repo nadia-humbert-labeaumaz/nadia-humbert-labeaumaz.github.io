@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Injections de dépendances avec Spring"
+slug: "injections-de-dependances-avec-spring"
 description: ""
 date: 2015-06-14 08:35:20 +0200
 author: Nadia Humbert-Labeaumaz

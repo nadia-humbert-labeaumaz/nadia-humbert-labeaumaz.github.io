@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "ATDD et TDD double boucle"
+slug: "atdd-et-tdd-double-boucle"
 date: 2016-05-22 22:27:01 +0200
 description: ""
 author: Nadia Humbert-Labeaumaz

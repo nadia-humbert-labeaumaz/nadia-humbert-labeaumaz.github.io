@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Exposer des ressources statiques avec Spring MVC"
+slug: "exposer-des-ressources-statiques-avec-spring-mvc"
 description: ""
 date: 2015-09-18 12:59:06 +0100
 author: Nadia Humbert-Labeaumaz

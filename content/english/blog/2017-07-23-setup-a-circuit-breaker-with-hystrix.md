@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Setup a Circuit Breaker with Hystrix, Feign Client and Spring Boot"
+slug: "setup-a-circuit-breaker-with-hystrix"
 date: 2017-07-23 13:33:38 +0200
 description: ""
 author: Nadia Humbert-Labeaumaz

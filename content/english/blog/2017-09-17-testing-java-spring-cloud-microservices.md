@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Testing Java Spring Boot Microservices"
+slug: "testing-java-spring-cloud-microservices"
 date: 2017-09-17 16:09:24 +0200
 description: ""
 author: Nadia Humbert-Labeaumaz

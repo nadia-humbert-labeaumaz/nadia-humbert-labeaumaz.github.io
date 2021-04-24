@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Spring Security et Spring Boot"
+slug: "spring-security-et-spring-boot"
 description: ""
 date: 2015-06-21 11:51:37 +0200
 author: Nadia Humbert-Labeaumaz

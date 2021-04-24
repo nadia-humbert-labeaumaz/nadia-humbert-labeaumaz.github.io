@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "How to Write Robust Component Tests"
+slug: "how-to-write-robust-component-tests"
 date: 2017-09-16 13:37:12 +0200
 description: ""
 author: Nadia Humbert-Labeaumaz

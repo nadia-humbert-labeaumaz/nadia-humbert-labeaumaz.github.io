@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Assessment of XYZ’s IT Business Unit Transformation"
+slug: "transformation-assessment"
 date: 2020-02-13 00:00:00 +0200
 description: "A case study of change management in a tech startup"
 author: Nadia Humbert-Labeaumaz

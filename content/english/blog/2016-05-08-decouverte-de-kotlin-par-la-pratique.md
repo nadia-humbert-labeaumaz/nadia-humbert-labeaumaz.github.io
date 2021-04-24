@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Découverte de Kotlin par la pratique"
+slug: "decouverte-de-kotlin-par-la-pratique"
 date: 2016-05-08 14:58:45 +0200
 description: ""
 author: Nadia Humbert-Labeaumaz

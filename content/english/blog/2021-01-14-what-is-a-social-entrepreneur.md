@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "What is a Social Entrepreneur?"
+slug: "what-is-a-social-entrepreneur"
 date: 2021-01-14 19:03:24 +0200
 description: "My definition of social entrepreneurship and some insights regarding social entrepreneurs"
 author: Nadia Humbert-Labeaumaz

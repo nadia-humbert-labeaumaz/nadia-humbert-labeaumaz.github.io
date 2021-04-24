@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Once upon a time TDD... and me"
+slug: "once-upon-a-time-tdd-and-me"
 date: 2016-04-13 23:56:11 +0200
 description: ""
 author: Nadia Humbert-Labeaumaz

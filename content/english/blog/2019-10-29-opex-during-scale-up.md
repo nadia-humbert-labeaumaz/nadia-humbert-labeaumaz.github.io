@@ -1,6 +1,7 @@
 ---
 type: "post"
 title: "Operational Excellence to Ensure Value Delivery During XYZ's Scale-Up"
+slug: "opex-during-scale-up"
 date: 2019-10-29 00:00:00 +0200
 description: "A case study on how to apply operational excellence to keep delivering value during a tech start-up's scale-up phase"
 author: Nadia Humbert-Labeaumaz
