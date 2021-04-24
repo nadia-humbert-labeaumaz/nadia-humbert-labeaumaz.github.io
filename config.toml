@@ -1,6 +1,6 @@
 ################################# Basic configuration #########################
 # Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-baseURL = "http://examplesite.org"
+baseURL = "https://nadia-humbert-labeaumaz.github.io"
 title = "Nadia Humbert-Labeaumaz"
 theme = "airspace-hugo"
 # Number of posts per page in list view
@@ -20,6 +20,8 @@ googleAnalytics = ""
 
 [outputs]
 home = [ "HTML" ]
+[permalinks]
+blog = "/blog/:year/:month/:day/:title"
 
 
 ################################# Markup ######################################
