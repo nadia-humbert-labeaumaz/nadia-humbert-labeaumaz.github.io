@@ -43,7 +43,7 @@ unsafe = true
 title = "Nadia Humbert-Labeaumaz"
 description = "Entrepreneur, consultant, bio-sciences and software engineer."
 author = "Nadia Humbert-Labeaumaz"
-images = [ "" ] # First image here will be used as fallback if a page has no images of its own
+images = [ "/images/slider.jpg" ] # First image here will be used as fallback if a page has no images of its own
 
 
 ################################# Sidebar widgets #############################
