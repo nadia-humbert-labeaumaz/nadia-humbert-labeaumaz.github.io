@@ -1,13 +1,11 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Publish
 
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
-  pull_request:
     branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -45,3 +43,14 @@ jobs:
           user_name: nphumbert
           user_email: np.humbert@gmail.com
           publish_branch: gh-pages
+          
+      - name: Deploy nphumbert
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.TOKEN }}
+          external_repository: nphumbert/nphumbert.github.io
+          publish_dir: ./public
+          #   keep_files: true
+          user_name: nphumbert
+          user_email: np.humbert@gmail.com
+          publish_branch: master
