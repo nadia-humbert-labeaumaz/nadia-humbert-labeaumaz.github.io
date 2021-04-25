@@ -13,7 +13,7 @@ draft: false
 comments: true
 ---
 
-With Kayli Dale, Co-founder and CEO at A Friendlier Company, we provided insights into kick-starting your own (social) venture!
+With Kayli Dale, Co-founder and CEO at A Friendlier Company, we discussed how to kick-start your own (social) venture!
 
 <!--more-->
 
