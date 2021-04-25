@@ -20,7 +20,7 @@ about:
   I hold a Master of Business Administration, a Master of Science in Biochemistry and Biotechnology Engineering and an Advanced Master in Computer Science.
 
 
-  During my experiences, I have had the chance to work with a wide range of stakeholders in startups, medium-sized and large enterprises from various industries while occupying different roles both as an external consultant and employee. I have also created and managed my own business."
+  During my experiences, I have worked with a wide range of stakeholders in startups, medium-sized and large enterprises from various industries while occupying various roles both as an external consultant and employee. I have also created and managed my own business."
 
   button:
     enable : true
@@ -92,7 +92,7 @@ features:
   # feature item loop
   - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Entrepreneurship"
-    content : "I developed a free platform to help Honduran entrepreneurs manage their invoices. I created a successful IT consulting company (Crafties) in Lyon, France (150k€ annual revenues). Recently, I started the Social Impact Guild, an organisation supporting social entrepreneurs and raising awareness about social entrepreneurship."
+    content : "I developed a free platform to help Honduran entrepreneurs manage their invoices. I also created a successful IT consulting company (Crafties) in Lyon, France (150k€ annual revenues). Recently, I started the Social Impact Guild, an organisation supporting social entrepreneurs and raising awareness about social entrepreneurship."
 
 #################################### testimonial & mission vision #######################################
 testimonial:
@@ -115,7 +115,7 @@ mission_vision:
     At work, I foster open and respectful communication as well as active and empathetic listening.
 
 
-    I also strive to develop a holistic view of the organisation by considering all its components and talking to its different stakeholders, allowing me to make informed decisions.
+    I also strive to develop a holistic view of the organisation by considering all its components and collaborating with all its stakeholders, allowing me to make informed decisions.
 
 
     In the communities I belong to, I always try to share what I can learn along the way. It translates in many forms, from informal conversations to workshops, talks, videos or blog articles.
