@@ -16,7 +16,7 @@ comments: true
 Durant mon travail, j'ai rencontré des dépendances circulaires dans une application sur laquelle je suis intervenue. Dans sa plus simple forme, il s'agit de deux classes qui dépendent l'une de l'autre.
 Ceci est, selon moi, un problème pour plusieurs raisons. L'objectif de cet article est de montrer ce qu'est une dépendance circulaire, en quoi cela peut poser problème, et comment les éliminer.
 
-<!-- more -->
+<!--more-->
 
 ## Cas d'étude
 

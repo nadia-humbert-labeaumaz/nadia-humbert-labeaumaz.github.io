@@ -19,7 +19,7 @@ J'ai eu la chance d'assister récemment à une présentation de [Tomasz Jaskula]
 
 L'objectif de cet article est de présenter ma compréhension et mon avis sur le CQRS en particulier.
 
-<!-- more -->
+<!--more-->
 
 ## Mise en place
 

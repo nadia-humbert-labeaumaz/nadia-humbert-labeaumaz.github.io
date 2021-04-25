@@ -17,7 +17,7 @@ Tests are an essential part of our codebase. At the very least, they minimize th
 
 The goal of this article is to describe a strategy to use them in order to test Java Spring Boot microservices. For every type of test, we will try to explain its role, its scope as well as tooling we like to use.
 
-<!-- more -->
+<!--more-->
 
 ## Anatomy of a Microservice
 

@@ -16,7 +16,7 @@ comments: true
 Once upon a time, there was a young woman that had plenty of projects and passions and was a bit hyperactive. She doesn't really enjoy talking about her life and asks herself very seriously how is she going to write this post.
 Among her early age dreams were learning many things about science, especially biosciences, and about software engineering. She started with biosciences (by the way, they are extremely fascinating, nothing is more complex and well crafted than the human body) and then she decided to continue with software engineering. However, the software engineering program that she completed only lasted one year (6 months of classes and 6 months of internship). Of course, this was only a door to access the world that she wanted to discover so much.
 
-<!-- more -->
+<!--more-->
 
 Not having much knowledge nor experience in IT, she was (and she still is) looking for methods, tools and good practices that would allow her to progress and produce clean code. Among these tools there is TDD.
 

@@ -19,7 +19,7 @@ I have noticed that, in the context of microservices, these tests are very cost-
 
 The goal of this article is to show how to make these tests robust. The main idea is to make them independent of the implementation.
 
-<!-- more -->
+<!--more-->
 
 The following example shows a Gherkin specification, for a booking HTTP API, that is very coupled to the technical implementation:
 ```gherkin

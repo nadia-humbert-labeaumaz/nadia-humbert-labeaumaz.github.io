@@ -14,7 +14,7 @@ comments: true
 
 Recently, I conducted a workshop about how to go back in time with Git alongside [Renaud](https://twitter.com/rnowif). Here are the main points that were raised during this session.
 
-<!-- more -->
+<!--more-->
 
 ## Case #1: Delete the Last Commit
 

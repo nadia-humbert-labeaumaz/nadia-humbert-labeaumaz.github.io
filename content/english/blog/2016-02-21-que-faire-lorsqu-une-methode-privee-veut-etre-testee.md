@@ -19,7 +19,7 @@ Les méthodes privées (et _protected_) ne faisant pas partie de l'API publique 
 
 Cet article a pour objectif de montrer comment réagir lorsqu'il paraît nécessaire de tester une méthode privée.
 
-<!-- more -->
+<!--more-->
 
 ## Contexte
 

@@ -15,7 +15,7 @@ comments: true
 
 XYZ is transitioning from a small tech start-up to a larger organisation, reporting a double-digit growth over the past six years. Today, the company is experiencing difficulties to satisfy its customers’ needs. This briefing aims to provide the company with recommendations on how to keep delivering value during its ongoing scale-up phase.
 
-<!-- more -->
+<!--more-->
 
 ## Background
 By law, French businesses in specific industries must collect and authenticate their contractors’ legal documents or delegate this task to a trusted third-party, such as XYZ. The company offers its services through an online platform, to which contractors can upload their documents. XYZ’s purpose is to reduce its customers’ administrative burden to let them focus on their core business activities.

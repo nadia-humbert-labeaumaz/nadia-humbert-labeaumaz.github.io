@@ -15,7 +15,7 @@ comments: true
 
 After WWII, Charles de Gaulle boosted the French economy and helped road hauliers, farmers and artisans, who depended on diesel, by reducing the taxation on this fuel for the first time.
 
-<!-- more -->
+<!--more-->
 
 Later, in 1980, Toyota and its revolutionary production model flooded the French market with economical and reliable cars. At the same time, France was replacing all its diesel-based power plants with nuclear ones to ensure energetic independence. To increase the competitive advantage of French manufacturers, specialised in diesel motors, and get rid of the million litres of now useless diesel from the power plants, the government offered new diesel incentives.
 

@@ -23,7 +23,7 @@ Le code source de ces katas est disponible sur GitHub :
 
 Dans cet article, je vais présenter des particularités de Kotlin que j'ai pu rencontrer.
 
-<!-- more -->
+<!--more-->
 
 ## Généralités
 

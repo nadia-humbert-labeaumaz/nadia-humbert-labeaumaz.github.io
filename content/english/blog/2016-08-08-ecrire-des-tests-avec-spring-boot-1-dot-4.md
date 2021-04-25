@@ -16,7 +16,7 @@ comments: true
 La version 1.4 de Spring Boot est sortie le 28 juillet 2016. Elle contient notamment des évolutions importantes au niveau de l'écriture des tests.  
 L'objectif de cet article est de voir comment migrer les tests d'un _controller_ Spring MVC en utilisant les nouvelles fonctionnalités apportées par cette version.
 
-<!-- more -->
+<!--more-->
 
 ## Modification du pom.xml
 

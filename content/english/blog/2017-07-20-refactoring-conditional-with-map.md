@@ -38,7 +38,7 @@ public class Day {
 
 Basically, depending on the weather, an action has to be taken. This kind of code is pretty hard to test and to maintain. The goal of this article is to refactor it using a `Map`.
 
-<!-- more -->
+<!--more-->
 
 ## What is the Problem?
 

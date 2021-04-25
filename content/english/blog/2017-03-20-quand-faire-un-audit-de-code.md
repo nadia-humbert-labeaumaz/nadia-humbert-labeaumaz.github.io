@@ -14,7 +14,7 @@ comments: true
 
 Dans notre activité, nous sommes amenés à faire régulièrement des audits de code. Planifié ou forcé, un audit a pour but de déterminer la qualité logicielle d'une base de code et de faire des préconisations pour améliorer sa santé. L'objectif de cet article est de faire un retour d'expérience sur les différentes circonstances qui mènent à la réalisation d'un tel audit.
 
-<!-- more -->
+<!--more-->
 
 ## Tout semble aller, un audit pour vérifier qu'on est sur les rails
 

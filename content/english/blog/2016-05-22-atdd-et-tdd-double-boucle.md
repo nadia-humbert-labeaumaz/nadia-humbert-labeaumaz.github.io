@@ -17,7 +17,7 @@ L'_Acceptance Test Driven Development_ est une pratique qui consiste à écrire 
 
 L'objectif de cet article est de présenter l'ATDD et comment le mettre en pratique grâce à du TDD double boucle.
 
-<!-- more -->
+<!--more-->
 
 ## ATDD
 

@@ -16,7 +16,7 @@ comments: true
 Since Spring 3.2 (January, 2013), it is possible to test Spring MVC controllers without an external framework.
 The goal of this article is to show how to test Spring MVC controllers using only Spring testing capabilities.
 
-<!-- more -->
+<!--more-->
 
 To do so, a very simple Spring Boot project will be used as a support. You can find it on [GitHub](https://github.com/nphumbert/demo-test-spring-mvc). The controller to test will first be introduced. Then, explanations will be given on how to test it.
 

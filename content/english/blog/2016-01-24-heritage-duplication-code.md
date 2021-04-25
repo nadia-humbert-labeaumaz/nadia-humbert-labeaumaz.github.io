@@ -17,7 +17,7 @@ L'héritage est une composante très importante des langages orientés objet tel
 
 Il m'est arrivé de rencontrer des cas où l'héritage était utilisé afin de ne pas dupliquer du code. Le but de cet article est d'illustrer une telle utilisation, d'analyser ses inconvénients et de montrer une manière possible de la corriger.
 
-<!-- more -->
+<!--more-->
 
 ## Contexte
 

@@ -17,7 +17,7 @@ In a microservices architecture, several things can go wrong. A middleware, the 
 
 The goal of this article is to show how to implement the circuit breaker pattern using Hystrix, Feign Client and Spring Boot.
 
-<!-- more -->
+<!--more-->
 
 ## Feign Client Crash Course
 

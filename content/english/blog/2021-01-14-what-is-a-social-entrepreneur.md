@@ -16,7 +16,7 @@ comments: true
 Nowadays, several definitions of social entrepreneurship coexist.
 I think this ambiguity might sometimes dilute social entrepreneurs' image, reduce their credibility vis-a-vis other entrepreneurs, weaken the relevance of the insights they receive and, ultimately, harm their purpose. Therefore, having a shared understanding of what social entrepreneurship means seems essential.
 
-<!-- more -->
+<!--more-->
 
 ## A Social Entrepreneurship Definition
 

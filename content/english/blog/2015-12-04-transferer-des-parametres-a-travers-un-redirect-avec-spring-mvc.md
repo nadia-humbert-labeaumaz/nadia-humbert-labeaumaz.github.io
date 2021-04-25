@@ -20,7 +20,7 @@ Cette solution n'est pas toujours adpatée pour des raisons de confidentialité,
 
 L'objectif de cet article est de démontrer comment transférer des paramètres à travers une redirection avec Spring MVC en utilisant des _flash attributes_. L'exemple utilisé consistera en un formulaire qui permet d'envoyer un nom. Ce nom s'affichera ensuite une fois le formulaire soumis.  
 
-<!-- more -->
+<!--more-->
 
 ## Traitement du formulaire
 

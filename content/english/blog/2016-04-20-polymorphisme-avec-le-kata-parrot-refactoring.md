@@ -17,7 +17,7 @@ Ce kata est tiré d'un exemple du livre "Refactoring, Improving the Design of Ex
 L'exemple contient des signes de mauvais design et permet notamment de pratiquer le polymorphisme.  
 Dans cet article, une solution à ce kata sera développée. Le projet qui a servi de support se trouve sur [GitHub](https://github.com/nphumbert/kata-parrot-refactoring) avec la solution respective.
 
-<!-- more -->
+<!--more-->
 
 ## Contexte
 

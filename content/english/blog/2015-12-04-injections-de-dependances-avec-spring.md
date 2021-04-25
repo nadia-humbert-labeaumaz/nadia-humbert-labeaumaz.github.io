@@ -21,7 +21,7 @@ Il existe plusieurs méthodes pour injecter une dépendance dans un objet Java :
 
 Cet article a pour objectif de définir ces différentes méthodes, de décrire leurs avantages et inconvénients et indiquer leurs cas d'utilisation.
 
-<!-- more -->
+<!--more-->
 
 Dans la plupart des applications Java d'entreprise, il y a des services ayant besoin de DAO pour accéder à la base de données. Le code suivant est une illustration de ce cas :
 

@@ -18,7 +18,7 @@ La configuration Java de Spring Security est supportée depuis sa version 3.2 ([
 
 L'objectif de cet article est de montrer comment configurer Spring Security en Java config, dans une application Spring Boot, avec une base de données qui contient les utilisateurs et leur mot de passe hashé. De plus, une authentification HTTP basic sera mise en place.
 
-<!-- more -->
+<!--more-->
 
 ## Créer la classe de configuration
 

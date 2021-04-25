@@ -17,7 +17,7 @@ Bob is a developer. Bob has been asked to add a brand new feature to the applica
 
 Sounds familiar? Indeed, refactoring is often seen as an activity without any value. Other things in life can also seem worthless. There is one that takes almost a third of our lives during which we do literally nothing: *sleeping*!
 
-<!-- more -->
+<!--more-->
 
 The number of things that we could do if we didn't sleep! However, after a few days, even hours, unpleasant events would eventually occur. Without sleep, the most trivial tasks can become very difficult to accomplish and weird mistakes can take place (like pouring orange juice into your bowl of cereal). After a while, sleep takes suddenly over, which can lead to accidents (because of drowsy driving, for example).
 

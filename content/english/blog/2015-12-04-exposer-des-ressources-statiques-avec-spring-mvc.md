@@ -19,7 +19,7 @@ Ces fichiers sont stockés sur le serveur et ne sont donc pas accessibles à l'u
 
 L'objectif de cet article est d'exposer des fichiers stockés sur le serveur via une URL dans une application Spring MVC.
 
-<!-- more -->
+<!--more-->
 
 ## Surcharge de la configuration web
 
