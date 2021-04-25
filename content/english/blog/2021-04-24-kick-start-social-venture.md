@@ -3,7 +3,7 @@ type: "post"
 title: "How to Kick-Start a Social Venture?"
 slug: "kick-start-social-venture"
 date: 2021-04-24 21:27:00 +0600
-description: "With Kayli Dale, Co-founder and CEO at A Friendlier Company, we provide insights into kick-starting your own (social) venture!"
+description: "With Kayli Dale, Co-founder and CEO at A Friendlier Company, we discussed how to kick-start your own (social) venture!"
 author: Nadia Humbert-Labeaumaz
 image : "images/blog/kick-start-social-venture/header.jpg"
 bg_image: "images/blog/kick-start-social-venture/header.jpg"
