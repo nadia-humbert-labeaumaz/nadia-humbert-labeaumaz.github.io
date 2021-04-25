@@ -4,6 +4,12 @@
 
 <!-- Gallery Start -->
 <section class="gallery">
+
+  <div class="subscribe">
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <div class="g-ytsubscribe" data-channelid="{{ .Params.youtube_channel }}" data-layout="full" data-count="default"></div>
+  </div>
+
     {{ range .Params.items }}
     <div class="gallery-item">
       <img src="{{ .thumbnail | relURL }}" alt="{{ .title }}">

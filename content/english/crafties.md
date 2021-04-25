@@ -2,8 +2,9 @@
 title: "Crafties"
 description: "Videos about software engineering"
 bg_image: "images/experience/crafties.jpg"
-layout: "crafties"
+layout: "videos-gallery"
 draft: false
+youtube_channel: "UCZjAiQD5Wl_vLQPvzT6dl1g"
 cta:
   enable: true
   bg_image: "images/contact.jpg"
