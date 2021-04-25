@@ -12,7 +12,7 @@ disableLanguages = []
 # Short name to enable Disqus comments
 disqusShortname = "" # Get your shortname from here: https://disqus.com/profile/signup/
 # Measurement ID (G-XXXXXXX) to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "G-FDXGPB3FE3"
 
 
 ################################# Output formats ##############################
@@ -201,6 +201,11 @@ weight = 5
 weight = 6
 name = "Videos"
 hasChildren = true
+
+  [[languages.en.menu.main]]
+  parent = "Videos"
+  name = "Business Chunks"
+  URL = "business-chunks"
 
   [[languages.en.menu.main]]
   parent = "Videos"
