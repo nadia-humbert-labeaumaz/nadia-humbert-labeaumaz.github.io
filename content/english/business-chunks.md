@@ -19,6 +19,6 @@ items:
   - title: "Episode #1 -  Effecting long-lasting changes"
     date: 2021-04-25
     thumbnail: "images/business-chunks/episode-1.png"
-    link: "https://youtu.be/W0cGSslQFlc"
+    link: "https://www.youtube.com/watch?v=x-hK5S2df6Y"
 
 ---
