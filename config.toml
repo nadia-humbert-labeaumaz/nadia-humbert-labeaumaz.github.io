@@ -202,10 +202,10 @@ weight = 6
 name = "Videos"
 hasChildren = true
 
-  [[languages.en.menu.main]]
-  parent = "Videos"
-  name = "Business Chunks"
-  URL = "business-chunks"
+  # [[languages.en.menu.main]]
+  # parent = "Videos"
+  # name = "Business Chunks"
+  # URL = "business-chunks"
 
   [[languages.en.menu.main]]
   parent = "Videos"
