@@ -9,6 +9,13 @@
             {{ end }}
 					</ul>
 				</div>
+					<div class="footer-menu">
+						<ul>
+	            {{ range site.Params.social }}
+	            <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+	            {{ end }}
+						</ul>
+					</div>
 				<p class="copyright">{{ site.Params.copyright | markdownify }}</p>
 			</div>
 		</div>

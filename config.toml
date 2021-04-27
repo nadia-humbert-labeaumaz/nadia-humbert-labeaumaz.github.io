@@ -227,11 +227,6 @@ hasChildren = true
   name = "Talks"
   URL = "talks"
 
-[[languages.en.menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 8
-
 # Footer menu
 [[languages.en.menu.footer]]
 name = "Home"
@@ -257,8 +252,3 @@ weight = 4
 name = "Case Studies"
 URL = "categories/case-studies"
 weight = 5
-
-[[languages.en.menu.footer]]
-name = "Contact"
-URL = "contact"
-weight = 6
