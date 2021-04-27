@@ -17,15 +17,13 @@ With Kayli Dale, Co-founder and CEO at A Friendlier Company, we discussed how to
 
 <!--more-->
 
-## Insights into Kick-Starting a Social Venture
-
-### Finding the Idea
+## Finding the Idea
 
 "Find a problem that you are passionate about. It is not an easy journey! If you do not feel incredibly passionate about what you are doing, and if it does not give you the motivation to keep going, it is going to be tough.", Kayli underlines.
 
 The idea is to make sure to "choose a problem that **needs** solving," and you are willing to put the effort in to solve it.
 
-### First Steps
+## First Steps
 
 Kayli believes it is crucial always to be adaptable and **resilient**. A Friendlier Company faced two significant obstacles at the beginning:
 - Being constantly **rejected**; and
@@ -38,7 +36,7 @@ Moreover, Kayli highlights that "every piece of [their] process was a big undert
 - **Networking** with as many people as possible; and
 - Being willing to change your mind about your ideas.
 
-### Scaling-up
+## Scaling-up
 
 Raising equity enables growth and scaling-up quickly to make a significant impact. A Friendlier Company won funding through programs first, then small equity fundraising and now they are contemplating opening up their pre-seed.
 

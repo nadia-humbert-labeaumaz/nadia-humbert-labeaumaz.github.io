@@ -17,7 +17,7 @@ With Charlene Nadaline, Founder and CEO at Amintro, we uncovered insights into b
 
 <!--more-->
 
-## How To Build a Sustainable Free Platform?
+## One Revenue Model
 
 You can stay true to your values and develop an inclusive and sustainable business without having to opt for a freemium model.
 
@@ -31,7 +31,11 @@ Charlene used her extensive marketing and editorial sales experience to develop 
 
 Amintro's partners include financial institutions, insurance companies, travel agencies, food manufacturers, among others, that provide services and products to support her target demographic. Note that these partnerships are also **aligned** with the company's purpose as they allow giving seniors access to valuable information for their mental and physical well-being.
 
+## Marketing
+
 In terms of marketing, your positioning can significantly differ between your clientele and the people you want to support.
+
+## Scale Up
 
 To scale up your purpose and increase your impact, it might be necessary to consider fundraising. "We have identified other opportunities for our stakeholders that will generate revenue, and we are [, therefore,] going into fundraising to build out our intellectual property and technology".
 
