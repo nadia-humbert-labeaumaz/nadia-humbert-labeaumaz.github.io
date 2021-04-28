@@ -12,8 +12,8 @@ cta:
   content: "I am always open to learning and chatting with people!"
   button:
     enable: true
-    label: "Get in touch"
-    link: "contact"
+    label: "Get in touch on LinkedIn"
+    link: "https://www.linkedin.com/in/nadia-humbert-labeaumaz/"
 
 items:
   - title: "Episode #10 - Functional Programming with Java 8"
