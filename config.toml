@@ -199,33 +199,46 @@ weight = 5
 
 [[languages.en.menu.main]]
 weight = 6
-name = "Videos"
+name = "Crafties"
 hasChildren = true
 
-  # [[languages.en.menu.main]]
-  # parent = "Videos"
-  # name = "Business Chunks"
-  # URL = "business-chunks"
+  [[languages.en.menu.main]]
+  parent = "Crafties"
+  identifier = "Crafties - Videos"
+  name = "Videos"
+  URL = "crafties"
+  weight = 1
 
   [[languages.en.menu.main]]
-  parent = "Videos"
-  name = "Crafties"
-  URL = "crafties"
+  parent = "Crafties"
+  identifier = "Crafties - Drafties"
+  name = "Drafties"
+  URL = "drafties"
+  weight = 2
+
+  [[languages.en.menu.main]]
+  parent = "Crafties"
+  identifier = "Crafties - Talks"
+  name = "Talks"
+  URL = "talks"
+  weight = 3
 
 [[languages.en.menu.main]]
 weight = 7
-name = "More"
+name = "Social Impact Guild"
 hasChildren = true
 
-  [[languages.en.menu.main]]
-  parent = "More"
-  name = "Drafties"
-  URL = "drafties"
+    [[languages.en.menu.main]]
+    parent = "Social Impact Guild"
+    identifier = "SIG - Blog"
+    name = "Blog"
+    URL = "https://blog.socialimpactguild.com"
 
-  [[languages.en.menu.main]]
-  parent = "More"
-  name = "Talks"
-  URL = "talks"
+    [[languages.en.menu.main]]
+    parent = "Social Impact Guild"
+    identifier = "SIG - Videos"
+    name = "Videos"
+    URL = "https://www.youtube.com/channel/UCyZZjLr31BF_o_mJINm5AlA"
 
 # Footer menu
 [[languages.en.menu.footer]]
