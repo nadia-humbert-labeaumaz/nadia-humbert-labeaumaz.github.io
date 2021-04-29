@@ -1,6 +1,6 @@
 ---
 type: "post"
-title: "How to Effect Long-Lasting Organizational Changes?"
+title: "How to Effect Long-Lasting Organizational Changes"
 slug: "effecting-long-lasting-changes"
 date: 2021-04-28 19:48:00 +0600
 description: "Changes will happen whether we want them or not. But what can make these changes successful in the long run?"
