@@ -21,7 +21,7 @@ Changes will happen whether we want them or not. But what can make these changes
 
 <!--more-->
 
-First, we need to understand that we have two different processes at stake: the change process itself and the transition.
+First, we need to understand that we have two different processes at stake: the **change process** itself and the **transition**.
 
 In our example, the change process can include getting a laptop, having flexible hours to take care of the children, having proper tools to communicate, among others.
 
@@ -29,7 +29,7 @@ On the other hand, the transition is more about getting to accept and leverage t
 
 While the change might be imposed on you, the transition is a personal journey – we all go through it differently!
 
-These two separate processes have different lifecycles and potentially different actors and actions. However, they affect each other. Indeed, a well-managed change can facilitate the transition, and a smooth transition makes the change successful in the long run. For instance, having access to the right resources and having clear and simple guidelines regarding flexible work can significantly impact people's transition. On the flip side, people's well-being is crucial for sustainable change.   
+These two separate processes have different lifecycles and potentially different actors and actions. However, they affect each other. Indeed, **a well-managed change can facilitate the transition, and a smooth transition makes the change successful in the long run**. For instance, having access to the right resources and having clear and simple guidelines regarding flexible work can significantly impact people's transition. On the flip side, people's well-being is crucial for sustainable change.   
 
 As a change agent, it is crucial to enable people's transition. Organizations often overlook this. However, not doing so sets your organization up for failure. To effect long-lasting changes, you should make sure that everyone finishes their transition.
 
