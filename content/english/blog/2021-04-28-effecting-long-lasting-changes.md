@@ -11,6 +11,7 @@ categories: ["Business"]
 tags: ["Change Management"]
 draft: false
 comments: true
+canonicalUrl: "https://www.linkedin.com/pulse/how-effect-long-lasting-organizational-changes-humbert-labeaumaz/"
 ---
 
 Change is hard.
