@@ -30,9 +30,6 @@ On the other hand, the transition is more about getting to accept and leverage t
 While the change might be imposed on you, the transition is a personal journey – we all go through it differently! These two separate processes have different lifecycles and potentially different actors. However, they affect each other. Indeed, **a well-managed change can facilitate the transition, and a smooth transition makes the change successful in the long run**. For instance, having access to the right resources and having clear and simple guidelines regarding flexible work can significantly impact people's transition. On the flip side, people's well-being in the new context is crucial for sustainable change.  
 
 As a change agent, it is essential to enable people's transition. Organizations often overlook this. However, not doing so sets your organization up for failure. To effect long-lasting changes, you should make sure that everyone finishes their transition.
-The Takeaway
-
-Lasting changes are the product of the change process, which is usually the same for all the organization members, and the transition, which is unique to everyone. The completion of both these interrelated processes is required to succeed in the long run.
 
 ## The Takeaway
 Lasting changes are the product of the change process, which is usually the same for all the organization members, and the transition, which is unique to everyone. The completion of both these interrelated processes is required to succeed in the long run.
