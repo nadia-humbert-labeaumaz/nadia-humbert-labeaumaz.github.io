@@ -15,7 +15,7 @@ comments: true
 
 Change is hard.
 
-However, sometimes, we cannot avoid it as we all have witnessed in the past year. This state of fact applies to our personal lives, as well as at the organizational level. For instance, companies that did not even consider remote working as an option less than two years ago must let us work from home now.
+However, sometimes, we cannot avoid it. This state of fact applies to our personal lives, as well as at the organizational level. For instance, companies that did not even consider remote working as an option less than two years ago must let us work from home now.
 
 Changes will happen whether we want them or not. But what can make these changes successful in the long run?
 
