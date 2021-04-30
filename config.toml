@@ -240,6 +240,12 @@ hasChildren = true
     name = "Videos"
     URL = "https://www.youtube.com/channel/UCyZZjLr31BF_o_mJINm5AlA"
 
+    [[languages.en.menu.main]]
+    parent = "Social Impact Guild"
+    identifier = "SIG - LinkedIn"
+    name = "Community on LinkedIn"
+    URL = "https://www.linkedin.com/company/social-impact-guild/"
+
 # Footer menu
 [[languages.en.menu.footer]]
 name = "Home"
