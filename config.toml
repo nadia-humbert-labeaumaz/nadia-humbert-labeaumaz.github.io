@@ -102,6 +102,10 @@ expire_days = 2
 icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
 link = "https://www.linkedin.com/in/nadia-humbert-labeaumaz/"
 
+[[params.social]]
+icon = "ion-social-github-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://github.com/nphumbert"
+
 # [[params.social]]
 # icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
 # link = "#"
