@@ -46,25 +46,25 @@ The freshly established IT leadership team imposed an entirely different **techn
 ####	Processes, Practices and Tools
 In this context of technological reconstruction, expert consultants worked alongside the teams to set up state-of-the-art **processes and practices**: software quality, incremental and collaborative approach to product design, and self-organized teams. Furthermore, these experts integrated fit-for-purpose tools to replace previous obsolete ones.
 
-###	What Was the Guiding Force Behind the Change?
+###	Guiding Force Behind the Change
 The force behind the change included a “pushing” and a “pulling” component. The **recurring delays and delivery issues** pushed the company to consider rewriting its platform from the ground up – with the same set of features. However, given the current platform’s significant complexity and instability, the risks related to this endeavour were unacceptable.
 
 Simultaneously, an **opportunity to penetrate the German market** “pulled” the change towards building a new, leaner, platform. XYZ’s ambition was then for this platform to grow until it eventually replaces the existing one.
 
-###	What Strategies Were Employed?
+###	Strategies Employed
 XYZ employed a **task-aligned strategy** as coined in (Beer, Eisenstat, & Spector, 1990). Indeed, the CTO began by resetting all roles and responsibilities within the business unit and leveraged experts’ experience to focus on the work at hand. After the teams matured through the forming and storming stages , new roles emerged eventually (norming stage).
 
 Moreover, the development efforts first focused on **peripheral features** to iteratively converged towards XYZ’s core business as the teams acquired the new organizational and technical practices.
 
-###	What Barriers to Change Were Encountered? How Were They Dealt With?
+###	Barriers to Change
 The IT department encountered barriers to change from both inside and outside the business unit. Internally, most people were **unfamiliar with the methods and technologies** they had to master. Besides hiring expert consultants, the company overcame this barrier by fostering self-organization among teams to create a “team of teams” (Tuckman’s performing stage).
 
 Moreover, the **impatience and general lack of trust** from the rest of the company generated anxiety among the IT department’s employees. Consequently, XYZ decided to release features early and often to achieve quick-wins, over-communicate every success to educate about the change and vision, and commit only to what the teams could realistically deliver.
 
-###	How Well Was the Change Implemented?
+###	Change Implementation
 Two years into the change, all customers switched to the new platform and XYZ discontinued the previous one. New structures and systems are now in place and, after the initial restructuring, the IT department experienced limited turnover. Moreover, the expert consultants left, and the teams kept developing new competencies and improving continuously.
 
-###	Examining and Assessing the Change Agent's Role
+###	Change Agent's Role
 Throughout the revitalization effort, the CTO relentlessly championed change and was accountable for its progress. As a change agent, he displayed a set of skills, including speaking skills, openness and adaptiveness, analytical skills, leadership and resilience.
 
 He used these assets to communicate a **clearly articulated vision** about the desired future openly and regularly. Moreover, he stayed positive yet realistic about the situation, celebrated small successes and collected **feedback** continuously. Otherwise, he surrounded himself with competent people (e.g. technical experts and leaders) to fill his knowledge gap in specific areas.
