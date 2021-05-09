@@ -9,7 +9,7 @@ image : "images/blog/transformation-assessment/header.jpg"
 bg_image: "images/blog/transformation-assessment/header.jpg"
 categories: ["Business", "Case Studies"]
 tags: ["Change Management"]
-draft: false
+draft: true
 comments: true
 ---
 

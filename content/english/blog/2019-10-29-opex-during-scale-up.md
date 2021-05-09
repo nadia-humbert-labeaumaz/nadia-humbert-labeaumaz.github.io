@@ -9,7 +9,7 @@ image : "images/blog/opex-scale-up/header.jpg"
 bg_image: "images/blog/opex-scale-up/header.jpg"
 categories: ["Business", "Case Studies"]
 tags: ["Operational Excellence"]
-draft: false
+draft: true
 comments: true
 ---
 
