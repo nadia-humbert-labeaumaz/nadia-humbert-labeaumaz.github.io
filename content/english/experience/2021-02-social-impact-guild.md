@@ -1,7 +1,7 @@
 ---
 title: "Founder at the Social Impact Guild"
 date: 2021-01-01
-description: "Raising awareness about social entrepreneurship and supporting social entrepreneurs"
+description: "Providing insights into entrepreneurship and supporting social entrepreneurs"
 draft: false
 image : "images/experience/social-impact-guild.jpg"
 bg_image: "images/experience/social-impact-guild.jpg"
