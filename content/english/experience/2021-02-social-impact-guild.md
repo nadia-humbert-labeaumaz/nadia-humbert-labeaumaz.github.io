@@ -19,11 +19,9 @@ information:
 
 ## Description
 
-The Social Impact Guild is working on ways to support social entrepreneurs and raising awareness about social entrepreneurship.
+The Social Impact Guild aims to provide insights into entrepreneurship and support social entrepreneurs during their journey
 
-If you are a social entrepreneur or someone who wishes to enable social impact, you can express your interest in getting or providing support here: https://socialimpactguild.com/survey
+If you are someone who wishes to enable social impact, you can express your interest in getting or providing support here: https://socialimpactguild.com/survey
 
-To stay tuned about our initiatives, follow us on LinkedIn:
+Follow us on LinkedIn to get practical business insights, see our latest stories and stay tuned about our initiatives!
 https://www.linkedin.com/company/social-impact-guild/
-
-You can also subscribe to our newsletter to get insights into social entrepreneurship: https://blog.socialimpactguild.com/about
