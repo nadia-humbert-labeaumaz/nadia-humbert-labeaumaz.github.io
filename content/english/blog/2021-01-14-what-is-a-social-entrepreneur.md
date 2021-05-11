@@ -22,7 +22,7 @@ I think this ambiguity might sometimes dilute social entrepreneurs' image, reduc
 
 From my perspective, a social entrepreneur is an entrepreneur whose decisions are **primarily** driven towards effecting lasting, large-scale social benefits. This definition covers a specific section of the [social-business hybrid spectrum](https://www.researchgate.net/figure/A-social-enterprise-hybrid-spectrum-as-constructed-by-Kim-Alter-2007-p14_fig1_304624327), including non-profit organizations that leverage **business tools** to achieve sustainability and pursue their social mission at scale. However, it excludes corporations practising social responsibility as their social impact is not their primary focus.
 
-![Social Entreprise Spectrum](/images/blog/what-is-a-social-entrepreneur/spectrum.png)
+![Social Enterprise Spectrum](/images/blog/what-is-a-social-entrepreneur/spectrum.png)
 
 ## Some Insights Regarding Social Entrepreneurs
 
@@ -34,9 +34,9 @@ The social entrepreneurs I have met are also extremely action-oriented and lean 
 
 However, they are down-to-earth and want to effect social impact while generating benefits for themselves as well. These benefits can sometimes take a cathartic form: they relieve their pain by preventing others from suffering.
 
-My discussions also underlined that social entrepreneurs are resilient and believe they have (or can find) the skills to tackle the obstacles standing in their path. Nevertheless, this observation might be an instance of survivorship bias. Indeed, less optimistic people might have given up during the early stages of their journey, and I would not have had the chance to meet them. Otherwise, being overly optimistic can sometimes be the only path to succeed - as Mark Twain put it, *“they did not know it was impossible, so they did it”*.
+My discussions also underlined that social entrepreneurs are resilient and believe they have (or can find) the skills to tackle the obstacles standing in their path. Nevertheless, this observation might be an instance of survivorship bias. Indeed, less optimistic people might have given up during the early stages of their journey, and I would not have had the chance to meet them. Otherwise, being overly optimistic can sometimes be the only path to succeed - as Mark Twain put it, *“they did not know it was impossible, so they did it.”*
 
-Interestingly, despite their optimism and urge to act, social entrepreneurs I have met are not risk-takers. They started their venture with small investments and a home-made *do-it-yourself* approach. My chats revealed that this risk aversion could sometimes generate challenges when advancing to a higher-stake stage.
+Interestingly, despite their optimism and urge to act, social entrepreneurs I have met are not risk-takers. They started their venture with small investments and a homemade *do-it-yourself* approach. My chats revealed that this risk aversion could sometimes generate challenges when advancing to a higher-stake stage.
 
 Finally, I find that social entrepreneurs I know are particularly open to new ideas and insights. Nonetheless, this inference may be biased as they are all people willing to chat!
 
@@ -44,4 +44,4 @@ Finally, I find that social entrepreneurs I know are particularly open to new id
 
 Thanks so much for reading this post. I hope you enjoyed it!
 
-Reach out to me via [LinkedIn](https://www.linkedin.com/in/nadia-humbert-labeaumaz/) anytime.
+You can reach out to me via [LinkedIn](https://www.linkedin.com/in/nadia-humbert-labeaumaz/) anytime.
