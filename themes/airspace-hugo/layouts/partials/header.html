@@ -23,12 +23,20 @@
                   aria-expanded="false">{{ .Name }} <span class="ion-ios-arrow-down"></span></a>
                 <ul class="dropdown-menu">
                   {{ range .Children }}
-                  <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+                    {{ if hasPrefix .URL "http" }}
+                      <li><a href="{{ .URL | relLangURL }}" target="_blank">{{ .Name }}</a></li>
+                    {{ else }}
+                      <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+                    {{ end }}
                   {{ end }}
                 </ul>
               </li>
               {{ else }}
-              <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+                {{ if hasPrefix .URL "http" }}
+                  <li><a href="{{ .URL | relLangURL }}" target="_blank">{{ .Name }}</a></li>
+                {{ else }}
+                  <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+                {{ end }}
               {{ end }}
               {{ end }}
 
