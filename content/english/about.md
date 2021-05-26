@@ -17,10 +17,10 @@ about:
   My expertise lies in entrepreneurship, business strategy, change management, project coordination, operational excellence and marketing.
 
 
-  I hold a Master of Business Administration, a Master of Science in Biochemistry and Biotechnology Engineering and an Advanced Master in Computer Science.
+  During my experiences, I have worked with a wide range of stakeholders in startups, medium-sized and large enterprises from various industries worldwide both as an external consultant and employee. I have also created and managed my own business.
 
 
-  During my experiences, I have worked with a wide range of stakeholders in startups, medium-sized and large enterprises from various industries while occupying various roles both as an external consultant and employee. I have also created and managed my own business."
+  I hold a Master of Business Administration, a Master of Science in Biochemistry and Biotechnology Engineering and an Advanced Master in Computer Science."
 
   button:
     enable : true

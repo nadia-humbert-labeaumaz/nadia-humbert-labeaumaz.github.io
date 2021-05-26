@@ -15,14 +15,15 @@ banner:
 about:
   enable: true
   title: "My Story"
-  description: "I was born in a small country in Central America, worked towards going to France to have better opportunities in life and did it at 17 years old by myself. "
-  content: "Since then, I have travelled the world to study varied subjects and work.
+  description: "I moved to France by myself at 17 years old.
+
+  Since then, I have travelled the world to study varied subjects and work.
 
   During my journey, I have lived on 4 continents and learned from many cultures.
 
   I have also developed knowledge and skills in business, science and software engineering.
   "
-  image: "images/home-nadia.png"
+  image: "images/lyon.jpg"
 
 
 ######################### Portfolio ###############################
@@ -54,9 +55,9 @@ portfolio:
 ############################ call to action ###########################
 cta:
   enable: true
-  bg_image: "images/about.jpg"
+  bg_image: "images/experience/international.jpg"
   title: "International and Multifaceted Profile"
-  content: "I have worked with a wide range of stakeholders in startups, medium-sized and large enterprises from various industries worldwide while occupying different roles both as an external consultant and employee."
+  content: "I have occupied several roles while working with startups, medium-sized and large enterprises from various industries worldwide."
   button:
     enable: true
     label: "Learn more about me!"
@@ -65,28 +66,6 @@ cta:
 ############################# Funfacts ###############################
 funfacts:
   enable: false
-  title: "Fun Facts About Me"
-  description: "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
-  funfact_item:
-  # funfacts item loop
-  - icon: "ion-ios-chatboxes-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Cups Of Coffee"
-    count: "99"
-
-  # funfacts item loop
-  - icon: "ion-ios-glasses-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Article Written"
-    count: "45"
-
-  # funfacts item loop
-  - icon: "ion-ios-compose-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Projects Completed"
-    count: "125"
-
-  # funfacts item loop
-  - icon: "ion-ios-timer-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Combined Projects"
-    count: "200"
 
   testimonial_slider:
   # testimonial item loop
