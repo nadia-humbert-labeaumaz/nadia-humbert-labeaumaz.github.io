@@ -237,12 +237,14 @@ hasChildren = true
     identifier = "SIG - Newsletter"
     name = "Newsletter"
     URL = "https://socialimpactguild.com"
+    weight = 1
 
     [[languages.en.menu.main]]
     parent = "Social Impact Guild"
     identifier = "SIG - Blog"
     name = "Blog"
     URL = "https://blog.socialimpactguild.com"
+    weight = 2
 
 # Footer menu
 [[languages.en.menu.footer]]
