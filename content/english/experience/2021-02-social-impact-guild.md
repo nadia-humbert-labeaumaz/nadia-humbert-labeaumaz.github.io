@@ -1,7 +1,7 @@
 ---
 title: "Founder at the Social Impact Guild"
 date: 2021-01-01
-description: "Providing insights into entrepreneurship and supporting social entrepreneurs"
+description: "Raising awareness about social entrepreneurship and supporting social entrepreneurs"
 draft: false
 image : "images/experience/social-impact-guild.jpg"
 bg_image: "images/experience/social-impact-guild.jpg"
@@ -10,7 +10,7 @@ information:
   - label : "Client"
     info : "Social entrepreneurs"
   - label : "What We Do"
-    info : "Provide support"
+    info : "Provide visibility"
   - label : "Started on"
     info : "January 2021"
   - label : "Duration"
@@ -19,9 +19,9 @@ information:
 
 ## Description
 
-The Social Impact Guild aims to provide insights into entrepreneurship and support social entrepreneurs during their journey
+The Social Impact Guild aims to raise awareness about social entrepreneurship and support social entrepreneurs during their journey.
 
 If you are someone who wishes to enable social impact, you can express your interest in getting or providing support here: https://socialimpactguild.com/survey
 
-Follow us on LinkedIn to get practical business insights, see our latest stories and stay tuned about our initiatives!
-https://www.linkedin.com/company/social-impact-guild/
+Subscribe to our newsletter to get the hottest social impact news and stories every week in an easy-to-read email.
+https://socialimpactguild.com
