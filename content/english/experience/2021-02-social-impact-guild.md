@@ -19,9 +19,9 @@ information:
 
 ## Description
 
-The Social Impact Guild aims to raise awareness about social entrepreneurship and support social entrepreneurs during their journey.
+The Social Impact Guild shares the hottest social impact news and stories every week in an easy-to-read email packed with goodness!
 
-If you are someone who wishes to enable social impact, you can express your interest in getting or providing support here: https://socialimpactguild.com/survey
+Our goal is to spark joy and positivity among our readers and raise awareness around social entrepreneurship.
 
-Subscribe to our newsletter to get the hottest social impact news and stories every week in an easy-to-read email.
+Subscribe to our newsletter to start your week on a cheerful note.
 https://socialimpactguild.com
