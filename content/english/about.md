@@ -92,7 +92,7 @@ features:
   # feature item loop
   - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Entrepreneurship"
-    content : "I developed a free platform to help Honduran entrepreneurs manage their invoices. I also created a successful IT consulting company (Crafties) in Lyon, France (150k€ annual revenues). Recently, I started the Social Impact Guild, an organisation supporting social entrepreneurs and raising awareness about social entrepreneurship."
+    content : "I developed a free platform to help Honduran entrepreneurs manage their invoices. I also created a successful IT consulting company (Crafties) in Lyon, France (150k€ annual revenues). Recently, I started the Social Impact Guild, which supports social entrepreneurs and raises awareness about social entrepreneurship."
 
 #################################### testimonial & mission vision #######################################
 testimonial:
@@ -118,7 +118,7 @@ mission_vision:
     I also strive to develop a holistic view of the organisation by considering all its components and collaborating with all its stakeholders, allowing me to make informed decisions.
 
 
-    In the communities I belong to, I always try to share what I can learn along the way. It translates in many forms, from informal conversations to workshops, talks, videos or blog articles.
+    In the communities I belong to, I always try to share what I learn along the way. It translates in many forms, from informal conversations to workshops, talks, videos or blog articles.
     "  
 
   # tab item loop

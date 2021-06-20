@@ -97,6 +97,12 @@ funfacts:
   - name: "Dr Steven Tucker"
     image: "" #images/clients/avater-3.jpg
     designation: "Senior Lecturer - University of Aberdeen"
-    content: "In terms of communication, Nadia is excellent in both written and verbal forms. She [was] a well-mannered and pleasant student, with a relaxed and independent approach to learning. Nadia is more than capable of rising to a challenge and succeeding in making the most of every opportunity. All things considered, Nadia is a fully rounded, mature individual, with a talent and determination that will ensure success where ever her career takes her next."   
+    content: "In terms of communication, Nadia is excellent in both written and verbal forms. She [was] a well-mannered and pleasant student, with a relaxed and independent approach to learning. Nadia is more than capable of rising to a challenge and succeeding in making the most of every opportunity. All things considered, Nadia is a fully rounded, mature individual, with a talent and determination that will ensure success where ever her career takes her next."
+
+    # testimonial item loop
+  - name: "Albéric Martel"
+    image: "" #images/clients/avater-3.jpg
+    designation: "Freelance Software Developer"
+    content: "It was a pleasure to work with Nadia. She is a very communicative and positive person. She has very good human and technical skills and is always seeking to get the best of herself as well as help others do so. It would be a pleasure to collaborate again. Reach out to her - you won't be disappointed."
 
 ---
