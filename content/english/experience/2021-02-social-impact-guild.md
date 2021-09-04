@@ -19,9 +19,9 @@ information:
 
 ## Description
 
-The Social Impact Guild shares the hottest social impact news and stories every week in an easy-to-read email packed with goodness!
+The Social Impact Guild shares the hottest social innovation news and stories every week in an easy-to-read email packed with goodness!
 
-Our goal is to spark joy and positivity among our readers and raise awareness around social entrepreneurship.
+Our goal is to spark joy and innovation among our readers and raise awareness around social entrepreneurship.
 
-Subscribe to our newsletter to start your week on a cheerful note.
+Subscribe to our newsletter to start your week on a cheerful note:
 https://socialimpactguild.com

@@ -20,4 +20,4 @@ information:
 ## Description
 
 Created a channel to share insights into software engineering:
-https://www.youtube.com/channel/UCZjAiQD5Wl_vLQPvzT6dl1g
+https://www.youtube.com/Crafties
