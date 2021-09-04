@@ -26,6 +26,6 @@ It always started by participating in the company's day-to-day activities and in
 **Achievements**
 - • Helped 10+ companies seize new business opportunities, increase and enhance interactions and knowledge sharing, manage constraints, as well as simplify and optimise processes.
 
-- • Broke silos between departments and enabled company-wide communication by interacting with all the stakeholders (leadership, engineering, product and sales teams).
+- • Broke silos between departments and enabled company-wide initiatives by interacting with all the stakeholders (leadership, engineering, product and sales teams).
 - • Provided technical coaching to 15+ teams from 5 to 40 people. The teams could then develop new features readily and tackle technical debt while significantly reducing their defect rate.
 - • Audited 5+ software systems and provided concrete and actionable recommendations tailored to improve the code, architecture and development process.
