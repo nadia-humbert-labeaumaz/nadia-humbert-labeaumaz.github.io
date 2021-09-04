@@ -4,7 +4,7 @@ date: 2016-06-01
 description: "Created a space to share insights into business and entrepreneurship"
 draft: false
 image : "images/experience/meetup.jpg"
-bg_image: "images/experience/meetup.jpg"
+bg_image: "images/experience/business-insights.jpg"
 category: "Community Leadership"
 information:
   - label : "Location"
