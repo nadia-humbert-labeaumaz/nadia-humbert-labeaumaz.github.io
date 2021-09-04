@@ -67,7 +67,7 @@ features:
   # feature item loop
   - icon : "ion-arrow-graph-up-right" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Business Strategy"
-    content : "I developed the business strategy for my IT consulting company (Crafties) in Lyon, France. I also provided advice in this area to a few other startups and SMEs. Finally, I have started to develop a strategy for the Social Impact Guild, my latest initiative."
+    content : "I developed the business strategy for my businesses, including my consulting company Crafties and the Social Impact Guild. I also provided advice in this area to other startups and SMEs."
 
   # feature item loop
   - icon : "ion-ios-flag-outline" #ionicon pack v2 : https://ionicons.com/v2/

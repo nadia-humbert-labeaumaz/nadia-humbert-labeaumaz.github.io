@@ -94,15 +94,26 @@ funfacts:
     Her human qualities also make her a wonderful comrade!"
 
   # testimonial item loop
+  - name: "Céline Collomb"
+    image: " " #images/clients/avater-1.jpg
+    designation: "Head of Human Resources - Open"
+    content: "Working with Nadia means working in a good mood. Full of energy, convictions, desires, Nadia knows how to take a step back and bring her ideas to a team."
+
+  # testimonial item loop
   - name: "Dr Steven Tucker"
     image: "" #images/clients/avater-3.jpg
     designation: "Senior Lecturer - University of Aberdeen"
     content: "In terms of communication, Nadia is excellent in both written and verbal forms. She [was] a well-mannered and pleasant student, with a relaxed and independent approach to learning. Nadia is more than capable of rising to a challenge and succeeding in making the most of every opportunity. All things considered, Nadia is a fully rounded, mature individual, with a talent and determination that will ensure success where ever her career takes her next."
 
-    # testimonial item loop
+  # testimonial item loop
   - name: "Albéric Martel"
     image: "" #images/clients/avater-3.jpg
     designation: "Freelance Software Developer"
     content: "It was a pleasure to work with Nadia. She is a very communicative and positive person. She has very good human and technical skills and is always seeking to get the best of herself as well as help others do so. It would be a pleasure to collaborate again. Reach out to her - you won't be disappointed."
 
+  # testimonial item loop
+  - name: "Erwan Eveno"
+    image: " " #images/clients/avater-1.jpg
+    designation: "Director of Information Technology - Enedis"
+    content: "Nadia demonstrated an exceptional ability to master a new environment and new technologies. After a few weeks, she became an essential part of the project. Intellectually brilliant, Nadia adapts perfectly to her entire ecosystem, clients, colleagues, managers."
 ---
