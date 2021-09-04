@@ -21,7 +21,7 @@ information:
 
 The Social Impact Guild shares the hottest social innovation news and stories every week in an easy-to-read email packed with goodness!
 
-Our goal is to spark joy and innovation among our readers and raise awareness around social entrepreneurship.
+Our goal is to spark joy and innovation among our readers and raise awareness about social entrepreneurship.
 
 Subscribe to our newsletter to start your week on a cheerful note:
 https://socialimpactguild.com
