@@ -6,7 +6,7 @@ bg_image: "images/experience.jpg"
 cta:
   enable: true
   bg_image: "images/contact.jpg"
-  title: "Eager to Learn New Things and Meeting People"
+  title: "Eager to Learn New Things and Meet People"
   content: "I am always open to learning and chatting with people!"
   button:
     enable: true
