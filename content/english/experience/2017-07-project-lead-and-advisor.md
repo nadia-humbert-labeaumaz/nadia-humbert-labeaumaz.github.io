@@ -21,11 +21,12 @@ information:
 
 ## Description
 
-Led the development of a French startup’s international platform (15 people team). It was critical for the company’s business strategy as it allowed opening new markets in Europe.
+Enabled and led the development of a French startup’s international platform (15 people team). It was critical for the company’s business strategy as it allowed opening new markets in Europe.
 
 **Achievements**
 - • Doubled the team's long-term velocity, without compromising quality, by providing support for the entire team, fostering knowledge sharing, addressing functional and technical bottlenecks as well as introducing a more Agile and engaged mindset.
 
 - • Helped define a roadmap to ensure product-market fit.
+- • Ensured strategic alignment across departments.
 - • Set up a software development process which paved the way for the company to replace its legacy platform with this new one. This process successfully underwent an audit from EY.
 - • Reduced time-to-market to gain traction among the new customer base.
