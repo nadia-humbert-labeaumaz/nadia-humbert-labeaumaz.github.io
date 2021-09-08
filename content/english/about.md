@@ -67,22 +67,22 @@ features:
   # feature item loop
   - icon : "ion-arrow-graph-up-right" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Business Strategy"
-    content : "I developed the business strategy for my businesses, including my consulting company Crafties and the Social Impact Guild. I also provided advice in this area to other startups and SMEs, letting them achieve organizational goals and enabling their growth and success."
+    content : "I developed the business strategy for my businesses, including my consulting company Crafties and the Social Impact Guild. I also provided advice in this area to other startups and SMEs, enabling their growth and success."
 
   # feature item loop
   - icon : "ion-ios-flag-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Change Management"
-    content : "I successfully managed the organisational and technical changes and transition related to the scale up and development of a high-stake product for a French startup. It allowed opening new markets in Europe."
+    content : "I successfully managed the strategic, organisational and technical changes and transitions related to the scale-up of French startups, letting them seize new business opportunities and open new markets."
 
   # feature item loop
   - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Project Coordination"
-    content : "I have coordinated many projects. For instance, I led initiatives and teams for the French national electricity project Linky (~100 people), enabled the continuous delivery of value in a distributed-team context for a French startup, and coordinated a school renovation project in Honduras (30+ people)."
+    content : "I led initiatives and teams for the French national electricity project Linky (~100 people), enabled continuous delivery of value in a distributed-team context for a French startup, and coordinated a school renovation project in Honduras (30+ people), among other projects."
 
   # feature item loop
   - icon : "ion-speakerphone" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Marketing"
-    content : "I established and conducted a research methodology to define the target segment and the products' benefits to increase customer engagement for a Canadian startup. I have also provided some advice to a few other startups in this area. Finally, I have conducted market research for my ventures."  
+    content : "I designed a fit-for-purpose research methodology to define the target segment and products' benefits that would increase customer engagement for a Canadian startup. I also provided some advice in this area to a few other startups. Finally, I conducted market research for my ventures."  
 
   # feature item loop
   - icon : "ion-ios-cog-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -92,7 +92,7 @@ features:
   # feature item loop
   - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Entrepreneurship"
-    content : "I developed a free platform to help Honduran entrepreneurs manage their invoices. I also created a successful IT consulting company (Crafties) in Lyon, France (150k€ annual revenues). Recently, I started the Social Impact Guild, which supports social entrepreneurs and raises awareness about social entrepreneurship."
+    content : "I developed a free platform to help Honduran entrepreneurs manage their invoices. I also created a successful IT consulting company (Crafties) in Lyon, France. Recently, I started the Social Impact Guild, which supports social entrepreneurs and raises awareness about social entrepreneurship."
 
 #################################### testimonial & mission vision #######################################
 testimonial:
