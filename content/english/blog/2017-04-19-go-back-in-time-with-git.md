@@ -12,7 +12,7 @@ draft: false
 comments: true
 ---
 
-Recently, I conducted a workshop about how to go back in time with Git alongside [Renaud](https://twitter.com/rnowif). Here are the main points that were raised during this session.
+Recently, I conducted a workshop about how to go back in time with Git alongside [Renaud](https://twitter.com/rnowif). Here are the main points that we raised during this session.
 
 <!--more-->
 
@@ -26,7 +26,7 @@ The initial Git tree used to illustrate this case is:
 * c9b1299 N - Hello
 ```
 
-The goal here is to delete the last commit so the resulting tree looks like this:
+The goal here is to delete the last commit, so the resulting tree looks like this:
 
 ```bash
 * 26af837 N - (HEAD -> master) Hello, world
@@ -51,7 +51,7 @@ In this case, the initial Git tree is the same as before.
 * c9b1299 N - Hello
 ```
 
-We want to create a branch from the commit `26af837` to fix a bug for instance. The resulting tree should be the following:
+We want to create a branch from the commit `26af837` to fix a bug, for instance. The resulting tree should be the following:
 
 ```bash
 * ae77cf0 N - (HEAD -> bug-fix) Fixed it!
@@ -67,7 +67,7 @@ First, we need to position ourselves on the commit:
 $ git checkout 26af837
 ```
 
-Then, we are in the 'detached HEAD' state which means that we are no longer on a branch and further commits will not be kept. Consequently, we create the branch and commit the bug fix:
+Then, we are in the 'detached HEAD' state, which means we are no longer on a branch, and further commits will not be kept. Consequently, we can create the branch and commit the bug fix:
 
 ```bash
 $ git checkout -b bug-fix
@@ -123,7 +123,7 @@ We want the resulting tree to show no sign of the commit `b7d38ac`:
 * c9b1299 N - Hello
 ```
 
-The `git rebase -i` command allows to rewrite the history of a branch from a specific starting point. It will prompt the list of all the commits since this starting point. You can perform different actions on these commits like reword a commit message, squash several commits into one, reordering and delete commits for instance. After these modifications, lines will be executed from top to bottom. More information about rewriting history can be found [here](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History).
+The `git rebase -i` command allows rewriting the history of a branch from a specific starting point. And, it will prompt the list of all the commits since this starting point. Then, you can perform different actions on these commits like reword a commit message, squash several commits into one, reorder and delete commits. After these modifications, lines will be executed from top to bottom. You can find more information about rewriting history [here](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History).
 
 ```bash
 $ git rebase -i HEAD~2
@@ -134,7 +134,7 @@ Since we wanted to go two commits back, we used the notation `HEAD~2` to specify
 
 ## Case #5: Revert a Commit
 
-During this workshop, an attendee talked about the `git revert` command. Unlike the other commands that we saw in this article, the `git revert` command do not modify past commits. It creates a **new** commit that is the exact opposite of the reverted commit.
+During this workshop, an attendee talked about the `git revert` command. Unlike the other commands that we saw in this article, the `git revert` command does not modify past commits. Instead, it creates a **new** commit that is the exact opposite of the reverted commit.
 
 For instance, if we start from this Git tree:
 
@@ -144,7 +144,7 @@ For instance, if we start from this Git tree:
 * c9b1299 N - Hello
 ```
 
-and revert the commit a9f8fb3 which contains only a new file, a new commit that only contains the removal of this file will be created.
+and revert the commit a9f8fb3, which contains only a new file, a new commit that only contains the removal of this file will be created.
 
 ```bash
 $ git revert a9f8fb3
@@ -157,11 +157,11 @@ $ git revert a9f8fb3
 * c9b1299 N - Hello
 ```
 
-I think that this command could be used when several people are working on the branch in order to avoid a forced push on the remote repository. Moreover, it could also be used if you want to keep an explicit trace of this action in the tree for a particular reason.
+This command could be used when several people work on the same branch to avoid a forced push on the remote repository. Moreover, it is possible to use it to keep an explicit trace of this action in the tree for a particular reason.
 
 ## Last resort: Keep Calm and Use Git Reflog
 
-Renaud wrote an [article](https://blog.crafties.fr/2017/04/11/git-reflog/) on the `git reflog` command to recover commits that appear to be lost. To illustrate what this command does, here is its ouput when used in the case #4:
+Renaud wrote an [article](https://blog.crafties.fr/2017/04/11/git-reflog/) on the `git reflog` command to recover commits that appear to be lost. To illustrate what this command does here is its output when used in case #4:
 
 ```bash
 $ git reflog
@@ -177,4 +177,4 @@ You can see that the deleted commit (`712d068`) still appears in the reflog.
 
 ## Conclusion
 
-This article shows several ways to go back in time with Git. These commands could be used alone or combined to get you out of complicated situations or to rearrange your Git tree before a `git push` for instance.
+This article shows several ways to go back in time with Git. These commands could be used alone or combined to get you out of complicated situations or to rearrange your Git tree before a `git push`, for instance.
