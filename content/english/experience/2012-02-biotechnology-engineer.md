@@ -28,5 +28,5 @@ This project took place in a high-stakes context for Sanofi Pasteur.
 - • Designed, planned and implemented the optimisation strategy using an experimental design (Taguchi).
 
 - • Defined and planned the qualification strategy in collaboration with several departments.
-- • Successfully led the equipment's qualification. As a result, in afew months, the equipment replaced the obsolete one that was jeopardising the entire production chain.
+- • Successfully led the equipment's qualification. As a result, in a few months, the equipment replaced the obsolete one that was jeopardising the entire production chain.
 - • Trained the technicians to use the new equipment.
