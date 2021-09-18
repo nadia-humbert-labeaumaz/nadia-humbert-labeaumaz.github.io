@@ -24,7 +24,7 @@ Changes will happen whether we want them or not. But what can make these changes
 
 First, we need to understand that we have two different processes at stake: the **change process** itself and the **transition**.
 
-In the example above, the change process can include getting a laptop, having flexible hours to take care of the children, having proper tools to communicate, among others.
+In the example above, the change process can include getting a laptop, having flexible hours to take care of the children and having proper tools to communicate.
 
 On the other hand, the transition is more about getting to accept and leverage this new situation. Here, it implies letting the old habits go and finding ways to adapt to the new context, such as going for a walk in the morning, eating at fixed times or anything that might suit you.
 
@@ -33,4 +33,4 @@ While the change might be imposed on you, the transition is a personal journey â
 As a change agent, it is essential to enable people's transition. Organizations often overlook this. However, not doing so sets your organization up for failure. To effect long-lasting changes, you should make sure that everyone finishes their transition.
 
 ## The Takeaway
-Lasting changes are the product of the change process, which is usually the same for all the organization members, and the transition, which is unique to everyone. The completion of both these interrelated processes is required to succeed in the long run.
+Lasting changes are the product of the change process, usually the same for all the organization members, and the transition, unique to each individual. The completion of both these interrelated processes is required to succeed in the long run.
