@@ -20,7 +20,7 @@ information:
 ---
 ## Description
 
-Optimised the measurement parameters of highly strategic equipment for Sanofi Pasteur. It was attempted many times before, for several years, with no success.
+Optimised the measurement parameters of highly strategic equipment for Sanofi Pasteur in a couple of months. It was attempted many times before, for several years, with no success.
 
 This project took place in a high-stakes context for Sanofi Pasteur.
 
@@ -28,5 +28,5 @@ This project took place in a high-stakes context for Sanofi Pasteur.
 - • Designed, planned and implemented the optimisation strategy using an experimental design (Taguchi).
 
 - • Defined and planned the qualification strategy in collaboration with several departments.
-- • Successfully led the equipment's qualification. As a result, the equipment replaced the obsolete one that was jeopardising the entire production chain.
+- • Successfully led the equipment's qualification. As a result, in afew months, the equipment replaced the obsolete one that was jeopardising the entire production chain.
 - • Trained the technicians to use the new equipment.
