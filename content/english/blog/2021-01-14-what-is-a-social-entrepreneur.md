@@ -28,9 +28,9 @@ From my perspective, a social entrepreneur is an entrepreneur whose decisions ar
 
 After meeting with social entrepreneurs from various industries and backgrounds, I noticed that their similarities outweigh their differences by one order of magnitude.
 
-First, they have all developed a social fibre through experiences that have changed their understanding of the world. This evolution led them to solve problems they witnessed or suffered themselves, usually by leveraging their passions or previous knowledge.
+First, they have all developed a social fibre through experiences that have changed their understanding of the world. And, this evolution led them to solve problems they witnessed or suffered themselves, usually by leveraging their passions or previous knowledge.
 
-The social entrepreneurs I have met are also extremely action-oriented and lean towards a trial-and-error approach to problem-solving, as they are uncomfortable with the status quo and feel the urgency to break it.
+The social entrepreneurs I have met are also extremely action-oriented and lean towards a trial-and-error approach to problem-solving. Indeed, they are uncomfortable with the status quo and feel the urgency to break it.
 
 However, they are down-to-earth and want to effect social impact while generating benefits for themselves as well. These benefits can sometimes take a cathartic form: they relieve their pain by preventing others from suffering.
 
