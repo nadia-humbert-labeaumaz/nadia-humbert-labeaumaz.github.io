@@ -38,7 +38,7 @@ During the 2000s, manufacturers marketed diesel as ‘clean energy’ since it g
 
 The last two decades left the country with many diesel cars in circulation (see Figure 2). People, therefore, depend on this fuel, and the government is left with little room to ease the transition to less harmful vehicles. On top of that, lobbies and diesel-dependent corporations push back every attempt to narrow the incentives’ scope, threatening to suppress jobs and freeze the country with strikes. Consequently, incentives for companies are still in place and remain extremely attractive (see Figure 3).
 
-In this context, the government struggles to provide a clear vision on this matter (see Appendix 1: French Government Timeline). and, unfortunately, all these uncertainties and mixed signals around diesel and thermic cars do not create an appropriate environment for consumers to take relevant decisions, especially as important as buying a new car.
+In this context, the government struggles to provide a clear vision in this matter (see Appendix 1: French Government Timeline). and, unfortunately, all these uncertainties and mixed signals around diesel and thermic cars do not create an appropriate environment for consumers to take relevant decisions, especially as important as buying a new car.
 
 Considering the information above, one can wonder whether the French government took the right decision in the eighties. It arguably saved the French car industry, but at what cost? Indeed, the government was already aware of the adverse effects of diesel. They even had a report explaining the risks of diesel-powered engines and recommending stopping their production (Roussel, 1983).
 
