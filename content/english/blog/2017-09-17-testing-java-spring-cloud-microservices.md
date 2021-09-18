@@ -238,7 +238,7 @@ public class BookingContractTest {
 
 End-to-end tests need the whole platform to be up and running to run entire business use cases across multiple microservices. Unfortunately, they are costly and slow to run. These tests can be performed manually on a dedicated platform but have to be chosen with great care to maximize their benefits.
 
-## To Sum up
+## To Sum Up
 
 ![Testing strategy](/images/blog/testing-microservices/strategy.png)
 

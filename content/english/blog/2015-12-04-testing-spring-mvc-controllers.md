@@ -13,16 +13,16 @@ draft: false
 comments: true
 ---
 
-Since Spring 3.2 (January, 2013), it is possible to test Spring MVC controllers without an external framework.
-The goal of this article is to show how to test Spring MVC controllers using only Spring testing capabilities.
+Since Spring 3.2 (January 2013), it has been possible to test Spring MVC controllers without an external framework.
+This article aims to show how to test Spring MVC controllers using only Spring testing capabilities.
 
 <!--more-->
 
-To do so, a very simple Spring Boot project will be used as a support. You can find it on [GitHub](https://github.com/nphumbert/demo-test-spring-mvc). The controller to test will first be introduced. Then, explanations will be given on how to test it.
+To do so, a simple Spring Boot project will be used as support. You can find it on [GitHub](https://github.com/nphumbert/demo-test-spring-mvc). First, we will present the controller to test. Then, we will provide explanations on how to test it.
 
 ## Controller
 
-The controller that will be tested is showed below. It permits to do a search in a fruit list.  
+The controller to test is shown below. It enables to perform a search in a fruit list.
 
 ```java
 @Controller
@@ -52,17 +52,17 @@ public class ApplicationController {
 
 ## Test
 
-The test class must be annotated with the following annotations:
+It is necessary to annotate the test class as follows:
 
 - `@RunWith(SpringJUnit4ClassRunner.class)` to benefit from Spring features in JUnit tests.
 - `@SpringApplicationConfiguration(classes = DemoTestSpringMvcApplication.class)` to specify the configuration class that will be used during the test.
-- `@WebAppConfiguration` to indicate that the Spring application context that must be loaded is a `WebApplicationContext`.
+- `@WebAppConfiguration` to indicate that the Spring application context to load is a `WebApplicationContext`.
 
-The entry point used to perform the tests is the class `MockMvc`. Thereafter, the usage of this class will be explained.
+The entry point used to perform the tests is the class `MockMvc`. Thereafter, we will explain the usage of this class.
 
 ### Set up
 
-The set up of the `MockMvc` class can be done as follows:
+It is possible to set up the `MockMvc` class as follows:
 
 ```java
 @Before
@@ -76,7 +76,7 @@ First, the controller must be instantiated (`1`). Then, the mock is initialized 
 
 ### Perform
 
-The method `MockMvc.perform()` allows to simulate HTTP requests to the controller. For instance, a GET request is done as follows:
+The method `MockMvc.perform()` allows simulating HTTP requests to the controller. For instance, a GET request is made as follows:
 
 ```java
 mockMvc.perform(
@@ -85,9 +85,9 @@ mockMvc.perform(
 );
 ```
 
-The class `MockMvcRequestBuilders` provides static methods, such as `get` or `post`, to simulate HTTP requests on a particular endpoint of the controller (`1`). HTTP parameters can be added fluently to the request (`2`).
+The class `MockMvcRequestBuilders` provides static methods, such as `get` or `post`, to simulate HTTP requests on a particular endpoint of the controller (`1`). We can add HTTP parameters to the request fluently (`2`).
 
-Furthermore, other static methods are provided by the `MockMvcRequestBuilders` class:
+Furthermore, the `MockMvcRequestBuilders` class provides other static methods:
 
 - HTTP verbs like `delete`, `put` or `patch`.
 - `fileUpload` to upload binary files.
@@ -106,8 +106,8 @@ mockMvc.perform(get("/fruits")
     .andExpect(model().attribute("fruitBowl", contains("banana"))); // 3
 ```
 
-Assertions are done with the `andExpect()` method. The class `MockMvcResultMatchers` provides static methods to do assertions on the HTTP status (`1`), the view asked by the controller (`2`) and on the model completed by the controller (`3`).
+Assertions are done with the `andExpect()` method. And, the class `MockMvcResultMatchers` provides static methods to do assertions on the HTTP status (`1`), the view asked by the controller (`2`) and the model completed by the controller (`3`).
 
 ## Conclusion
 
-The Spring test framework is a very powerful, complete and simple way to test Spring MVC controllers. Its fluent API allows to write elegant and yet precise tests.  
+The Spring test framework is a powerful, complete and simple way to test Spring MVC controllers. Its fluent API allows writing elegant and yet precise tests.
