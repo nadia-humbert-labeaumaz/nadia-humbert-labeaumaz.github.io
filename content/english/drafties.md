@@ -1,6 +1,6 @@
 ---
 title: "Drafties"
-description: "Concepts and principles of software development in a single drawing!"
+description: "Concepts and principles of software engineering in a single drawing!"
 bg_image: "images/experience/crafties.jpg"
 layout: "drafties"
 draft: false
