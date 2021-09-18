@@ -7,9 +7,9 @@
 <meta name=generator content="Hugo 0.88.1">
 <meta property="og:image" content="https://nadia-humbert-labeaumaz.github.io/images/blog/robust-component-tests/header.jpg">
 <meta property="og:title" content="How to Write Robust Component Tests">
-<meta property="og:description" content="Component tests allow to test complete use cases from end to end. They are often expensive especially in terms of setup and execution time. Thus, thought needs to be given to define their scope. Nevertheless, they are required in order to check and document the overall behaviour of the application or the microservice.
-I have noticed that, in the context of microservices, these tests are very cost-effective. Indeed, they can be quite easy to set up because the already existing external API of the microservice can often be used directly without needing additional elements (like a fake server for instance). Moreover, the scope of a microservice is generally limited and can be tested exhaustively in isolation.
-The goal of this article is to show how to make these tests robust. The main idea is to make them independent of the implementation.">
+<meta property="og:description" content="Component tests allow testing complete use cases from end to end. However, they are often expensive, especially in terms of setup and execution time. Thus, thought needs to be given to defining their scope. Nevertheless, they are required to check and document the overall behaviour of the application or the microservice.
+I have noticed that, in the context of microservices, these tests are cost-effective. Indeed, they can be easy to set up as it is often possible to use the already existing external API of the microservice without needing additional elements (like a fake server, for instance). Moreover, the scope of a microservice is generally limited and can be tested exhaustively in isolation.
+This article aims to show how to make these tests robust. The main idea is to make them independent of the implementation.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://nadia-humbert-labeaumaz.github.io/blog/2017/09/16/how-to-write-robust-component-tests/"><meta property="og:image" content="https://nadia-humbert-labeaumaz.github.io/images/slider.jpg"><meta property="article:section" content="blog">
 <meta property="article:published_time" content="2017-09-16T13:37:12+02:00">
@@ -17,9 +17,9 @@ The goal of this article is to show how to make these tests robust. The main ide
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://nadia-humbert-labeaumaz.github.io/images/slider.jpg">
 <meta name=twitter:title content="How to Write Robust Component Tests">
-<meta name=twitter:description content="Component tests allow to test complete use cases from end to end. They are often expensive especially in terms of setup and execution time. Thus, thought needs to be given to define their scope. Nevertheless, they are required in order to check and document the overall behaviour of the application or the microservice.
-I have noticed that, in the context of microservices, these tests are very cost-effective. Indeed, they can be quite easy to set up because the already existing external API of the microservice can often be used directly without needing additional elements (like a fake server for instance). Moreover, the scope of a microservice is generally limited and can be tested exhaustively in isolation.
-The goal of this article is to show how to make these tests robust. The main idea is to make them independent of the implementation.">
+<meta name=twitter:description content="Component tests allow testing complete use cases from end to end. However, they are often expensive, especially in terms of setup and execution time. Thus, thought needs to be given to defining their scope. Nevertheless, they are required to check and document the overall behaviour of the application or the microservice.
+I have noticed that, in the context of microservices, these tests are cost-effective. Indeed, they can be easy to set up as it is often possible to use the already existing external API of the microservice without needing additional elements (like a fake server, for instance). Moreover, the scope of a microservice is generally limited and can be tested exhaustively in isolation.
+This article aims to show how to make these tests robust. The main idea is to make them independent of the implementation.">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FDXGPB3FE3"></script>
 <script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-FDXGPB3FE3',{anonymize_ip:!1})}</script>
 <link rel=stylesheet href=/plugins/bootstrap/css/bootstrap.min.css media=screen>
@@ -109,10 +109,10 @@ Posted by
 <img class=img-responsive src=/images/blog/robust-component-tests/header.jpg alt="How to Write Robust Component Tests">
 </div>
 <div class="post-content post-excerpt">
-<p>Component tests allow to test complete use cases from end to end. They are often expensive especially in terms of setup and execution time. Thus, thought needs to be given to define their scope. Nevertheless, they are required in order to check and document the overall behaviour of the application or the microservice.</p>
-<p>I have noticed that, in the context of microservices, these tests are very cost-effective. Indeed, they can be quite easy to set up because the already existing external API of the microservice can often be used directly without needing additional elements (like a fake server for instance). Moreover, the scope of a microservice is generally limited and can be tested exhaustively in isolation.</p>
-<p>The goal of this article is to show how to make these tests robust. The main idea is to make them independent of the implementation.</p>
-<p>The following example shows a Gherkin specification, for a booking HTTP API, that is very coupled to the technical implementation:</p>
+<p>Component tests allow testing complete use cases from end to end. However, they are often expensive, especially in terms of setup and execution time. Thus, thought needs to be given to defining their scope. Nevertheless, they are required to check and document the overall behaviour of the application or the microservice.</p>
+<p>I have noticed that, in the context of microservices, these tests are cost-effective. Indeed, they can be easy to set up as it is often possible to use the already existing external API of the microservice without needing additional elements (like a fake server, for instance). Moreover, the scope of a microservice is generally limited and can be tested exhaustively in isolation.</p>
+<p>This article aims to show how to make these tests robust. The main idea is to make them independent of the implementation.</p>
+<p>The following example shows a Gherkin specification for a booking HTTP API that is very coupled to the technical implementation:</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-gherkin data-lang=gherkin><span style=color:#66d9ef>Scenario:</span><span style=color:#a6e22e> Get an error when trying to book a hotel with no vacancy
 </span><span style=color:#a6e22e></span><span style=color:#66d9ef>    Given </span><span style=color:#a6e22e>Get to hotel service &#34;</span><span style=color:#e6db74>/api/hotel/1234</span><span style=color:#a6e22e>&#34; returns a response with the status code </span><span style=color:#e6db74>200</span><span style=color:#a6e22e> and the body:
 </span><span style=color:#a6e22e>        </span><span style=color:#66d9ef>&#34;&#34;&#34;</span><span style=color:#e6db74>
@@ -160,7 +160,7 @@ Posted by
         <span style=color:#f92672>)</span>
     <span style=color:#f92672>);</span>
 <span style=color:#f92672>}</span>
-</code></pre></div><p>It is possible to make the test more explicit and functional. For instance, instead of describing HTTP calls and responses in the steps, it is possible to write them in plain English. The first steps in the Gherkin file can be replaced by:</p>
+</code></pre></div><p>It is possible to make the test more explicit and functional. For instance, instead of describing HTTP calls and responses in the steps, it is possible to write them in plain English. Thus, the first steps in the Gherkin file can be replaced by:</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-gherkin data-lang=gherkin><span style=color:#66d9ef>Given </span><span style=color:#a6e22e>There is no vacancy for the hotel &#34;</span><span style=color:#e6db74>Ritz</span><span style=color:#a6e22e>&#34; of id </span><span style=color:#e6db74>1234</span><span style=color:#a6e22e>
 </span><span style=color:#a6e22e></span><span style=color:#66d9ef>Given </span><span style=color:#a6e22e>The following users exist:
 </span><span style=color:#a6e22e></span><span style=color:#66d9ef>    |</span><span style=color:#e6db74> id</span><span style=color:#66d9ef>   |</span><span style=color:#e6db74> firstName</span><span style=color:#66d9ef> |</span><span style=color:#e6db74> lastName</span><span style=color:#66d9ef> |</span><span style=color:#a6e22e>
@@ -189,7 +189,7 @@ Posted by
         <span style=color:#f92672>)</span>
     <span style=color:#f92672>);</span>
 <span style=color:#f92672>}</span>
-</code></pre></div><p>We notice that the purely technical details like the URL, the JSON response and the HTTP status are now specified in the Java code. This allows to make the Gherkin specification more focused on the behaviour, clearer and more concise. Hence, this test is now more maintainable and robust.</p>
+</code></pre></div><p>We notice that the purely technical details like the URL, the JSON response and the HTTP status are now specified in the Java code. This allows making the Gherkin specification more focused on the behaviour, clearer and more concise. Hence, this test is now more maintainable and robust.</p>
 <p>The initial test is now the following:</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-gherkin data-lang=gherkin><span style=color:#66d9ef>Scenario:</span><span style=color:#a6e22e> Get an error when trying to book a hotel with no vacancy
 </span><span style=color:#a6e22e></span><span style=color:#66d9ef>    Given </span><span style=color:#a6e22e>There is no vacancy for the hotel &#34;</span><span style=color:#e6db74>Ritz</span><span style=color:#a6e22e>&#34; of id </span><span style=color:#e6db74>1234</span><span style=color:#a6e22e>
@@ -215,9 +215,9 @@ Posted by
 </span><span style=color:#e6db74>          } ]
 </span><span style=color:#e6db74>        }
 </span><span style=color:#e6db74>        </span><span style=color:#66d9ef>&#34;&#34;&#34;</span><span style=color:#a6e22e>
-</span></code></pre></div><p>Since this microservice is an HTTP API, it can be relevant to keep the <code>When</code> and <code>Then</code> in a technical form. Indeed, one can argue that the HTTP status and the format of the exchanged messages are part of its behaviour.</p>
+</span></code></pre></div><p>Since this microservice is an HTTP API, keeping the <code>When</code> and <code>Then</code> in a technical form can be relevant. Indeed, one can argue that the HTTP status and the format of the exchanged messages are part of its behaviour.</p>
 <h2 id=conclusion>Conclusion</h2>
-<p>A component test must explicitely describe a real use case. In order to do that, it is important to make it as independent as possible of the implementation. This article shows a way to go from a test highly coupled to the implementation to a test more functional and concise.</p>
+<p>A component test must explicitly describe a real use case. To do that, it is important to make it as independent as possible of the implementation. This article shows a way to go from a test highly coupled to the implementation to a more functional and concise one.</p>
 </div>
 <div class=post-comments>
 </div>
