@@ -14,7 +14,7 @@ comments: true
 ---
 
 In this video, I will be talking about debt funding for small to medium businesses in NZ.
-Currently, we see how the media often underlines the low cost of money. While this might be true for individuals, and especially for mortgages, the reality of SMEs is completely different. My goal will be to provide insights into the implications of the existing lending conditions for SMEs and some ideas for recommendations on how to improve the situation.
+Currently, we see how the media often underlines the low cost of money. While this might be true for individuals, especially for mortgages, the reality of SMEs is completely different. My goal will be to provide insights into the implications of the existing lending conditions for SMEs and some ideas for recommendations on improving the situation.
 
 <!--more-->
 
