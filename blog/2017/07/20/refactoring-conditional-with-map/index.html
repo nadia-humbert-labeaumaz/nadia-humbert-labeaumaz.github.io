@@ -26,7 +26,7 @@ public class Day {
     }
   }
 }
-Basically, depending on the weather, an action has to be taken. This kind of code is pretty hard to test and to maintain. The goal of this article is to refactor it using a Map.">
+Basically, depending on the weather, a specific action has to be taken. This kind of code is pretty hard to test and maintain. The goal of this article is to refactor it using a Map.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://nadia-humbert-labeaumaz.github.io/blog/2017/07/20/refactoring-conditional-with-map/"><meta property="og:image" content="https://nadia-humbert-labeaumaz.github.io/images/slider.jpg"><meta property="article:section" content="blog">
 <meta property="article:published_time" content="2017-07-20T15:32:15+01:00">
@@ -53,7 +53,7 @@ public class Day {
     }
   }
 }
-Basically, depending on the weather, an action has to be taken. This kind of code is pretty hard to test and to maintain. The goal of this article is to refactor it using a Map.">
+Basically, depending on the weather, a specific action has to be taken. This kind of code is pretty hard to test and maintain. The goal of this article is to refactor it using a Map.">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FDXGPB3FE3"></script>
 <script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-FDXGPB3FE3',{anonymize_ip:!1})}</script>
 <link rel=stylesheet href=/plugins/bootstrap/css/bootstrap.min.css media=screen>
@@ -162,11 +162,11 @@ Posted by
     <span style=color:#f92672>}</span>
   <span style=color:#f92672>}</span>
 <span style=color:#f92672>}</span>
-</code></pre></div><p>Basically, depending on the weather, an action has to be taken. This kind of code is pretty hard to test and to maintain. The goal of this article is to refactor it using a <code>Map</code>.</p>
+</code></pre></div><p>Basically, depending on the weather, a specific action has to be taken. This kind of code is pretty hard to test and maintain. The goal of this article is to refactor it using a <code>Map</code>.</p>
 <h2 id=what-is-the-problem>What is the Problem?</h2>
-<p>Using conditional structures like this might be a sign of bad design. Indeed, this code tends to grow indefinitely as new cases have to be handled and the same code has to be modified over and over. A time will come when the code will be so bloated that it will be very hard to add new behaviour. This is a violation of the <em>Open Closed Principle</em> which stipulates that the code should be open for extension but closed for modification: you should be able to add new behaviour to your code without modifying it.</p>
+<p>Using conditional structures like this might be a sign of bad design. Indeed, this code tends to grow indefinitely as new cases have to be handled, and the same code has to be modified repeatedly. So, inevitably, a time will come when the code will be so bloated that it will be tough to add new behaviour. This is a violation of the <em>Open Closed Principle</em> which stipulates that the code should be open for extension but closed for modification. In other words, you should be able to add new behaviour to your code without modifying it.</p>
 <h2 id=transform-the-imperative-algorithm-into-data>Transform the Imperative Algorithm into Data</h2>
-<p>By analyzing this code, it becomes clear that this algorithm is no more than a <code>Map</code>: for a certain weather (the key), a piece of code has to be executed (the value). A first refactoring can be done to make this conceptual <code>Map</code> concrete:</p>
+<p>By analyzing this code, it becomes clear that this algorithm is no more than a <code>Map</code>: for each weather (the key), a piece of code has to be executed (the value). Therefore, it is possible to perform a first refactoring iteration to make this conceptual <code>Map</code> concrete:</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Day</span> <span style=color:#f92672>{</span>
 
   <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>final</span> Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> startOfTheDayActions <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> HashMap<span style=color:#f92672>&lt;&gt;();</span>
@@ -181,8 +181,8 @@ Posted by
     startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>getOrDefault</span><span style=color:#f92672>(</span>weather<span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>doNothing<span style=color:#f92672>).</span><span style=color:#a6e22e>run</span><span style=color:#f92672>();</span>
   <span style=color:#f92672>}</span>
 <span style=color:#f92672>}</span>
-</code></pre></div><p>This is a first step and the code is already much clearer. Now, the mapping between the weather and the action to perform is explicit and the <code>start</code> method will not have to be modified very often. When a new case must be handled, it&rsquo;s just a new entry in the <code>Map</code>.</p>
-<p>Nonetheless, this do not solve all problems. The class still has to be modified to add a new entry. To go further, the <code>Map</code> can be passed as a parameter of the constructor.</p>
+</code></pre></div><p>The code is now already much clearer. Indeed, the mapping between the weather and the action to perform is explicit, and it is not necessary to modify the <code>start</code> method very often: each new case only requires a new entry in the <code>Map</code>.</p>
+<p>Nonetheless, this do not solve all issues. In fact, the class still has to be modified to add a new entry. So, to go further, the <code>Map</code> can be passed as a parameter of the constructor.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Day</span> <span style=color:#f92672>{</span>
 
   <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>final</span> Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> startOfTheDayActions <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> HashMap<span style=color:#f92672>&lt;&gt;();</span>
@@ -195,7 +195,7 @@ Posted by
     startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>getOrDefault</span><span style=color:#f92672>(</span>weather<span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>doNothing<span style=color:#f92672>).</span><span style=color:#a6e22e>run</span><span style=color:#f92672>();</span>
   <span style=color:#f92672>}</span>
 <span style=color:#f92672>}</span>
-</code></pre></div><p>Now the only responsibility of the class is to use the mapping to perform the correct action. This mapping is now the responsibility of another class.</p>
+</code></pre></div><p>Now, the only responsibility of the class is to use the mapping to perform the correct action. This mapping is now the responsibility of another class.</p>
 <h2 id=note-about-spring-framework>Note about Spring Framework</h2>
 <p>If you are using Spring Framework and the <code>Day</code> class is a <code>@Component</code>, you can simply inject the <code>Map</code> as any other dependency.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=color:#a6e22e>@Component</span>
@@ -222,7 +222,7 @@ Posted by
   <span style=color:#f92672>}</span>
 <span style=color:#f92672>}</span>
 </code></pre></div><h2 id=conclusion>Conclusion</h2>
-<p>This refactoring is very easy to do but it can reduce the complexity of a method in a very efficient way. I think that the code should reveal intention and should not be bloated with conditional structures when it is not necessary.</p>
+<p>This refactoring is easy to perform, but it can reduce the complexity of a method in a very efficient way. Indeed, I think the code should reveal intention and not be bloated with conditional structures when unnecessary.</p>
 </div>
 <div class=post-comments>
 </div>
