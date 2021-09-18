@@ -20,7 +20,7 @@ I think this ambiguity might sometimes dilute social entrepreneurs' image, reduc
 
 ## A Social Entrepreneurship Definition
 
-From my perspective, a social entrepreneur is an entrepreneur whose decisions are **primarily** driven towards effecting lasting, large-scale social benefits. This definition covers a specific section of the [social-business hybrid spectrum](https://www.researchgate.net/figure/A-social-enterprise-hybrid-spectrum-as-constructed-by-Kim-Alter-2007-p14_fig1_304624327), including non-profit organizations that leverage **business tools** to achieve sustainability and pursue their social mission at scale. However, it excludes corporations practising social responsibility as their social impact is not their primary focus.
+From my perspective, a social entrepreneur is an entrepreneur whose decisions are **primarily** driven towards effecting lasting, large-scale social benefits. This definition covers a specific section of the [social-business hybrid spectrum](https://www.researchgate.net/figure/A-social-enterprise-hybrid-spectrum-as-constructed-by-Kim-Alter-2007-p14_fig1_304624327), including non-profit organizations that leverage **business tools** to achieve sustainability and pursue their social mission at scale. However, it excludes corporations practicing social responsibility as their social impact is not their primary focus.
 
 ![Social Enterprise Spectrum](/images/blog/what-is-a-social-entrepreneur/spectrum.png)
 
