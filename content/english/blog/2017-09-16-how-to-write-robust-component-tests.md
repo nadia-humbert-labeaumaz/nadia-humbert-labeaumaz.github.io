@@ -13,15 +13,15 @@ draft: false
 comments: true
 ---
 
-Component tests allow to test complete use cases from end to end. They are often expensive especially in terms of setup and execution time. Thus, thought needs to be given to define their scope. Nevertheless, they are required in order to check and document the overall behaviour of the application or the microservice.
+Component tests allow testing complete use cases from end to end. However, they are often expensive, especially in terms of setup and execution time. Thus, thought needs to be given to defining their scope. Nevertheless, they are required to check and document the overall behaviour of the application or the microservice.
 
-I have noticed that, in the context of microservices, these tests are very cost-effective. Indeed, they can be quite easy to set up because the already existing external API of the microservice can often be used directly without needing additional elements (like a fake server for instance). Moreover, the scope of a microservice is generally limited and can be tested exhaustively in isolation.
+I have noticed that, in the context of microservices, these tests are cost-effective. Indeed, they can be easy to set up as it is often possible to use the already existing external API of the microservice without needing additional elements (like a fake server, for instance). Moreover, the scope of a microservice is generally limited and can be tested exhaustively in isolation.
 
-The goal of this article is to show how to make these tests robust. The main idea is to make them independent of the implementation.
+This article aims to show how to make these tests robust. The main idea is to make them independent of the implementation.
 
 <!--more-->
 
-The following example shows a Gherkin specification, for a booking HTTP API, that is very coupled to the technical implementation:
+The following example shows a Gherkin specification for a booking HTTP API that is very coupled to the technical implementation:
 ```gherkin
 Scenario: Get an error when trying to book a hotel with no vacancy
     Given Get to hotel service "/api/hotel/1234" returns a response with the status code 200 and the body:
@@ -75,7 +75,7 @@ public void getToHotelServiceReturnsAResponseWithTheStatusCodeAndTheBody(String 
 }
 ```
 
-It is possible to make the test more explicit and functional. For instance, instead of describing HTTP calls and responses in the steps, it is possible to write them in plain English. The first steps in the Gherkin file can be replaced by:
+It is possible to make the test more explicit and functional. For instance, instead of describing HTTP calls and responses in the steps, it is possible to write them in plain English. Thus, the first steps in the Gherkin file can be replaced by:
 
 ```gherkin
 Given There is no vacancy for the hotel "Ritz" of id 1234
@@ -111,7 +111,7 @@ public void theFollowingUsersExist(List<UserDTO> users) {
 }
 ```
 
-We notice that the purely technical details like the URL, the JSON response and the HTTP status are now specified in the Java code. This allows to make the Gherkin specification more focused on the behaviour, clearer and more concise. Hence, this test is now more maintainable and robust.
+We notice that the purely technical details like the URL, the JSON response and the HTTP status are now specified in the Java code. This allows making the Gherkin specification more focused on the behaviour, clearer and more concise. Hence, this test is now more maintainable and robust.
 
 The initial test is now the following:
 ```gherkin
@@ -141,7 +141,7 @@ Scenario: Get an error when trying to book a hotel with no vacancy
         """
 ```
 
-Since this microservice is an HTTP API, it can be relevant to keep the `When` and `Then` in a technical form. Indeed, one can argue that the HTTP status and the format of the exchanged messages are part of its behaviour.
+Since this microservice is an HTTP API, keeping the `When` and `Then` in a technical form can be relevant. Indeed, one can argue that the HTTP status and the format of the exchanged messages are part of its behaviour.
 
 ## Conclusion
-A component test must explicitely describe a real use case. In order to do that, it is important to make it as independent as possible of the implementation. This article shows a way to go from a test highly coupled to the implementation to a test more functional and concise.
+A component test must explicitly describe a real use case. To do that, it is important to make it as independent as possible of the implementation. This article shows a way to go from a test highly coupled to the implementation to a more functional and concise one.
