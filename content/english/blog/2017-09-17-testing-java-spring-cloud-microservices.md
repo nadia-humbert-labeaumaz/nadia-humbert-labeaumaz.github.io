@@ -48,10 +48,10 @@ Integration tests are used to test the proper integration of the different brick
 
 In a microservice, it is relevant to write integration tests for:
 
-- Repositories -- when the query is more complex than just a `findById`.
-- Services -- in case of doubt on the interaction between the service and repository (JPA or transaction issues, for instance).
-- HTTP clients.
-- Gateways.
+- **Repositories** -- when the query is more complex than just a `findById`.
+- **Services** -- in case of doubt on the interaction between the service and repository (JPA or transaction issues, for instance).
+- **HTTP clients**.
+- **Gateways**.
 
 Spring Boot provides great tooling to write integration tests. A typical integration test with Spring Boot looks like this:
 
@@ -166,8 +166,8 @@ The goal of contract tests is to automatically verify that the provider of a ser
 
 The general idea is that consumers write tests that define the initial state of the provider, the request sent by the consumer and the expected response. The provider must supply a server in the required state. The contract will automatically be verified against this server. This implies the following:
 
-- on the consumer side: contract tests are written using the HTTP client. Given a provider state, assertions are made on the HTTP response.
-- on the provider side: only the HTTP resource should be instantiated. All its dependencies should be mocked to provide the required state.
+- **on the consumer side**: contract tests are written using the HTTP client. Given a provider state, assertions are made on the HTTP response.
+- **on the provider side**: only the HTTP resource should be instantiated. All its dependencies should be mocked to provide the required state.
 
 It is important to note that contract tests should stick to the real needs of the consumer. If a consumer does not use a field, it should not be tested in the contract test. Then, the provider is free to update or delete every field that is not used by any consumer and we are sure that if tests fail, it is for a good reason.
 
