@@ -32,7 +32,7 @@ about:
   # funfacts loop
   - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Companies advised"
-    count : "20"
+    count : "15"
 
   # funfacts loop
   - icon : "ion-ios-people-outline" #ionicon pack v2 : https://ionicons.com/v2/
