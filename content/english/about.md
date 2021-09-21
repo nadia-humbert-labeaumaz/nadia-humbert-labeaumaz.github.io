@@ -14,7 +14,7 @@ about:
   content : "Hi, I am Nadia! I am an entrepreneur, consultant and engineer, and I enjoy solving problems creatively and working on initiatives that concretely help people.
 
 
-  My expertise lies in entrepreneurship, business strategy, change management, project coordination, operational excellence and marketing.
+  My expertise lies in entrepreneurship, business strategy, change management, project leadership, operational excellence and marketing.
 
 
   During my experiences, I have worked with a wide range of stakeholders in startups, medium-sized and large enterprises from various industries worldwide, both as an external consultant and employee. I have also created and managed my own business.
@@ -76,7 +76,7 @@ features:
 
   # feature item loop
   - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Project Coordination"
+    name : "Project Leadership"
     content : "I led initiatives and teams for the French national electricity project Linky (~100 people), enabled continuous delivery of value in a distributed-team context for a French startup, and coordinated a school renovation project in Honduras (30+ people), among other projects."
 
   # feature item loop
