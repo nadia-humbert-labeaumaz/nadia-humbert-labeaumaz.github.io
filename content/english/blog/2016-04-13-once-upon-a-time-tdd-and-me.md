@@ -19,7 +19,7 @@ Among her early age dreams were learning many things about science and software 
 
 <!--more-->
 
-Not having much knowledge nor experience in IT, she was (and still is) looking for methods, tools and good practices that would allow her to learn and produce clean code. Among these tools, there is TDD.
+Not having much knowledge nor experience in IT, she was (and still is) looking for principles, good practices, methods and tools that would allow her to learn and produce clean code. Among these tools, there is TDD.
 
 TDD is a development tool that preconizes writing the tests before the production code. Kent Beck invented it. And you know what? It is truly deeply delightful ;-) (this sentence was a lot better in my head in French, by the way). In this article, I will talk about my personal experience with TDD: the beginnings, the pros and cons and some ideas to set it up.
 
@@ -30,7 +30,7 @@ I tried it for the first time towards the end of my first year as a software dev
 
 After this first year of experience in software development – during which I learned a lot – and a little experience in TDD, I decided to take time for my personal projects. And then, everything changed. By working on a project from scratch with full latitude, I could use TDD more readily.
 
-Therefore, after a good night of sleep, I decided to start my own project with a test. It was so beautiful. At this very point, I understood several benefits that TDD can provide.
+Therefore, after a good night of sleep, I decided to start my own project with a test. It was so beautiful. At this very point, I understood several benefits that TDD could provide.
 
 ## Pros
 
@@ -69,7 +69,7 @@ The way to set it up in a given project depends on its context. However, I will 
 
 To be ambitious is great, but it is hard to climb to the top of Mount Everest for the first time without stopping. In the same way, during the setup of TDD, we should properly define and measure our goals from the beginning. For example, it could be as simple as encouraging all the team members to use TDD a few times in the week to become progressively familiar with the tool.
 
-### Do Not Rush or Be Discouraged
+### Do Not Rush or Get Discouraged
 
 From my personal experience, it is counterproductive to try to assimilate the tool and judge whether it is suitable or not in a few minutes. Indeed, if someone judged us in two minutes, the way they would perceive us would not necessarily be relevant nor complete. It is important to take the required time to know, understand and properly use the tool.
 
