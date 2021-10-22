@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-description: "Entrepreneur, Consultant, Biosciences Engineer & Software Engineer."
+description: "Entrepreneur, Advisor, Biosciences Engineer & Software Engineer."
 bg_image: "images/about.jpg"
 layout: "about"
 draft: false
@@ -11,16 +11,10 @@ about:
   enable : true
   image : "images/nadia.jpg"
   title : "In a Nutshell"
-  content : "Hi, I am Nadia! I am an entrepreneur, consultant and engineer, and I enjoy solving problems creatively and working on initiatives that concretely help people.
+  content : "I am an entrepreneur, advisor and engineer, and I enjoy solving problems creatively and working on projects that concretely help people.
 
 
-  My expertise lies in entrepreneurship, business strategy, change management, project leadership, operational excellence and marketing.
-
-
-  During my experiences, I have worked with a wide range of stakeholders in startups, medium-sized and large enterprises from various industries worldwide, both as an external consultant and employee. I have also created and managed my own business.
-
-
-  I hold a Master of Business Administration, a Master of Science in Biochemistry and Biotechnology Engineering and an Advanced Master in Computer Science."
+  I have lived on four continents and developed and applied knowledge and skills in business, entrepreneurship, science, and software engineering along the way, helping 20+ companies worldwide grow and many teams move forward. I also led events and communities in these areas."
 
   button:
     enable : true
@@ -52,7 +46,7 @@ about:
   # funfacts loop
   - icon : "ion-ios-book-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Articles written"
-    count : "30"
+    count : "130"
 
   # funfacts loop
   - icon : "ion-ios-videocam-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -77,12 +71,12 @@ features:
   # feature item loop
   - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Project Leadership"
-    content : "I led initiatives and teams for the French national electricity project Linky (~100 people), enabled continuous delivery of value in a distributed-team context for a French startup, and coordinated a school renovation project in Honduras (30+ people), among other projects."
+    content : "I led initiatives and teams for the French national electricity project Linky (~100 people), enabled continuous delivery of value in a distributed-team context for a French tech company, and coordinated a school renovation project in Honduras (30+ people), among other projects."
 
   # feature item loop
   - icon : "ion-speakerphone" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Marketing"
-    content : "I designed a fit-for-purpose research methodology to define the target segment and products' benefits that would increase customer engagement for a Canadian startup. I also provided some advice in this area to a few other startups. Finally, I conducted market research for my ventures."  
+    content : "I designed a fit-for-purpose research methodology to define the target segment and products' benefits that would increase customer engagement for a Canadian startup. I also provided some advice in this area to a few other startups and conducted market research for my ventures."  
 
   # feature item loop
   - icon : "ion-ios-cog-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -92,7 +86,7 @@ features:
   # feature item loop
   - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Entrepreneurship"
-    content : "I developed a free platform to help Honduran entrepreneurs manage their invoices. I also created a successful IT consulting company (Crafties) in Lyon, France. Recently, I started the Social Impact Guild, which supports social entrepreneurs and raises awareness about social entrepreneurship."
+    content : "I developed a free platform to help Honduran entrepreneurs manage their invoices. I also created a successful IT consulting company (Crafties) in Lyon, France. Recently, I started the Social Impact Guild, a media company delivering the most relevant trends and news about positive change."
 
 #################################### testimonial & mission vision #######################################
 testimonial:
@@ -104,7 +98,7 @@ mission_vision:
   tabs:
   # tab item loop
   - name : "Purpose"
-    content : "I want to effect positive impact through my work and other endeavours.
+    content : "I want to effect a positive impact through my work and other endeavours.
 
 
     My dream is to combine my passions and knowledge in science, business and software to achieve this purpose."
@@ -115,10 +109,10 @@ mission_vision:
     At work, I foster open and respectful communication as well as active and empathetic listening.
 
 
-    I also strive to develop a holistic view of the organisation by considering all its components and collaborating with all its stakeholders, allowing me to make informed decisions.
+    I also strive to develop a holistic view of the organisation by considering all its components and stakeholders, allowing me to make informed decisions.
 
 
-    In the communities I belong to, I always try to share what I learn along the way. It translates in many forms, from informal conversations to workshops, talks, videos or blog articles.
+    In the communities I belong to, I always try to share what I learn along the way. It takes many forms, from informal conversations to workshops, talks, videos or blog articles.
     "  
 
   # tab item loop
