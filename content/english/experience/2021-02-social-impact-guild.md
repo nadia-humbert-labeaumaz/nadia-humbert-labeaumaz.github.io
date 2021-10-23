@@ -3,8 +3,8 @@ title: "Founder at the Social Impact Guild"
 date: 2021-01-01
 description: "Sharing the top positive change news"
 draft: false
-image : "images/experience/social-impact-guild.jpg"
-bg_image: "images/experience/social-impact-guild.jpg"
+image : "images/experience/cover.png"
+bg_image: "images/experience/cover.png"
 category: "Entrepreneurship"
 information:
   - label : "What We Do"
