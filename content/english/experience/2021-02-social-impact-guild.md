@@ -1,16 +1,14 @@
 ---
 title: "Founder at the Social Impact Guild"
 date: 2021-01-01
-description: "Raising awareness about social entrepreneurship"
+description: "Sharing the top positive change news"
 draft: false
 image : "images/experience/social-impact-guild.jpg"
 bg_image: "images/experience/social-impact-guild.jpg"
 category: "Entrepreneurship"
 information:
-  - label : "Client"
-    info : "Social entrepreneurs"
   - label : "What We Do"
-    info : "Provide visibility"
+    info : "Online media"
   - label : "Started on"
     info : "January 2021"
   - label : "Duration"
@@ -19,9 +17,9 @@ information:
 
 ## Description
 
-The Social Impact Guild shares the hottest social innovation news and stories every week in an easy-to-read email packed with goodness!
+The Social Impact Guild is the media company bringing you the most relevant trends and news about positive change in a snackable format.
 
-Our goal is to spark joy and innovation among our readers and raise awareness about social entrepreneurship.
+We cover the latest news on topics such as global warming, renewable energy, circular economy, biodiversity, health, and many more while filtering out the noise and focusing on what makes a real difference.
 
-Subscribe to our newsletter to start your week on a cheerful note:
+Our goal is to provide our readers with uplifting, yet meaningful information. Get the weekly email and stay uplifted and informed, for free:
 https://socialimpactguild.com

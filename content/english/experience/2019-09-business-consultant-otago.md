@@ -1,5 +1,5 @@
 ---
-title: "Business Consultant"
+title: "Business Advisor"
 date: 2019-09-01
 description: "Turned regulatory pressure into opportunities for farmers and corporations"
 draft: false

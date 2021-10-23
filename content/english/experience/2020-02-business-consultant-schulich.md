@@ -1,5 +1,5 @@
 ---
-title: "Business Consultant"
+title: "Business Advisor"
 date: 2020-02-01
 description: "Defined a marketing strategy and business plan"
 draft: false
