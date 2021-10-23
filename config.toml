@@ -55,7 +55,7 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 [params.contact]
 # Address block
 phone = ""
-email = "np.humbert@gmail.com"
+email = ""
 location = """
 """
 # Whether to display text descriptors (like "E-mail: ", "Phone: ") before the address block elements
@@ -173,7 +173,7 @@ languageName = "English"
 languageCode = "en-US"
 contentDir = "content/english"
 weight = 1
-copyright = "Nadia Humbert-Labeaumaz • 2021"
+copyright = "© 2021 Nadia Humbert-Labeaumaz"
 
 # Main menu
 [[languages.en.menu.main]]
@@ -230,21 +230,7 @@ hasChildren = true
 [[languages.en.menu.main]]
 weight = 7
 name = "Social Impact Guild"
-hasChildren = true
-
-    [[languages.en.menu.main]]
-    parent = "Social Impact Guild"
-    identifier = "SIG - Newsletter"
-    name = "Newsletter"
-    URL = "https://socialimpactguild.com"
-    weight = 1
-
-    [[languages.en.menu.main]]
-    parent = "Social Impact Guild"
-    identifier = "SIG - Blog"
-    name = "Blog"
-    URL = "https://blog.socialimpactguild.com"
-    weight = 2
+URL = "https://socialimpactguild.com"
 
 # Footer menu
 [[languages.en.menu.footer]]
