@@ -15,13 +15,9 @@ banner:
 about:
   enable: true
   title: "My Story"
-  description: "I moved to France by myself at 17 years old.
+  description: "Hi! I'm Nadia. I moved to France by myself at 17 years old.
 
-  Since then, I have travelled the world to study varied subjects and work.
-
-  During my journey, I have lived on 4 continents and learned from many cultures.
-
-  I have also developed knowledge and skills in business, science and software engineering.
+  Since then, I have travelled the world to study varied subjects and work, developing experience in entrepreneurship, consulting and leadership and learning from many cultures.
   "
   image: "images/lyon.jpg"
 
