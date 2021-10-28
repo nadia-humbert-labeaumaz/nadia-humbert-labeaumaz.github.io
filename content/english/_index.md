@@ -17,7 +17,7 @@ about:
   title: "My Story"
   description: "Hi! I'm Nadia. I moved to France by myself at 17 years old.
 
-  Since then, I have travelled the world to study varied subjects and work, developing experience in entrepreneurship, consulting and leadership and learning from many cultures.
+  Since then, I have travelled the world to work and study, developing knowledge and skills in diverse fields, building up experience in entrepreneurship, consulting and leadership and learning from many cultures.
   "
   image: "images/lyon.jpg"
 
