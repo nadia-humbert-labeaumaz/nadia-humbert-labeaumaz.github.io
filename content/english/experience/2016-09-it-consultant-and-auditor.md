@@ -12,7 +12,7 @@ information:
   - label : "Location"
     info : "France"
   - label : "Started on"
-    info : "February 2016"
+    info : "September 2016"
   - label : "Duration"
     info : "2.5 years"
 ---
