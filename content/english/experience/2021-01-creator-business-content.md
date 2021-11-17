@@ -17,7 +17,6 @@ information:
 
 ## Description
 
-Launched a series of discussions to share insights into business and entrepreneurship as well as promote social entrepreneurs:
-https://blog.socialimpactguild.com/tags/business-snacks/
+Launched a series of discussions to share insights into business and entrepreneurship as well as promote social entrepreneurs.
 
-In these articles, I combined my business knowledge and experience with those of the interviewee to provide high-quality content and increase my guest's visibility on various communication channels.
+In these series, I combined my business knowledge and experience with those of the interviewee to provide high-quality content and increase my guest's visibility on various communication channels.
