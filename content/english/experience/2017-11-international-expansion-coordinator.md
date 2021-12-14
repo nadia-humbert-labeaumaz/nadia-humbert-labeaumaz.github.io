@@ -1,5 +1,5 @@
 ---
-title: "International Expansion Coordinator"
+title: "International Expansion Lead"
 date: 2017-11-01
 description: "Helped a startup set up an outsourcing mechanism without comprising quality"
 draft: false
@@ -24,8 +24,9 @@ information:
 Scaled up the IT team of a French startup abroad. The goal was to keep high-quality standards and develop a meaningful collaboration between the distributed teams.
 
 **Achievements**
-- • Defined a shared vision, aligned with the company's objectives, that resonated with both teams.
+- • Collaborated with the product leadership and company executives to define the OKRs and strategic plan.
 
+- • Defined a shared vision, aligned with the company's objectives, that resonated with both teams.
 - • Successfully ensured the continuous delivery of value in this context of distributed teams through support, coordination, constraint management and risk mitigation.
 - • Designed fit-for-purpose indicators to monitor wellbeing, performance, quality, and profitability.
 - • Led steering committee meetings and ensured the implementation of the resulting actions.

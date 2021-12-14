@@ -21,5 +21,5 @@ The Social Impact Guild is the media company bringing you the most relevant tren
 
 We cover the latest news on topics such as global warming, renewable energy, circular economy, biodiversity, health, and many more while filtering out the noise and focusing on what makes a real difference.
 
-Our goal is to provide our readers with uplifting, yet meaningful information. Get the weekly email and stay uplifted and informed, for free:
+Our goal is to provide our readers with uplifting, yet meaningful information—get our newsletter and stay uplifted and informed, for free:
 https://socialimpactguild.com

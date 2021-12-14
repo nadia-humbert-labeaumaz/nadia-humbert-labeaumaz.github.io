@@ -1,5 +1,5 @@
 ---
-title: "Project Lead & Advisor"
+title: "Engineering Lead"
 date: 2017-07-01
 description: "Helped a startup open new markets in Europe"
 draft: false
@@ -21,7 +21,7 @@ information:
 
 ## Description
 
-Enabled and led the development of a French startup’s international platform (15 people team). It was critical for the company’s business strategy as it allowed opening new markets in Europe.
+Enabled and led the development of a French startup’s international platform (40 people team). It was critical for the company’s business strategy as it allowed opening new markets in Europe.
 
 **Achievements**
 - • Doubled the team's long-term velocity, without compromising quality, by providing support for the entire team, fostering knowledge sharing, addressing functional and technical bottlenecks as well as introducing a more Agile and engaged mindset.
