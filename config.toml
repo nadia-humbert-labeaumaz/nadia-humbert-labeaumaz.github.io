@@ -229,8 +229,8 @@ hasChildren = true
 
 [[languages.en.menu.main]]
 weight = 7
-name = "Social Impact Guild"
-URL = "https://socialimpactguild.com"
+name = "Time for a Change"
+URL = "https://www.timeforachange.xyz"
 
 # Footer menu
 [[languages.en.menu.footer]]

@@ -86,7 +86,7 @@ features:
   # feature item loop
   - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Entrepreneurship"
-    content : "I developed a free platform to help Honduran entrepreneurs manage their invoices. I also created a successful IT consulting company (Crafties) in Lyon, France. Recently, I started the Social Impact Guild, a media company delivering the most relevant trends and news about positive change."
+    content : "I developed a free platform to help Honduran entrepreneurs manage their invoices. I also created a successful IT consulting company (Crafties) in Lyon, France. Recently, I started Time for a Change, an environmental literacy platform that leverages the power of collective knowledge to address our current environmental crisis."
 
 #################################### testimonial & mission vision #######################################
 testimonial:
