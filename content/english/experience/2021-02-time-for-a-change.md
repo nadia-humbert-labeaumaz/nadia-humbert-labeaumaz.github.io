@@ -8,7 +8,7 @@ bg_image: "images/experience/cover.png"
 category: "Entrepreneurship"
 information:
   - label : "What We Do"
-    info : "Online media"
+    info : "Environment"
   - label : "Started on"
     info : "January 2021"
   - label : "Duration"
