@@ -61,7 +61,7 @@ features:
   # feature item loop
   - icon : "ion-arrow-graph-up-right" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Business Strategy"
-    content : "I developed the business strategy for my businesses, including my consulting company Crafties and my envrionmental literacy platform Time for a Change. I also provided advice in this area to other startups and SMEs, enabling their growth and success."
+    content : "I developed the business strategy for my businesses, including my consulting company Crafties and my environmental literacy platform Time for a Change. I also provided advice in this area to other startups and SMEs, enabling their growth and success."
 
   # feature item loop
   - icon : "ion-ios-flag-outline" #ionicon pack v2 : https://ionicons.com/v2/
