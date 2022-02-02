@@ -9,6 +9,8 @@ category: "Entrepreneurship"
 information:
   - label : "What We Do"
     info : "Environmental literacy"
+  - label : "Location"
+    info : "Canada"
   - label : "Started on"
     info : "January 2021"
   - label : "Duration"
