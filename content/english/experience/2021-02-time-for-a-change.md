@@ -1,7 +1,7 @@
 ---
 title: "Founder at Time for a Change"
 date: 2021-01-01
-description: "The first collaborative environmental literacy platform."
+description: "The first collaborative environmental literacy platform"
 draft: false
 image : "images/experience/cover.png"
 bg_image: "images/experience/cover.png"
