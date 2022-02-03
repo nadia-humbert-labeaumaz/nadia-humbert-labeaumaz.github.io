@@ -112,4 +112,22 @@ funfacts:
     image: " " #images/clients/avater-1.jpg
     designation: "Director of Information Technology - Enedis"
     content: "Nadia demonstrated an exceptional ability to master a new environment and new technologies. After a few weeks, she became an essential part of the project. Intellectually brilliant, Nadia adapts perfectly to her entire ecosystem, clients, colleagues, managers."
+    
+  # testimonial item loop
+  - name: "Farid Latti"
+    image: " " #images/clients/avater-1.jpg
+    designation: "CISO - Avem"
+    content: "Nadia is a very competent person when it comes to Java development, with the added ability to grasp and master new skills very quickly. Always in a good mood. Someone I would hire again without hesitation."
+    
+  # testimonial item loop
+  - name: "Mohamed Amine Ammach"
+    image: " " #images/clients/avater-1.jpg
+    designation: "Java Developer - Norsys"
+    content: "It was a pleasure to work with a very competent person both in terms of technical abilities and management. Nadia is the person with whom you want to give more than 100% without a doubt."
+    
+  # testimonial item loop
+  - name: "Mohamed Elbouzaidi"
+    image: " " #images/clients/avater-1.jpg
+    designation: "Lead Developer - Norsys"
+    content: "I had the chance to work with Nadia for more than two years on a big project. Nadia significantly contributed to the project's success: she took on great mentoring, leadership, and coaching responsibilities. I am also delighted to say that she is an excellent teammate, a kind person and an ideal colleague."
 ---

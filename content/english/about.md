@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-description: "Entrepreneur, Advisor, Biosciences Engineer & Software Engineer."
+description: "Entrepreneur, Business Advisor, Biosciences Engineer & Software Engineer."
 bg_image: "images/about.jpg"
 layout: "about"
 draft: false
