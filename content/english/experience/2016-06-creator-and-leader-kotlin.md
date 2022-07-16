@@ -5,7 +5,7 @@ description: "Created a community to share about the programming language Kotlin
 draft: false
 image : "images/experience/meetup.jpg"
 bg_image: "images/experience/meetup.jpg"
-category: "Community Leadership"
+category: "Leadership"
 information:
   - label : "Industry"
     info : "Software"  

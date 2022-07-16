@@ -37,10 +37,10 @@ portfolio:
       content: "
       I have provided consulting services in multiple areas to help companies achieve strategic goals and scale up.
       "
-    - name: Community Leadership
+    - name: Leadership
       bg_image: "images/experience/meetup.jpg"
       content: "
-      I have created and led social and software communities.
+      I have created several tech communities and led company-wide strategic initiatives.
       "
   button:
     enable: false

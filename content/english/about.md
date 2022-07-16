@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-description: "Entrepreneur, Business Advisor, Biosciences Engineer & Software Engineer."
+description: "Entrepreneur, Business Advisor, Biotechnology Engineer & Software Engineer."
 bg_image: "images/about.jpg"
 layout: "about"
 draft: false
@@ -26,7 +26,7 @@ about:
   # funfacts loop
   - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Companies advised"
-    count : "15"
+    count : "20"
 
   # funfacts loop
   - icon : "ion-ios-people-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -76,7 +76,7 @@ features:
   # feature item loop
   - icon : "ion-speakerphone" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Marketing"
-    content : "I designed a fit-for-purpose research methodology to define the target segment and products' benefits that would increase customer engagement for a Canadian startup. I also provided some advice in this area to a few other startups and conducted market research for my ventures."  
+    content : "I designed a fit-for-purpose research methodology to define the target segment and products' characteristics that would increase customer engagement for a Canadian startup. I also provided some advice in this area to a few other startups and conducted market research for my ventures."  
 
   # feature item loop
   - icon : "ion-ios-cog-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -101,7 +101,7 @@ mission_vision:
     content : "I want to effect a positive impact through my work and other endeavours.
 
 
-    My dream is to combine my passions and knowledge in science, business and software to achieve this purpose."
+    My dream is to combine my passions and knowledge in business, science and software to achieve this purpose."
 
   # tab item loop
   - name : "Approach"

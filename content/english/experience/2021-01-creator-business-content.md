@@ -5,7 +5,7 @@ description: "Created a space to share insights into business and entrepreneursh
 draft: false
 image : "images/experience/microphone.jpg"
 bg_image: "images/experience/business-insights.jpg"
-category: "Community Leadership"
+category: "Leadership"
 information:
   - label : "Location"
     info : "Canada"
