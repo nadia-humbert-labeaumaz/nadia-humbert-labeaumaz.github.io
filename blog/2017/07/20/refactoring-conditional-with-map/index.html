@@ -1,13 +1,4 @@
-<!doctype html><html lang=en-us><head>
-<meta charset=utf-8>
-<title>Refactoring Conditional Structures with Map</title>
-<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
-<meta name=description content="Entrepreneur, consultant, bio-sciences and software engineer.">
-<meta name=author content="Nadia Humbert-Labeaumaz">
-<meta name=generator content="Hugo 0.92.1">
-<meta property="og:image" content="https://nadia-humbert-labeaumaz.github.io/images/blog/refactoring-conditional/header.jpg">
-<meta property="og:title" content="Refactoring Conditional Structures with Map">
-<meta property="og:description" content="When working on already existing codebases, I often encounter pieces of code that look like this:
+<!doctype html><html lang=en-us><head><meta charset=utf-8><title>Refactoring Conditional Structures with Map</title><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=description content="Entrepreneur, consultant, bio-sciences and software engineer."><meta name=author content="Nadia Humbert-Labeaumaz"><meta name=generator content="Hugo 0.101.0"><meta property="og:image" content="https://nadia-humbert-labeaumaz.github.io/images/blog/refactoring-conditional/header.jpg"><meta property="og:title" content="Refactoring Conditional Structures with Map"><meta property="og:description" content="When working on already existing codebases, I often encounter pieces of code that look like this:
 public class Day {
   public void start(Weather weather) {
     switch(weather) {
@@ -26,15 +17,7 @@ public class Day {
     }
   }
 }
-Basically, depending on the weather, a specific action has to be taken. This kind of code is pretty hard to test and maintain. The goal of this article is to refactor it using a Map.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://nadia-humbert-labeaumaz.github.io/blog/2017/07/20/refactoring-conditional-with-map/"><meta property="og:image" content="https://nadia-humbert-labeaumaz.github.io/images/slider.jpg"><meta property="article:section" content="blog">
-<meta property="article:published_time" content="2017-07-20T15:32:15+01:00">
-<meta property="article:modified_time" content="2017-07-20T15:32:15+01:00"><meta property="og:site_name" content="Nadia Humbert-Labeaumaz">
-<meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://nadia-humbert-labeaumaz.github.io/images/slider.jpg">
-<meta name=twitter:title content="Refactoring Conditional Structures with Map">
-<meta name=twitter:description content="When working on already existing codebases, I often encounter pieces of code that look like this:
+Basically, depending on the weather, a specific action has to be taken. This kind of code is pretty hard to test and maintain. The goal of this article is to refactor it using a Map."><meta property="og:type" content="article"><meta property="og:url" content="https://nadia-humbert-labeaumaz.github.io/blog/2017/07/20/refactoring-conditional-with-map/"><meta property="og:image" content="https://nadia-humbert-labeaumaz.github.io/images/slider.jpg"><meta property="article:section" content="blog"><meta property="article:published_time" content="2017-07-20T15:32:15+01:00"><meta property="article:modified_time" content="2017-07-20T15:32:15+01:00"><meta property="og:site_name" content="Nadia Humbert-Labeaumaz"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://nadia-humbert-labeaumaz.github.io/images/slider.jpg"><meta name=twitter:title content="Refactoring Conditional Structures with Map"><meta name=twitter:description content="When working on already existing codebases, I often encounter pieces of code that look like this:
 public class Day {
   public void start(Weather weather) {
     switch(weather) {
@@ -53,268 +36,84 @@ public class Day {
     }
   }
 }
-Basically, depending on the weather, a specific action has to be taken. This kind of code is pretty hard to test and maintain. The goal of this article is to refactor it using a Map.">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FDXGPB3FE3"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-FDXGPB3FE3',{anonymize_ip:!1})}</script>
-<link rel=stylesheet href=/plugins/bootstrap/css/bootstrap.min.css media=screen>
-<link rel=stylesheet href=/plugins/ionicons/css/ionicons.min.css>
-<link rel=stylesheet href=/plugins/magnific-popup/magnific-popup.min.css>
-<link rel=stylesheet href=/plugins/slick/slick.css>
-<link rel=stylesheet href=/scss/style.min.css media=screen>
-<link rel="shortcut icon" href=/images/favicon.png type=image/x-icon>
-<link rel=icon href=/images/favicon.png type=image/x-icon>
-<link rel=canonical href=https://nadia-humbert-labeaumaz.github.io/blog/2017/07/20/refactoring-conditional-with-map/>
-</head>
-<body>
-<div class=preloader>
-</div>
-<header class=navigation>
-<div class=container-fluid>
-<div class=row>
-<div class=col-md-12>
-<nav class=navbar>
-<div class=navbar-header>
-<button type=button class="navbar-toggle collapsed" data-toggle=collapse data-target=#navigation>
+Basically, depending on the weather, a specific action has to be taken. This kind of code is pretty hard to test and maintain. The goal of this article is to refactor it using a Map."><script async src="https://www.googletagmanager.com/gtag/js?id=G-FDXGPB3FE3"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-FDXGPB3FE3",{anonymize_ip:!1})}</script><link rel=stylesheet href=/plugins/bootstrap/css/bootstrap.min.css media=screen><link rel=stylesheet href=/plugins/ionicons/css/ionicons.min.css><link rel=stylesheet href=/plugins/magnific-popup/magnific-popup.min.css><link rel=stylesheet href=/plugins/slick/slick.css><link rel=stylesheet href=/scss/style.min.css media=screen><link rel="shortcut icon" href=/images/favicon.png type=image/x-icon><link rel=icon href=/images/favicon.png type=image/x-icon><link rel=canonical href=https://nadia-humbert-labeaumaz.github.io/blog/2017/07/20/refactoring-conditional-with-map/></head><body><div class=preloader></div><header class=navigation><div class=container-fluid><div class=row><div class=col-md-12><nav class=navbar><div class=navbar-header><button type=button class="navbar-toggle collapsed" data-toggle=collapse data-target=#navigation>
 <span class=icon-bar></span>
 <span class=icon-bar></span>
-<span class=icon-bar></span>
-</button>
-</div>
-<div class="collapse navbar-collapse" id=navigation>
-<ul class="nav navbar-nav navbar-right">
-<li><a href=/>Home</a></li>
-<li><a href=/about>About</a></li>
-<li><a href=/experience>Experience</a></li>
-<li><a href=/blog>Blog</a></li>
-<li><a href=/categories/case-studies>Case Studies</a></li>
-<li class=dropdown>
-<a href=# class=dropdown-toggle data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>Crafties <span class=ion-ios-arrow-down></span></a>
-<ul class=dropdown-menu>
-<li><a href=/crafties>Videos</a></li>
-<li><a href=/drafties>Drafties</a></li>
-<li><a href=/talks>Talks</a></li>
-</ul>
-</li>
-<li><a href=https://www.timeforachange.xyz target=_blank>Time for a Change</a></li>
-</ul>
-</div>
-</nav>
-</div>
-</div>
-</div>
-</header>
-<section class="page-title bg-2" style=background-image:url(/images/blog/refactoring-conditional/header.jpg)>
-<div class=container>
-<div class=row>
-<div class=col-md-12>
-<div class=block>
-<h1>Refactoring Conditional Structures with Map</h1>
-<p></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class=page-wrapper>
-<div class=container>
-<div class=row>
-<div class=col-md-8>
-<div class="post post-single">
-<h2 class=post-title>Refactoring Conditional Structures with Map</h2>
-<div class=post-meta>
-<ul>
-<li><i class=ion-calendar></i> July 20, 2017</li>
-<li><i class=ion-android-people></i>
+<span class=icon-bar></span></button></div><div class="collapse navbar-collapse" id=navigation><ul class="nav navbar-nav navbar-right"><li><a href=/>Home</a></li><li><a href=/about>About</a></li><li><a href=/experience>Experience</a></li><li><a href=/blog>Blog</a></li><li><a href=/categories/case-studies>Case Studies</a></li><li class=dropdown><a href=# class=dropdown-toggle data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>Crafties <span class=ion-ios-arrow-down></span></a><ul class=dropdown-menu><li><a href=/crafties>Videos</a></li><li><a href=/drafties>Drafties</a></li><li><a href=/talks>Talks</a></li></ul></li><li><a href=https://www.timeforachange.xyz target=_blank>Time for a Change</a></li></ul></div></nav></div></div></div></header><section class="page-title bg-2" style=background-image:url(/images/blog/refactoring-conditional/header.jpg)><div class=container><div class=row><div class=col-md-12><div class=block><h1>Refactoring Conditional Structures with Map</h1><p></p></div></div></div></div></section><section class=page-wrapper><div class=container><div class=row><div class=col-md-8><div class="post post-single"><h2 class=post-title>Refactoring Conditional Structures with Map</h2><div class=post-meta><ul><li><i class=ion-calendar></i> July 20, 2017</li><li><i class=ion-android-people></i>
 Posted by
-<a class=text-primary href=/author/nadia-humbert-labeaumaz>Nadia Humbert-Labeaumaz</a>
-</li>
-<li><i class=ion-pricetags></i>
-<a href=/tags/software-design>Software Design</a>, <a href=/tags/refactoring>Refactoring</a>, <a href=/tags/java>Java</a>
-</li>
-</ul>
-</div>
-<div class=post-thumb>
-<img class=img-responsive src=/images/blog/refactoring-conditional/header.jpg alt="Refactoring Conditional Structures with Map">
-</div>
-<div class="post-content post-excerpt">
-<p>When working on already existing codebases, I often encounter pieces of code that look like this:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Day</span> <span style=color:#f92672>{</span>
-  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> <span style=color:#a6e22e>start</span><span style=color:#f92672>(</span>Weather weather<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
-    <span style=color:#66d9ef>switch</span><span style=color:#f92672>(</span>weather<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
-      <span style=color:#66d9ef>case</span> RAINY<span style=color:#f92672>:</span>
-          takeAnUmbrella<span style=color:#f92672>();</span>
-          <span style=color:#66d9ef>break</span><span style=color:#f92672>;</span>
-      <span style=color:#66d9ef>case</span> SUNNY<span style=color:#f92672>:</span>
-          takeAHat<span style=color:#f92672>();</span>
-          <span style=color:#66d9ef>break</span><span style=color:#f92672>;</span>
-      <span style=color:#66d9ef>case</span> STORMY<span style=color:#f92672>:</span>
-          stayHome<span style=color:#f92672>();</span>
-          <span style=color:#66d9ef>break</span><span style=color:#f92672>;</span>
-      <span style=color:#66d9ef>default</span><span style=color:#f92672>:</span>
-          doNothing<span style=color:#f92672>();</span>
-          <span style=color:#66d9ef>break</span><span style=color:#f92672>;</span>
-    <span style=color:#f92672>}</span>
-  <span style=color:#f92672>}</span>
-<span style=color:#f92672>}</span>
-</code></pre></div><p>Basically, depending on the weather, a specific action has to be taken. This kind of code is pretty hard to test and maintain. The goal of this article is to refactor it using a <code>Map</code>.</p>
-<h2 id=what-is-the-problem>What is the Problem?</h2>
-<p>Using conditional structures like this might be a sign of bad design. Indeed, this code tends to grow indefinitely as new cases have to be handled, and the same code has to be modified repeatedly. So, inevitably, a time will come when the code will be so bloated that it will be tough to add new behaviour. This is a violation of the <em>Open Closed Principle</em> which stipulates that the code should be open for extension but closed for modification. In other words, you should be able to add new behaviour to your code without modifying it.</p>
-<h2 id=transform-the-imperative-algorithm-into-data>Transform the Imperative Algorithm into Data</h2>
-<p>By analyzing this code, it becomes clear that this algorithm is no more than a <code>Map</code>: for each weather (the key), a piece of code has to be executed (the value). Therefore, it is possible to perform a first refactoring iteration to make this conceptual <code>Map</code> concrete:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Day</span> <span style=color:#f92672>{</span>
-
-  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>final</span> Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> startOfTheDayActions <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> HashMap<span style=color:#f92672>&lt;&gt;();</span>
-
-  <span style=color:#66d9ef>public</span> <span style=color:#a6e22e>Day</span><span style=color:#f92672>()</span> <span style=color:#f92672>{</span>
-    startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>put</span><span style=color:#f92672>(</span>Weather<span style=color:#f92672>.</span><span style=color:#a6e22e>RAINY</span><span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>takeAnUmbrella<span style=color:#f92672>);</span>
-    startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>put</span><span style=color:#f92672>(</span>Weather<span style=color:#f92672>.</span><span style=color:#a6e22e>SUNNY</span><span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>takeAHat<span style=color:#f92672>);</span>
-    startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>put</span><span style=color:#f92672>(</span>Weather<span style=color:#f92672>.</span><span style=color:#a6e22e>STORMY</span><span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>stayHome<span style=color:#f92672>);</span>
-  <span style=color:#f92672>}</span>
-
-  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> <span style=color:#a6e22e>start</span><span style=color:#f92672>(</span>Weather weather<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
-    startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>getOrDefault</span><span style=color:#f92672>(</span>weather<span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>doNothing<span style=color:#f92672>).</span><span style=color:#a6e22e>run</span><span style=color:#f92672>();</span>
-  <span style=color:#f92672>}</span>
-<span style=color:#f92672>}</span>
-</code></pre></div><p>The code is now already much clearer. Indeed, the mapping between the weather and the action to perform is explicit, and it is not necessary to modify the <code>start</code> method very often: each new case only requires a new entry in the <code>Map</code>.</p>
-<p>Nonetheless, this do not solve all issues. In fact, the class still has to be modified to add a new entry. So, to go further, the <code>Map</code> can be passed as a parameter of the constructor.</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Day</span> <span style=color:#f92672>{</span>
-
-  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>final</span> Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> startOfTheDayActions <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> HashMap<span style=color:#f92672>&lt;&gt;();</span>
-
-  <span style=color:#66d9ef>public</span> <span style=color:#a6e22e>Day</span><span style=color:#f92672>(</span>Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> startOfTheDayActions<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
-    <span style=color:#66d9ef>this</span><span style=color:#f92672>.</span><span style=color:#a6e22e>startOfTheDayActions</span> <span style=color:#f92672>=</span> startOfTheDayActions<span style=color:#f92672>;</span>
-  <span style=color:#f92672>}</span>
-
-  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> <span style=color:#a6e22e>start</span><span style=color:#f92672>(</span>Weather weather<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
-    startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>getOrDefault</span><span style=color:#f92672>(</span>weather<span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>doNothing<span style=color:#f92672>).</span><span style=color:#a6e22e>run</span><span style=color:#f92672>();</span>
-  <span style=color:#f92672>}</span>
-<span style=color:#f92672>}</span>
-</code></pre></div><p>Now, the only responsibility of the class is to use the mapping to perform the correct action. This mapping is now the responsibility of another class.</p>
-<h2 id=note-about-spring-framework>Note about Spring Framework</h2>
-<p>If you are using Spring Framework and the <code>Day</code> class is a <code>@Component</code>, you can simply inject the <code>Map</code> as any other dependency.</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=color:#a6e22e>@Component</span>
-<span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Day</span> <span style=color:#f92672>{</span>
-
-  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>final</span> Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> startOfTheDayActions <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> HashMap<span style=color:#f92672>&lt;&gt;();</span>
-
-  <span style=color:#66d9ef>public</span> <span style=color:#a6e22e>Day</span><span style=color:#f92672>(</span><span style=color:#a6e22e>@Qualifier</span><span style=color:#f92672>(</span><span style=color:#e6db74>&#34;startOfTheDayActions&#34;</span><span style=color:#f92672>)</span> Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> startOfTheDayActions<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
-    <span style=color:#66d9ef>this</span><span style=color:#f92672>.</span><span style=color:#a6e22e>startOfTheDayActions</span> <span style=color:#f92672>=</span> startOfTheDayActions<span style=color:#f92672>;</span>
-  <span style=color:#f92672>}</span>
-
-  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> <span style=color:#a6e22e>start</span><span style=color:#f92672>(</span>Weather weather<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
-    startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>getOrDefault</span><span style=color:#f92672>(</span>weather<span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>doNothing<span style=color:#f92672>).</span><span style=color:#a6e22e>run</span><span style=color:#f92672>();</span>
-  <span style=color:#f92672>}</span>
-<span style=color:#f92672>}</span>
-</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=color:#a6e22e>@Configuration</span>
-<span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>ActionConfig</span> <span style=color:#f92672>{</span>
-
-  <span style=color:#a6e22e>@Bean</span><span style=color:#f92672>(</span><span style=color:#e6db74>&#34;startOfTheDayActions&#34;</span><span style=color:#f92672>)</span>
-  <span style=color:#66d9ef>public</span> Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> <span style=color:#a6e22e>startOfTheDayActions</span><span style=color:#f92672>()</span> <span style=color:#f92672>{</span>
-    Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> actions <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> HashMap<span style=color:#f92672>&lt;&gt;();</span>
-    <span style=color:#75715e>// Create mapping
-</span><span style=color:#75715e></span>    <span style=color:#66d9ef>return</span> actions<span style=color:#f92672>;</span>
-  <span style=color:#f92672>}</span>
-<span style=color:#f92672>}</span>
-</code></pre></div><h2 id=conclusion>Conclusion</h2>
-<p>This refactoring is easy to perform, but it can reduce the complexity of a method in a very efficient way. Indeed, I think the code should reveal intention and not be bloated with conditional structures when unnecessary.</p>
-</div>
-<div class=post-comments>
-</div>
-</div>
-</div>
-<div class=col-md-4>
-<aside class=sidebar><div class="widget widget-latest-post">
-<h4 class=widget-title>Latest Posts</h4>
-<div class=media>
-<a class=pull-left href=/blog/2021/04/28/effecting-long-lasting-changes/>
-<img class=media-object src=/images/blog/effecting-long-lasting-changes/header.jpg alt="How to Effect Long-Lasting Organizational Changes">
-</a>
-<div class=media-body>
-<h4 class=media-heading><a href=/blog/2021/04/28/effecting-long-lasting-changes/>How to Effect Long-Lasting Organizational Changes</a></h4>
-</div>
-</div>
-<div class=media>
-<a class=pull-left href=/blog/2021/01/14/what-is-a-social-entrepreneur/>
-<img class=media-object src=/images/blog/what-is-a-social-entrepreneur/header.jpg alt="What is a Social Entrepreneur?">
-</a>
-<div class=media-body>
-<h4 class=media-heading><a href=/blog/2021/01/14/what-is-a-social-entrepreneur/>What is a Social Entrepreneur?</a></h4>
-</div>
-</div>
-<div class=media>
-<a class=pull-left href=/blog/2020/07/05/debt-sme-nz/>
-<img class=media-object src=/images/blog/debt-sme-nz/header.jpg alt="Debt and SMEs in New Zealand">
-</a>
-<div class=media-body>
-<h4 class=media-heading><a href=/blog/2020/07/05/debt-sme-nz/>Debt and SMEs in New Zealand</a></h4>
-</div>
-</div>
-<div class=media>
-<a class=pull-left href=/blog/2019/06/27/cloudy-relationship-france-diesel/>
-<img class=media-object src=/images/blog/diesel/header.jpg alt="The Cloudy Relationship Between France and Diesel">
-</a>
-<div class=media-body>
-<h4 class=media-heading><a href=/blog/2019/06/27/cloudy-relationship-france-diesel/>The Cloudy Relationship Between France and Diesel</a></h4>
-</div>
-</div>
-</div>
-<div class="widget widget-category">
-<h4 class=widget-title>Categories</h4>
-<ul class=widget-category-list>
-<li><a href=/categories/business/>Business</a></li>
-<li><a href=/categories/case-studies/>Case Studies</a></li>
-<li><a href=/categories/software/>Software</a></li>
-</ul>
-</div>
-<div class="widget widget-tag">
-<h4 class=widget-title>Tags</h4>
-<ul class=widget-tag-list>
-<li><a href=/tags/change-management/>Change Management</a></li>
-<li><a href=/tags/economics/>Economics</a></li>
-<li><a href=/tags/finance/>Finance</a></li>
-<li><a href=/tags/java/>Java</a></li>
-<li><a href=/tags/refactoring/>Refactoring</a></li>
-<li><a href=/tags/social-entrepreneurship/>Social Entrepreneurship</a></li>
-<li><a href=/tags/software-design/>Software Design</a></li>
-<li><a href=/tags/software-testing/>Software Testing</a></li>
-</ul>
-</div>
-</aside>
-</div>
-</div>
-</div>
-</section>
-<footer class=footer>
-<div class=container>
-<div class=row>
-<div class=col-md-12>
-<div class=footer-menu>
-<ul>
-<li><a href=/>Home</a></li>
-<li><a href=/about>About</a></li>
-<li><a href=/experience>Experience</a></li>
-<li><a href=/blog>Blog</a></li>
-<li><a href=/categories/case-studies>Case Studies</a></li>
-</ul>
-</div>
-<div class=footer-menu>
-<ul>
-<li><a href=https://www.linkedin.com/in/nadia-humbert-labeaumaz/ target=_blank><i class=ion-social-linkedin-outline></i></a></li>
-<li><a href=https://github.com/nphumbert target=_blank><i class=ion-social-github-outline></i></a></li>
-<li><a href=https://twitter.com/nphumbert target=_blank><i class=ion-social-twitter-outline></i></a></li>
-</ul>
-</div>
-<p class=copyright>© 2021 Nadia Humbert-Labeaumaz</p>
-</div>
-</div>
-</div>
-</footer>
-<script src=/plugins/jquery/jquery.min.js></script>
+<a class=text-primary href=/author/nadia-humbert-labeaumaz>Nadia Humbert-Labeaumaz</a></li><li><i class=ion-pricetags></i>
+<a href=/tags/software-design>Software Design</a>, <a href=/tags/refactoring>Refactoring</a>, <a href=/tags/java>Java</a></li></ul></div><div class=post-thumb><img class=img-responsive src=/images/blog/refactoring-conditional/header.jpg alt="Refactoring Conditional Structures with Map"></div><div class="post-content post-excerpt"><p>When working on already existing codebases, I often encounter pieces of code that look like this:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Day</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> <span style=color:#a6e22e>start</span><span style=color:#f92672>(</span>Weather weather<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>switch</span><span style=color:#f92672>(</span>weather<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>case</span> RAINY<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>          takeAnUmbrella<span style=color:#f92672>();</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>break</span><span style=color:#f92672>;</span>
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>case</span> SUNNY<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>          takeAHat<span style=color:#f92672>();</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>break</span><span style=color:#f92672>;</span>
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>case</span> STORMY<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>          stayHome<span style=color:#f92672>();</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>break</span><span style=color:#f92672>;</span>
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>default</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>          doNothing<span style=color:#f92672>();</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>break</span><span style=color:#f92672>;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span></code></pre></div><p>Basically, depending on the weather, a specific action has to be taken. This kind of code is pretty hard to test and maintain. The goal of this article is to refactor it using a <code>Map</code>.</p><h2 id=what-is-the-problem>What is the Problem?</h2><p>Using conditional structures like this might be a sign of bad design. Indeed, this code tends to grow indefinitely as new cases have to be handled, and the same code has to be modified repeatedly. So, inevitably, a time will come when the code will be so bloated that it will be tough to add new behaviour. This is a violation of the <em>Open Closed Principle</em> which stipulates that the code should be open for extension but closed for modification. In other words, you should be able to add new behaviour to your code without modifying it.</p><h2 id=transform-the-imperative-algorithm-into-data>Transform the Imperative Algorithm into Data</h2><p>By analyzing this code, it becomes clear that this algorithm is no more than a <code>Map</code>: for each weather (the key), a piece of code has to be executed (the value). Therefore, it is possible to perform a first refactoring iteration to make this conceptual <code>Map</code> concrete:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Day</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>final</span> Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> startOfTheDayActions <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> HashMap<span style=color:#f92672>&lt;&gt;();</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#a6e22e>Day</span><span style=color:#f92672>()</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>put</span><span style=color:#f92672>(</span>Weather<span style=color:#f92672>.</span><span style=color:#a6e22e>RAINY</span><span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>takeAnUmbrella<span style=color:#f92672>);</span>
+</span></span><span style=display:flex><span>    startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>put</span><span style=color:#f92672>(</span>Weather<span style=color:#f92672>.</span><span style=color:#a6e22e>SUNNY</span><span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>takeAHat<span style=color:#f92672>);</span>
+</span></span><span style=display:flex><span>    startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>put</span><span style=color:#f92672>(</span>Weather<span style=color:#f92672>.</span><span style=color:#a6e22e>STORMY</span><span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>stayHome<span style=color:#f92672>);</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> <span style=color:#a6e22e>start</span><span style=color:#f92672>(</span>Weather weather<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>getOrDefault</span><span style=color:#f92672>(</span>weather<span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>doNothing<span style=color:#f92672>).</span><span style=color:#a6e22e>run</span><span style=color:#f92672>();</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span></code></pre></div><p>The code is now already much clearer. Indeed, the mapping between the weather and the action to perform is explicit, and it is not necessary to modify the <code>start</code> method very often: each new case only requires a new entry in the <code>Map</code>.</p><p>Nonetheless, this do not solve all issues. In fact, the class still has to be modified to add a new entry. So, to go further, the <code>Map</code> can be passed as a parameter of the constructor.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Day</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>final</span> Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> startOfTheDayActions <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> HashMap<span style=color:#f92672>&lt;&gt;();</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#a6e22e>Day</span><span style=color:#f92672>(</span>Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> startOfTheDayActions<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>this</span><span style=color:#f92672>.</span><span style=color:#a6e22e>startOfTheDayActions</span> <span style=color:#f92672>=</span> startOfTheDayActions<span style=color:#f92672>;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> <span style=color:#a6e22e>start</span><span style=color:#f92672>(</span>Weather weather<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>getOrDefault</span><span style=color:#f92672>(</span>weather<span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>doNothing<span style=color:#f92672>).</span><span style=color:#a6e22e>run</span><span style=color:#f92672>();</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span></code></pre></div><p>Now, the only responsibility of the class is to use the mapping to perform the correct action. This mapping is now the responsibility of another class.</p><h2 id=note-about-spring-framework>Note about Spring Framework</h2><p>If you are using Spring Framework and the <code>Day</code> class is a <code>@Component</code>, you can simply inject the <code>Map</code> as any other dependency.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=display:flex><span><span style=color:#a6e22e>@Component</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Day</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>final</span> Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> startOfTheDayActions <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> HashMap<span style=color:#f92672>&lt;&gt;();</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#a6e22e>Day</span><span style=color:#f92672>(</span><span style=color:#a6e22e>@Qualifier</span><span style=color:#f92672>(</span><span style=color:#e6db74>&#34;startOfTheDayActions&#34;</span><span style=color:#f92672>)</span> Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> startOfTheDayActions<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>this</span><span style=color:#f92672>.</span><span style=color:#a6e22e>startOfTheDayActions</span> <span style=color:#f92672>=</span> startOfTheDayActions<span style=color:#f92672>;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> <span style=color:#a6e22e>start</span><span style=color:#f92672>(</span>Weather weather<span style=color:#f92672>)</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    startOfTheDayActions<span style=color:#f92672>.</span><span style=color:#a6e22e>getOrDefault</span><span style=color:#f92672>(</span>weather<span style=color:#f92672>,</span> <span style=color:#66d9ef>this</span><span style=color:#f92672>::</span>doNothing<span style=color:#f92672>).</span><span style=color:#a6e22e>run</span><span style=color:#f92672>();</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-java data-lang=java><span style=display:flex><span><span style=color:#a6e22e>@Configuration</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>ActionConfig</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>@Bean</span><span style=color:#f92672>(</span><span style=color:#e6db74>&#34;startOfTheDayActions&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> <span style=color:#a6e22e>startOfTheDayActions</span><span style=color:#f92672>()</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    Map<span style=color:#f92672>&lt;</span>Weather<span style=color:#f92672>,</span> Runnable<span style=color:#f92672>&gt;</span> actions <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> HashMap<span style=color:#f92672>&lt;&gt;();</span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Create mapping
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>return</span> actions<span style=color:#f92672>;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span></code></pre></div><h2 id=conclusion>Conclusion</h2><p>This refactoring is easy to perform, but it can reduce the complexity of a method in a very efficient way. Indeed, I think the code should reveal intention and not be bloated with conditional structures when unnecessary.</p></div><div class=post-comments></div></div></div><div class=col-md-4><aside class=sidebar><div class="widget widget-latest-post"><h4 class=widget-title>Latest Posts</h4><div class=media><a class=pull-left href=/blog/2021/04/28/effecting-long-lasting-changes/><img class=media-object src=/images/blog/effecting-long-lasting-changes/header.jpg alt="How to Effect Long-Lasting Organizational Changes"></a><div class=media-body><h4 class=media-heading><a href=/blog/2021/04/28/effecting-long-lasting-changes/>How to Effect Long-Lasting Organizational Changes</a></h4></div></div><div class=media><a class=pull-left href=/blog/2021/01/14/what-is-a-social-entrepreneur/><img class=media-object src=/images/blog/what-is-a-social-entrepreneur/header.jpg alt="What is a Social Entrepreneur?"></a><div class=media-body><h4 class=media-heading><a href=/blog/2021/01/14/what-is-a-social-entrepreneur/>What is a Social Entrepreneur?</a></h4></div></div><div class=media><a class=pull-left href=/blog/2020/07/05/debt-sme-nz/><img class=media-object src=/images/blog/debt-sme-nz/header.jpg alt="Debt and SMEs in New Zealand"></a><div class=media-body><h4 class=media-heading><a href=/blog/2020/07/05/debt-sme-nz/>Debt and SMEs in New Zealand</a></h4></div></div><div class=media><a class=pull-left href=/blog/2019/06/27/cloudy-relationship-france-diesel/><img class=media-object src=/images/blog/diesel/header.jpg alt="The Cloudy Relationship Between France and Diesel"></a><div class=media-body><h4 class=media-heading><a href=/blog/2019/06/27/cloudy-relationship-france-diesel/>The Cloudy Relationship Between France and Diesel</a></h4></div></div></div><div class="widget widget-category"><h4 class=widget-title>Categories</h4><ul class=widget-category-list><li><a href=/categories/business/>Business</a></li><li><a href=/categories/case-studies/>Case Studies</a></li><li><a href=/categories/software/>Software</a></li></ul></div><div class="widget widget-tag"><h4 class=widget-title>Tags</h4><ul class=widget-tag-list><li><a href=/tags/change-management/>Change Management</a></li><li><a href=/tags/economics/>Economics</a></li><li><a href=/tags/finance/>Finance</a></li><li><a href=/tags/java/>Java</a></li><li><a href=/tags/refactoring/>Refactoring</a></li><li><a href=/tags/social-entrepreneurship/>Social Entrepreneurship</a></li><li><a href=/tags/software-design/>Software Design</a></li><li><a href=/tags/software-testing/>Software Testing</a></li></ul></div></aside></div></div></div></section><footer class=footer><div class=container><div class=row><div class=col-md-12><div class=footer-menu><ul><li><a href=/>Home</a></li><li><a href=/about>About</a></li><li><a href=/experience>Experience</a></li><li><a href=/blog>Blog</a></li><li><a href=/categories/case-studies>Case Studies</a></li></ul></div><div class=footer-menu><ul><li><a href=https://www.linkedin.com/in/nadia-humbert-labeaumaz/ target=_blank><i class=ion-social-linkedin-outline></i></a></li><li><a href=https://github.com/nphumbert target=_blank><i class=ion-social-github-outline></i></a></li><li><a href=https://twitter.com/nphumbert target=_blank><i class=ion-social-twitter-outline></i></a></li></ul></div><p class=copyright>© 2021 Nadia Humbert-Labeaumaz</p></div></div></div></footer><script src=/plugins/jquery/jquery.min.js></script>
 <script src=/plugins/bootstrap/js/bootstrap.min.js></script>
 <script src=/plugins/slick/slick.min.js></script>
 <script src=/plugins/magnific-popup/magnific-popup.min.js></script>
 <script src=/plugins/shuffle/shuffle.min.js></script>
 <script src=/plugins/google-map/gmap.js defer></script>
-<script src=/js/script.min.js></script>
-</body>
-</html>
+<script src=/js/script.min.js></script></body></html>
