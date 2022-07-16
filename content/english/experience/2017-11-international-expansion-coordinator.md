@@ -5,7 +5,7 @@ description: "Helped a startup set up an outsourcing mechanism without comprisin
 draft: false
 image : "images/experience/international.jpg"
 bg_image: "images/experience/international.jpg"
-category: "Consulting"
+category: "Leadership"
 information:
   - label : "Client Type"
     info : "Startup"

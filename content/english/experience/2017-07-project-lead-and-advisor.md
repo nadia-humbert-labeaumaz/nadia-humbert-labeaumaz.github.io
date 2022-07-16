@@ -5,7 +5,7 @@ description: "Helped a startup open new markets in Europe"
 draft: false
 image : "images/experience/project-lead.jpg"
 bg_image: "images/experience/project-lead.jpg"
-category: "Consulting"
+category: "Leadership"
 information:
   - label : "Client Type"
     info : "Startup"

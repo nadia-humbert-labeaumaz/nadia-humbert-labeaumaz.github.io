@@ -5,7 +5,7 @@ description: "Led initiatives and teams for the French national electricity proj
 draft: false
 image : "images/experience/linky.jpg"
 bg_image: "images/experience/linky.jpg"
-category: "Consulting"
+category: "Leadership"
 information:
   - label : "Client Type"
     info : "Large enterprise"
