@@ -25,12 +25,12 @@ about:
 ######################### Portfolio ###############################
 portfolio:
   enable: true
-  title: "I HAVE EXPERIENCE IN"
+  title: "I Have Experience In"
   tabs:
     - name: Entrepreneurship
       bg_image: "images/experience/social-impact-guild.jpg"
       content: "
-      I have founded multiple initiatives and managed my own business.
+      I have founded and managed my own businesses.
       "      
     - name: Consulting
       bg_image: "images/experience/project-lead.jpg"
@@ -53,7 +53,7 @@ cta:
   enable: true
   bg_image: "images/experience/international.jpg"
   title: "International and Multifaceted Profile"
-  content: "I have occupied several roles while working with startups, medium-sized and large enterprises from various industries worldwide."
+  content: "During my journey, I have occupied several roles while working with startups, medium-sized and large enterprises from various industries worldwide."
   button:
     enable: true
     label: "Learn more about me!"
@@ -99,7 +99,7 @@ funfacts:
   - name: "Dr Steven Tucker"
     image: "" #images/clients/avater-3.jpg
     designation: "Senior Lecturer - University of Aberdeen"
-    content: "In terms of communication, Nadia is excellent in both written and verbal forms. She [was] a well-mannered and pleasant student, with a relaxed and independent approach to learning. Nadia is more than capable of rising to a challenge and succeeding in making the most of every opportunity. All things considered, Nadia is a fully rounded, mature individual, with a talent and determination that will ensure success where ever her career takes her next."
+    content: "In terms of communication, Nadia is excellent in both written and verbal forms. She is a well-mannered and pleasant student, with a relaxed and independent approach to learning. Nadia is more than capable of rising to a challenge and succeeding in making the most of every opportunity. All things considered, Nadia is a fully rounded, mature individual, with a talent and determination that will ensure success where ever her career takes her next."
 
   # testimonial item loop
   - name: "Albéric Martel"

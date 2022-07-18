@@ -1,7 +1,7 @@
 ---
 title: "International Expansion Lead"
 date: 2017-11-01
-description: "Helped a startup set up an outsourcing mechanism without comprising quality"
+description: "Helped a startup set up an outsourcing mechanism without comprising quality standards"
 draft: false
 image : "images/experience/international.jpg"
 bg_image: "images/experience/international.jpg"

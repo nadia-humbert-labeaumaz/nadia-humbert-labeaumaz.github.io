@@ -14,7 +14,7 @@ about:
   content : "I am an entrepreneur, advisor and engineer, and I enjoy solving problems creatively and working on projects that concretely help people.
 
 
-  I have lived on four continents and developed and applied knowledge and skills in business, entrepreneurship, science, and software engineering along the way, helping 20+ companies worldwide grow and many teams move forward. I also led events and communities in these areas."
+  I have lived on four continents and developed and applied knowledge and skills in business, entrepreneurship, science, and software engineering along the way, helping 20+ companies worldwide grow and 25+ teams move forward. I also led events and communities in these areas."
 
   button:
     enable : true
@@ -71,7 +71,7 @@ features:
   # feature item loop
   - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Project Leadership"
-    content : "I led initiatives and teams for the French national electricity project Linky (~100 people), enabled continuous delivery of value in a distributed-team context for a French tech company, and coordinated a school renovation project in Honduras (30+ people), among other projects."
+    content : "I led initiatives and teams for the French national electricity project Linky (~100 people), enabled continuous delivery of value in a distributed-team context for a French tech company, coordinated a school renovation project in Honduras (30+ people), among others."
 
   # feature item loop
   - icon : "ion-speakerphone" #ionicon pack v2 : https://ionicons.com/v2/
