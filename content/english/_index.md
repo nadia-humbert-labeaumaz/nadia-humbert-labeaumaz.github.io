@@ -25,7 +25,7 @@ about:
 ######################### Portfolio ###############################
 portfolio:
   enable: true
-  title: "I Have Experience In"
+  title: "I HAVE EXPERIENCE IN"
   tabs:
     - name: Entrepreneurship
       bg_image: "images/experience/social-impact-guild.jpg"
