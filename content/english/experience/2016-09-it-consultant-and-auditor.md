@@ -19,12 +19,12 @@ information:
 
 ## Description
 
-Provided consulting services to help companies of all sizes and industries grow and address strategic, organisational and technical challenges.
+Provided consulting services to help tech companies of all sizes and industries grow and address strategic, organisational and technical challenges.
 
 It always started by participating in the company's day-to-day activities and interacting with all its stakeholders. The idea was to adopt a systemic approach, analysing the organisation’s state through different perspectives, to gain a deeper understanding of the company's needs.
 
 **Achievements**
-- • Helped 10+ companies seize new business opportunities, increase and enhance interactions and knowledge sharing, manage constraints, as well as simplify and optimise processes.
+- • Helped 10+ tech companies seize new business opportunities, increase and enhance interactions and knowledge sharing, manage constraints, as well as simplify and optimise processes.
 
 - • Broke silos between departments and enabled company-wide initiatives by interacting with all the stakeholders (leadership, engineering, product and sales teams).
 - • Provided technical coaching to 15+ teams from 5 to 40 people. The teams could then develop new features readily and tackle technical debt while significantly reducing their defect rate.
